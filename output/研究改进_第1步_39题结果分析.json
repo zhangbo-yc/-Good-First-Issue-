@@ -1,0 +1,4808 @@
+{
+  "analysis_scope": "posthoc_existing_model_judgments_not_new_experiment",
+  "source_pipeline_version": "evidence_adaptive_v2",
+  "judge_model": "deepseek-v4-pro",
+  "source_files_unchanged": true,
+  "source_sha256": {
+    "experiments\\frozen_20261017\\protocol.json": "2f71edd856ab017f855520b6b13a0d8935cf3c4c230aeb57e02df03974f4d57c",
+    "experiments\\frozen_20261017\\final_heldout_v3\\holdout_manifest.json": "de29d3f0fead277c7e4aea0162ab45fcc0d14030c6763dd3cfb27144caab258d",
+    "experiments\\frozen_20261017\\final_heldout_v3\\model_judge\\8d4ee922f2e0f946\\model_evaluation.json": "0b1ce0d5af07024feeca15243cf9f25e5f524cb00bea44a2587b62e380b193ef",
+    "experiments\\frozen_20261017\\final_heldout_v3\\model_judge\\8d4ee922f2e0f946\\blind\\private\\mapping.json": "45e780757a7b6402a69207840c8efb2557b436a945389570a21e460231b6522c",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\sympy__sympy__9339\\D.json": "99b377c0d299ecc7c879ecfd1975402e4295ca5da1151eb2c01fa05628ca71cf",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ray-project__ray__58727\\D.json": "99189b3cd7ab7e91b998c172809097cfc081ba51ec703d453c2e6965636ebaa0",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ray-project__ray__59729\\D.json": "96df3a23fccfce9250cb7b0389935bd221b8ef5af7d41950834f519e18e62f47",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ray-project__ray__8894\\A.json": "986551b724d9b6b65e61df8b3aa062f1aa38aeb092ecc3ae3fbd80503a351a41",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ray-project__ray__58727\\A.json": "78780f4c1466850d283770a2ccecd5fa7e6efd2e7a767782e952b231d1e33a63",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\dask__dask__3206\\B.json": "931c43199554ee5457a872adbeb4331916b52c4b2eec791012ddd006e20bd42e",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\sympy__sympy__6698\\D.json": "2b2737fa101b6d7ce11dc72e34235011fd9bd42008899d497000076bbef3df7a",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\napari__napari__2999\\B.json": "e4582e94cf0608524122743abe81a39f779cafa529a41aeaf310d145ba803ec4",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ray-project__ray__50266\\D.json": "837f92d41a6080e63ccf7873c9b90c7e940c02113ec9a3f65a055865b6754b82",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\sympy__sympy__5090\\A.json": "f78156468c0c3232c3ac06cee6fe5225420fd01dc36428ee82ac96d3661633a7",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\dask__dask__1317\\C.json": "135f4cf769ef97c4cdc5b80da236f70c1266c311a8f7172d40e2263cb9b811df",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ray-project__ray__19155\\D.json": "60181e4cc845966e3e4903a62bf9d12172ee96dec6d2070dc21fc690947f4838",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ray-project__ray__25144\\B.json": "b0eab1115c40a1a810e811037b0df9dbf1b4427a7247fd4e53e4d12870c88350",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ray-project__ray__8894\\D.json": "51161e27284c77478c642afc1a4f03fe84b8e46c7c88873da6573b2085974066",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\dask__dask__3657\\A.json": "f17378d514036d927c3494326e0c0dc1c70aa49802a3e2a7d0f6bd386ab58fdc",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\dask__dask__6202\\D.json": "4649311bf2e98cf4c2e7edd10aacf2804f7d5e0bb7b3951cc21ad9c0cad6ba46",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\sympy__sympy__12602\\A.json": "d344a02feaa18c97b3ef00a2d13506382ada21dd23423a0216bf3cb84ea0d4dc",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ray-project__ray__58727\\B.json": "a124800d320f0e5aa085ec0c8aeca89666315cd8eaada7c482650adfa5c88709",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ray-project__ray__58727\\C.json": "ae84e19c785f5645ab76bb90dc14d64fe36afa758afa06a216f0d364234d2a75",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\sympy__sympy__15877\\B.json": "4d388eb12ff04b845958d4b16c9df7817e20c2c9d337cf97194e25bff9b30936",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\dask__dask__7823\\C.json": "6f3ddbec2fc3365e1cfd901969c74c76a8bab96380459c63007625e36b2343de",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\dask__dask__7823\\D.json": "36c53cd3b0fce9f52b40044620c7e6f554f16c86284783df3ca537aca2bfb319",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ray-project__ray__59729\\C.json": "810037d7a8effcf473cb52a4e1939150da14d1e513353983394798130c0f3984",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ray-project__ray__8894\\B.json": "afe0ac8bb4699b81c282174e24aa02da759d902bd10a461a05df56ecffb3ddc4",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\dask__dask__4278\\A.json": "3743ae4c53f4bf6df0b76ad0f6e0772bbb196d1dd488feb5b29521d2dbf955f3",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\napari__napari__789\\C.json": "2b02f15c0bba1c0b9799c44c1ef2845c18b5513dba018a80a99bd22c291cecbf",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\dask__dask__9166\\B.json": "02fdb97a1ec0de27002d0f214fbc509ed39d9079af3c8fb96eb57fe843d807bc",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\napari__napari__7568\\C.json": "10067157a4db3c6a84c28753f182695172b01d494839f4aaa566483ea77cf969",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ManimCommunity__manim__365\\B.json": "8eb011c93daa5dc52b7f58573fbdf2fe7adeb41c40a9adf0066c18526473cb41",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\napari__napari__7675\\A.json": "9a85a52c30a7d5593f06be05b73eed49602966f5288822efa627b152f8bd58a4",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ray-project__ray__19155\\B.json": "79daa955fcb748fec04d0f31229d1ca4a21901cf0e9e8d68769e465d9e9b1fc7",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\sympy__sympy__6698\\A.json": "c2f83765ba85fb0f546c7ed72ed40cc517b45e6cf04b5b07f1335ce5181bb86f",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\dask__dask__8342\\B.json": "d3a8aa0892121bbb46a993c8685f81fd6378d365b0697cdbdd5cba140b5866b4",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ManimCommunity__manim__3713\\A.json": "7f66c4f64479e9f31754395984a30fbd93fdc09a7188cf98e30e5545d5d4ef8b",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\napari__napari__7675\\B.json": "b3b9a27e784564c3e3ff7bbe206b42355e65dc74460ad7ea47e3c86c632d979b",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ManimCommunity__manim__1530\\C.json": "9e207dcd043edc18078ed62450c5faa2533a7712760d4ba57aaef8483c6fd555",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ray-project__ray__3269\\B.json": "3c40f6c95c85e957fa995a6a6b7511871ef0287503336a25f392e5d4e09096b9",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ManimCommunity__manim__1250\\C.json": "eeafa71d6539bb3eb835121dc47527e2cdd8ced12ccb5ac1c5da1667f08cdef8",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ray-project__ray__59729\\B.json": "7b77514d2807f439e3166e063f4c169056d045bf0578da3679e998dde9e6bfbf",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\dask__dask__4278\\B.json": "9f351e40253d79f52444084ab3f8b837c43aaaf8af64a65aa4c5820251df4c55",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\sympy__sympy__5090\\C.json": "a03bd28c3fa0f12081578af2a540352788eab45a2fdfb33efbfc262be773d0cf",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ManimCommunity__manim__1250\\A.json": "1b01d63716276cc8f1656cb013986d993e5f5673805069ada2880362e1fe28f5",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\napari__napari__789\\B.json": "f58bcbce51296e84f0e570a7fb84eeee8f6903eeb8fcac13cdd98ea18a130e65",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\sympy__sympy__5090\\B.json": "a2facceafcef64bc8c15363c061b01550b23d5ad96a13294109cb28b0d7a77f1",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\sympy__sympy__14033\\A.json": "1ec7fa476e0c6dcc01c9bc80c443555e9f165bf6749a297486c1835f306f5875",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ManimCommunity__manim__3174\\A.json": "a5c1fb960ea2a379ca0ac3cd4cd290c7fd2a2c1bda80191f4c304d55c7a4115c",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\dask__dask__5069\\C.json": "7edd8e0d707a8ba9bb373381a73186690f2c76b18da504e43115f9ed2a7578f2",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ray-project__ray__25144\\A.json": "a8390e68380b63e167621301657904e08a9480cb2e18938632fa70cca6cca88b",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ray-project__ray__3269\\D.json": "b9973a9bcaac612dd2934aa0bc8082d534b8023fd9afd54bd034f8c4ea796e8e",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\dask__dask__4278\\C.json": "d1e3e325914f10a5561f27314842a407a9744d55ff2da7cc52a2c8a4f387cde0",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ManimCommunity__manim__866\\D.json": "80f57a828522f1bcc9a60ba523d5f60fb54f5465875eceda99aebc01d92e3617",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ManimCommunity__manim__365\\C.json": "c5b9faea760687dd6edf7a538ca47d55596d64bfc1755b2cc4d704af89bde083",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\dask__dask__9166\\A.json": "603d83c0f119b0f57d84ce9d15d70fa2e4c00371a35c8ae17015d1dd72e140fc",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ManimCommunity__manim__866\\C.json": "7069207ef4a8807d9d791b6b159ca5fb5068d624777182c5f43a6777044683dc",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ManimCommunity__manim__1369\\A.json": "ad9d108151eff2a649fa1981f892f9e64a9312ea32c1f55803bf258916cb00e8",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\dask__dask__8342\\A.json": "89480f42d640d29ecd407ad276513379736b42829ec0fd85fa616f6f171f92e9",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\napari__napari__2999\\C.json": "3120a7e957f646d4cd05f2fe2aec8c858b4a24cc4671b1934d533583138bb325",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ManimCommunity__manim__365\\A.json": "1d91e4917086711415173fd1aa197cb8e2600bc605d9a44b5f7c36c478c8a1ea",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ManimCommunity__manim__3713\\B.json": "4dc98c60953bd3b337d7c1e269ce740faeba72c3391108b81f4189cb0677324e",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\dask__dask__9166\\D.json": "bec38a02b841b798bc628cd9d9ce8ce9f7b38a92c228861e68f593d5da51cb1f",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ManimCommunity__manim__3174\\D.json": "d0bd1df8b518e1ee0d564090288532e30998e48a93470056e49462cc8aa8c7d8",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ray-project__ray__3269\\C.json": "1c6cf9907be2f61227cdc3d52279f90efe6ce8c1c408b27fbd78fe184fb0ad40",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\dask__dask__7823\\A.json": "9a844522a30a441ff0710ac4e1340e39566acc5aeb514dfb4cc0b8046b8e7a25",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\dask__dask__3206\\C.json": "06d7f8dbe16d901e9fb579fc01ba97667fff09fd65fe50c391cc9651fb5599e7",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\napari__napari__2999\\A.json": "4e4190f573d4f696e63eba24e7869d140cf01e1a356c1a98809b521d9de68b25",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\sympy__sympy__10243\\A.json": "e960b5a1706f188e7d0d06692fe2e70849e87fc4006c0cc5ccfc4d310cf76193",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\dask__dask__7823\\B.json": "72c09273d03e18cc6dc50c9b6dec7c0943a5794cddc2a1e78814a7ad1405a0e9",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\sympy__sympy__9339\\C.json": "f8d6f2cd0ff0ca8d9980afd12a5be51a8b8ab1e4a45e52e563435139165a94c8",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\sympy__sympy__12602\\C.json": "4376ec85dbd31303da245335791aa8bd5e4ed545233f7be98e15690155a50002",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\napari__napari__7675\\C.json": "5cda1234a24341542ca662dbb739c2bf6af43d5d945af65fd1e8e217ce9f1093",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\napari__napari__7568\\D.json": "e7fb9eef0ad43a5e916ac9d97ee7836bc92fbb7d6e6f1a60e20ec3972d24d0c4",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\sympy__sympy__10243\\B.json": "148d9c5fde5b825226af6ecd441609d6dc50a0d088059eb66c3fce6f2a54d2ca",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\sympy__sympy__10456\\C.json": "2f64781e0e1747f9aae1f171ab84611f906525ded810ff0182014266d9c52ef5",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ManimCommunity__manim__1530\\B.json": "1cff5d5528519bbb69f9547cb16d518f649595372fe1572fd120e2757711f5a8",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\dask__dask__4278\\D.json": "54e9778f2399708e92c5183d8f14476ae5eb4e8a01ebee1aca575c648fb12455",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\dask__dask__3657\\D.json": "8b21fb601fbc36b10017944da7993098f46ddaa5fbaa42caf7b1f05f6533f686",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\dask__dask__5069\\A.json": "c846fdd5d57f63eba8ef10623e9991a38df5a1f4a2b7b3af7bd505b90380e031",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ray-project__ray__49011\\B.json": "47444e0f9bca0c4174e8614adbcef251f36fe5229a7e3e56bb89bf922e3d7ba0",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\napari__napari__7675\\D.json": "721d84dd9017d0b4a93abc3c2d33a920e578909ca2b8dccf80fba66281a806c5",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ManimCommunity__manim__3713\\C.json": "b749fec1f4269d2a0ead83d4503a8677f4e2c9fe05092bedcfe88272a673be41",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ray-project__ray__25144\\D.json": "e1f80c3c0786b41456c119fc27231e34c7ccf5b630344a9ce7f5284dc6243317",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\dask__dask__1317\\A.json": "9f608356ba704479e5fadf81ffc9c5bd43552c9aa909361342d3018291bb262e",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ray-project__ray__49011\\A.json": "7bb771680763eab2b354029f75f133b928dc8a1c334a22cf88544005f77a889a",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\dask__dask__5069\\D.json": "5cb07de46d5a38a94be17aecb1ccbe9cd5ef84de0cffcaa2e893646739c8074f",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\dask__dask__3657\\C.json": "b24dabfd58342a5b03f3bec11666300a1bf9a6ed97d3e72e41e76a7c4c604b0b",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ManimCommunity__manim__365\\D.json": "6c529c74d04d5404f45bd590f2e5df4aea5ca28885206f3b4976ed2203e43938",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ray-project__ray__19155\\C.json": "5c7cc22324c03afd7f24f3454e41e97d9d485c60864a1981504a9792c0a50a33",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ray-project__ray__59729\\A.json": "ed04fc386a86fca66ba60bb50a93c1eac8148b4a7097a551c504c1588eee374d",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ray-project__ray__25144\\C.json": "9a30c438deb81d07eeec8c01d6932102aec8322b4fba3cd78697134fad577ccd",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\dask__dask__6202\\A.json": "dcb59bef400998266c07605aac513ec90db2a37af0a5d18ce9bfa8cf736d339d",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ray-project__ray__60421\\C.json": "52b5302c6a24b1e155c399eea6ca8e5a03329c1b08df4f50ccd46eefb154742f",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ManimCommunity__manim__1172\\B.json": "fc306a3657be1ae96d0b70ea074d1b9b289b5b6e9a77d0014379800e49318269",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\sympy__sympy__6698\\B.json": "b9d58a317c5e4f1ad5c04b6f4c27cc0004d7e5f0c8c4d7a30b19b17d363ed872",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ManimCommunity__manim__1172\\A.json": "ac49757c926b5fb55d66cb4772b6659cbe15993c4f9281630e56fe91ff212aeb",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\dask__dask__3206\\A.json": "c275f42d4f59cf17c1fd32db2694bdd0e6b11b57adee593863dd851f85f0f872",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ray-project__ray__8894\\C.json": "068b0d0a1eef25fc0e1fc7eb7a8560d71d4860dc73ae0c6c81569512bc99d4c8",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ManimCommunity__manim__3174\\B.json": "3e62c98cc9f52fd971876faf44b6395fbeaa5bdb91be974515f9b2421ece85f0",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\sympy__sympy__9339\\B.json": "86d3fe49888e5edb8c0a94179de5f12e17b23426e3d0cc56b9c8335c2beb5497",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ray-project__ray__3269\\A.json": "f929545c8d8f5b522b97a8293f3bd94b311ac0604eb08a8133c18013895a1e21",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\napari__napari__7568\\A.json": "a9c1f5ff2c14761dd415bfa3184f9fcba707eca9d509938de231d09508843850",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\sympy__sympy__15877\\D.json": "8b2e559888a1af676395d5b2f3da5e4dd73d3024a2f3dee60db85f7b0300a546",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\napari__napari__7568\\B.json": "f391839299e5418ac22681f7ca0c6817d067380c56191b373cdf9601302167b4",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\sympy__sympy__2806\\A.json": "4e9bb109c9822a30fcd0bd51d6d2481d9a7539bf71d0f38d7ec21b8d9c9e26ec",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ray-project__ray__49011\\D.json": "fce13f538a878d9d134a8b6769f2e738cab299f8d003bcb5a99d99905e575aba",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\dask__dask__5069\\B.json": "6b2adfdc4018d07eac16241e087cb56286c207dd09380632cca8acd28beb59b4",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\dask__dask__3657\\B.json": "929d2af53600ac31d3bb5528719e92f05b1863dc8961a0b10c41bddf870b3269",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\sympy__sympy__10456\\B.json": "c1e6081cd5d465b2365ad18c5ecb6cdd3d72e475ff7d085e9468a52e8ea4142e",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ManimCommunity__manim__1172\\C.json": "30fd70ccc9435ce952fe1dfb831825bc7076d893a665ee6d1f44b246e29ed805",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ManimCommunity__manim__3174\\C.json": "f5e223b08451d6aecf54094a4f4d854e30c32bdef7d8501d65ff0d1bdffbb87a",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ray-project__ray__60421\\B.json": "13416fe58ac4298727c7d1026a6d88c67798741c799e89f151d031115119f126",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ray-project__ray__50266\\C.json": "220750874e7b92247dd817d27aca36e6cc777ba2c58878324e2fa88fca70560f",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ManimCommunity__manim__1530\\D.json": "46a7cfab45334992182671552648a53cba2376866d49b985a6fa82435c4ac33a",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\sympy__sympy__12602\\B.json": "24faa3acf3e700f4adbe6b61efe3da763bc917dd88ebbc26312fd901a8723e95",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\sympy__sympy__6698\\C.json": "a17a09ff688ade66cfacb1a74def6642ea168df1257d57e3058caf40f3a9e58e",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ManimCommunity__manim__1172\\D.json": "a2a3093fe882087d3b528d4ccf7c448618b817bdccf75906708560a0387502aa",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\dask__dask__8342\\C.json": "974a0cfdce826b60709afe1ce380c34ea179c6a27a8febd05685190aa8a1e01d",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\sympy__sympy__10456\\D.json": "19064095e69c16e3573c44281dbb183ac96b42d21cd8e77dcb6ed6d5d1e1e7de",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ray-project__ray__49011\\C.json": "13aed9b7f29129e0f9432f76774ff2527c0b4d4520f7b65ec3978a98f6c1d1e0",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\sympy__sympy__10243\\D.json": "8b2c04802fff3c755fdbdee5b0530086eadbb64f27e15302de37e98e0f888440",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\sympy__sympy__5090\\D.json": "b875a90e8376f22c56781f4977e851fb998c85f8e7fee0909a1cde659834dcb2",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ManimCommunity__manim__3713\\D.json": "6ef6c955257d5c42f26779bd41f6fb468a4efd7e67da8b5e93424546adce50b6",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ManimCommunity__manim__1250\\D.json": "62ed4f385274ef13e6a9821e3d3064b6eba86d16825cfeb5bbc9ad7c63afc46d",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ManimCommunity__manim__866\\B.json": "09c47b81b297b45d6bc1a52802f7fd1771def4bce895004fef5aef53d52c91bf",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ManimCommunity__manim__1530\\A.json": "71c61bd9cd4c668063aa8fd8ac1c1556425f551538cfde316432b928b8d16f9a",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\sympy__sympy__15877\\A.json": "5dc66a7d90a4bf4e620252138d76700e1162be1d423d0959e806fc6a017fd506",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\sympy__sympy__9339\\A.json": "a59dc1df082a9c113b80bf519bb77c424fbefac98f505e11225ede394eb32c4b",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ray-project__ray__50266\\A.json": "94d2e2ecf981c3959546643095ecf4f2caa52de72a982b1303998284c4bcac7b",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\dask__dask__6202\\B.json": "08105428e657748d1316ff279604ece562c99d1550a078674cfa93db00481408",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\dask__dask__1317\\D.json": "81254b4542af3dd6d55ca21683e63d5057e22a14550d65cdb2f69e1a4d4470cb",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\sympy__sympy__15877\\C.json": "f614ca016723e7a7d2bd312e91cd9c56dd9abc143d9f4c6903c16c92f44dbd3a",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\napari__napari__789\\D.json": "b9b8214ebb589192e4dfa53163ee4ee3882802c3578669afef188ca792de4417",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\dask__dask__1317\\B.json": "b1bb9547ebb779d087d4dcc3fd36df3359f9aac64f47fb50dc078aac57906bdb",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\dask__dask__9166\\C.json": "5cb163417b49d3b2b903eab217a361f75dc0a31270063288f5ef4c41ec69b89a",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ray-project__ray__60421\\D.json": "1ad6b274d638ebdd54daa60beadafcdf2669e9165f7868c8c60e0fbdbc9dd38b",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\napari__napari__789\\A.json": "7aff3818a7585e49db870e698956502492534ee57e1ca1330938a31a131de855",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ManimCommunity__manim__866\\A.json": "b1bba356c4f9ce2c02a7308ac420f7ddc7f76b7d5094f67702f6c54dd6aa35fb",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ManimCommunity__manim__1250\\B.json": "b342e5a82123a27089b0d278a875d8abc50f5006d846a3824f718f43d092be98",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ManimCommunity__manim__1369\\D.json": "88371596e4125cd3f7a936b63d181891a57d27b148bec344bd75f9c47fa0c404",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\sympy__sympy__2806\\D.json": "e30e234f25a979b4b5f0ed3888714a4410c62bab8909523e71a3e7aa3279c634",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\dask__dask__6202\\C.json": "76084073dffd043c09d36c0adc39aa99c0249bbbe60793bde8278b3bad0514bf",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ray-project__ray__50266\\B.json": "02541b94d8b7a294778e20cc51948e77bd480a09497b3d0ee2335ebdf884221c",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\sympy__sympy__12602\\D.json": "e0254a1a0b405e34f6276e88c733eb4b42b60a8a9e0d8bb133a67286b2ea87fb",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\sympy__sympy__10243\\C.json": "532c4e9adde72cda7e4adbd9566754acdac325b6ba5eebe054365f0c42aacf5a",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ManimCommunity__manim__1369\\B.json": "5754f26b08e768fdfd997d9c3193e1cd148f0e70f8a825abd13820e79377998f",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ray-project__ray__19155\\A.json": "9f051c90b36d78f9552c812578bd730890464103935ff28202cd1564d1b3598f",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\sympy__sympy__2806\\B.json": "0ef35cf73f833ba4ff91a102f7d5c6d697c51cae604ace9d3c28ac54a871393f",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\sympy__sympy__2806\\C.json": "5140d122abb1a23e17c080d0edb2fde1c03ddb9a4de16f6d5533cbe2a0037fe0",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\sympy__sympy__14033\\B.json": "005866cb3f8fa1b50c4f7423477a96693e18898bab74a19f73b9d5c216461895",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\sympy__sympy__14033\\D.json": "1a0bbb15d522b900f2dbfeedb6c74f54efebed4480a316d8e7126c9ea937156c",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\sympy__sympy__14033\\C.json": "882798415ad9ebcdfee6c10dc74aed55578579cb45c453857a3bcd17b55b144d",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\sympy__sympy__10456\\A.json": "afaa4bd0c43cf919379b72afe8804bb30f887a57612d5f58c771e57425f5cd03",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\dask__dask__8342\\D.json": "d8f38698387b559721097743aa6af8293475553dcb7a0059070100670e427968",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ManimCommunity__manim__1369\\C.json": "22f5663e7f24fd4c11605b8f3052b3474fbb85a65a3ec34edf031017e2586365",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\ray-project__ray__60421\\A.json": "4bb89da4d9684da373a3d13aaed73e86d8648730e0675db40d8549603fcd72a3",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\dask__dask__3206\\D.json": "3b33098765717ce9e17f2e5a76ecc4aefcb77359e88f5b2b5461e4a005f7a838",
+    "experiments\\frozen_20261017\\final_heldout_v3\\results\\napari__napari__2999\\D.json": "df078beaec0b50578720d0dba7ba04b2f7a623b7d17fb15ddd2adf4bef427e4e"
+  },
+  "summary": {
+    "n_tasks": 39,
+    "overall": {
+      "A": {
+        "correctness": {
+          "n": 39,
+          "mean": 3.41025641025641
+        },
+        "completeness": {
+          "n": 39,
+          "mean": 2.5384615384615383
+        },
+        "actionability": {
+          "n": 39,
+          "mean": 2.230769230769231
+        },
+        "calibration": {
+          "n": 39,
+          "mean": 3.4871794871794872
+        },
+        "guidance_actionability": {
+          "n": 39,
+          "mean": 3.051282051282051
+        }
+      },
+      "B": {
+        "correctness": {
+          "n": 39,
+          "mean": 3.4615384615384617
+        },
+        "completeness": {
+          "n": 39,
+          "mean": 3.0256410256410255
+        },
+        "actionability": {
+          "n": 39,
+          "mean": 2.6153846153846154
+        },
+        "calibration": {
+          "n": 39,
+          "mean": 3.6153846153846154
+        },
+        "guidance_actionability": {
+          "n": 39,
+          "mean": 3.6923076923076925
+        }
+      },
+      "C": {
+        "correctness": {
+          "n": 39,
+          "mean": 3.1794871794871793
+        },
+        "completeness": {
+          "n": 39,
+          "mean": 2.6153846153846154
+        },
+        "actionability": {
+          "n": 39,
+          "mean": 2.4358974358974357
+        },
+        "calibration": {
+          "n": 39,
+          "mean": 3.128205128205128
+        },
+        "guidance_actionability": {
+          "n": 39,
+          "mean": 3.6153846153846154
+        }
+      },
+      "D": {
+        "correctness": {
+          "n": 39,
+          "mean": 3.5641025641025643
+        },
+        "completeness": {
+          "n": 39,
+          "mean": 3.128205128205128
+        },
+        "actionability": {
+          "n": 39,
+          "mean": 2.923076923076923
+        },
+        "calibration": {
+          "n": 39,
+          "mean": 3.6153846153846154
+        },
+        "guidance_actionability": {
+          "n": 39,
+          "mean": 3.8461538461538463
+        }
+      }
+    },
+    "comparisons": {
+      "B-A": {
+        "correctness": {
+          "n": 39,
+          "mean_delta": 0.05128205128205128,
+          "wins": 9,
+          "ties": 23,
+          "losses": 7,
+          "win_task_ids": [
+            "ManimCommunity/manim#1172",
+            "ManimCommunity/manim#1369",
+            "ManimCommunity/manim#1530",
+            "dask/dask#3206",
+            "dask/dask#5069",
+            "dask/dask#6202",
+            "ray-project/ray#19155",
+            "sympy/sympy#12602",
+            "sympy/sympy#5090"
+          ],
+          "loss_task_ids": [
+            "ManimCommunity/manim#3713",
+            "ManimCommunity/manim#866",
+            "dask/dask#1317",
+            "dask/dask#3657",
+            "ray-project/ray#49011",
+            "sympy/sympy#2806",
+            "sympy/sympy#9339"
+          ]
+        },
+        "completeness": {
+          "n": 39,
+          "mean_delta": 0.48717948717948717,
+          "wins": 16,
+          "ties": 22,
+          "losses": 1,
+          "win_task_ids": [
+            "ManimCommunity/manim#1172",
+            "ManimCommunity/manim#1530",
+            "dask/dask#3206",
+            "dask/dask#5069",
+            "dask/dask#6202",
+            "dask/dask#7823",
+            "dask/dask#9166",
+            "napari/napari#7675",
+            "napari/napari#789",
+            "ray-project/ray#3269",
+            "ray-project/ray#59729",
+            "ray-project/ray#8894",
+            "sympy/sympy#10456",
+            "sympy/sympy#14033",
+            "sympy/sympy#5090",
+            "sympy/sympy#6698"
+          ],
+          "loss_task_ids": [
+            "ManimCommunity/manim#3713"
+          ]
+        },
+        "actionability": {
+          "n": 39,
+          "mean_delta": 0.38461538461538464,
+          "wins": 16,
+          "ties": 21,
+          "losses": 2,
+          "win_task_ids": [
+            "ManimCommunity/manim#1172",
+            "ManimCommunity/manim#1530",
+            "dask/dask#4278",
+            "dask/dask#5069",
+            "dask/dask#6202",
+            "dask/dask#9166",
+            "napari/napari#789",
+            "ray-project/ray#19155",
+            "ray-project/ray#50266",
+            "ray-project/ray#59729",
+            "ray-project/ray#60421",
+            "sympy/sympy#10456",
+            "sympy/sympy#14033",
+            "sympy/sympy#15877",
+            "sympy/sympy#2806",
+            "sympy/sympy#6698"
+          ],
+          "loss_task_ids": [
+            "dask/dask#1317",
+            "dask/dask#3657"
+          ]
+        },
+        "calibration": {
+          "n": 39,
+          "mean_delta": 0.1282051282051282,
+          "wins": 12,
+          "ties": 20,
+          "losses": 7,
+          "win_task_ids": [
+            "ManimCommunity/manim#1172",
+            "ManimCommunity/manim#1530",
+            "dask/dask#3206",
+            "dask/dask#4278",
+            "dask/dask#5069",
+            "dask/dask#6202",
+            "dask/dask#7823",
+            "napari/napari#7675",
+            "napari/napari#789",
+            "ray-project/ray#19155",
+            "ray-project/ray#8894",
+            "sympy/sympy#5090"
+          ],
+          "loss_task_ids": [
+            "dask/dask#1317",
+            "dask/dask#3657",
+            "napari/napari#7568",
+            "ray-project/ray#50266",
+            "sympy/sympy#12602",
+            "sympy/sympy#14033",
+            "sympy/sympy#2806"
+          ]
+        },
+        "guidance_actionability": {
+          "n": 39,
+          "mean_delta": 0.6410256410256411,
+          "wins": 24,
+          "ties": 13,
+          "losses": 2,
+          "win_task_ids": [
+            "ManimCommunity/manim#1172",
+            "ManimCommunity/manim#1369",
+            "ManimCommunity/manim#365",
+            "dask/dask#3206",
+            "dask/dask#3657",
+            "dask/dask#4278",
+            "dask/dask#5069",
+            "dask/dask#6202",
+            "dask/dask#7823",
+            "dask/dask#8342",
+            "dask/dask#9166",
+            "napari/napari#7568",
+            "napari/napari#7675",
+            "napari/napari#789",
+            "ray-project/ray#19155",
+            "ray-project/ray#3269",
+            "ray-project/ray#49011",
+            "ray-project/ray#50266",
+            "ray-project/ray#58727",
+            "sympy/sympy#10243",
+            "sympy/sympy#10456",
+            "sympy/sympy#12602",
+            "sympy/sympy#14033",
+            "sympy/sympy#15877"
+          ],
+          "loss_task_ids": [
+            "ray-project/ray#25144",
+            "ray-project/ray#8894"
+          ]
+        }
+      },
+      "C-B": {
+        "correctness": {
+          "n": 39,
+          "mean_delta": -0.28205128205128205,
+          "wins": 3,
+          "ties": 23,
+          "losses": 13,
+          "win_task_ids": [
+            "dask/dask#1317",
+            "dask/dask#8342",
+            "ray-project/ray#3269"
+          ],
+          "loss_task_ids": [
+            "ManimCommunity/manim#1172",
+            "ManimCommunity/manim#1250",
+            "ManimCommunity/manim#1530",
+            "dask/dask#5069",
+            "dask/dask#6202",
+            "napari/napari#7675",
+            "napari/napari#789",
+            "ray-project/ray#19155",
+            "ray-project/ray#58727",
+            "ray-project/ray#59729",
+            "sympy/sympy#10456",
+            "sympy/sympy#2806",
+            "sympy/sympy#5090"
+          ]
+        },
+        "completeness": {
+          "n": 39,
+          "mean_delta": -0.41025641025641024,
+          "wins": 5,
+          "ties": 15,
+          "losses": 19,
+          "win_task_ids": [
+            "ManimCommunity/manim#3713",
+            "napari/napari#7568",
+            "ray-project/ray#25144",
+            "ray-project/ray#50266",
+            "sympy/sympy#14033"
+          ],
+          "loss_task_ids": [
+            "ManimCommunity/manim#1172",
+            "ManimCommunity/manim#1250",
+            "ManimCommunity/manim#1369",
+            "ManimCommunity/manim#1530",
+            "ManimCommunity/manim#866",
+            "dask/dask#3206",
+            "dask/dask#5069",
+            "dask/dask#6202",
+            "dask/dask#7823",
+            "napari/napari#2999",
+            "napari/napari#7675",
+            "napari/napari#789",
+            "ray-project/ray#19155",
+            "ray-project/ray#49011",
+            "ray-project/ray#59729",
+            "ray-project/ray#8894",
+            "sympy/sympy#10456",
+            "sympy/sympy#2806",
+            "sympy/sympy#5090"
+          ]
+        },
+        "actionability": {
+          "n": 39,
+          "mean_delta": -0.1794871794871795,
+          "wins": 5,
+          "ties": 23,
+          "losses": 11,
+          "win_task_ids": [
+            "dask/dask#1317",
+            "dask/dask#3206",
+            "dask/dask#3657",
+            "napari/napari#7568",
+            "napari/napari#7675"
+          ],
+          "loss_task_ids": [
+            "ManimCommunity/manim#1172",
+            "ManimCommunity/manim#1250",
+            "ManimCommunity/manim#1530",
+            "dask/dask#4278",
+            "dask/dask#6202",
+            "napari/napari#789",
+            "ray-project/ray#19155",
+            "ray-project/ray#50266",
+            "ray-project/ray#59729",
+            "sympy/sympy#2806",
+            "sympy/sympy#5090"
+          ]
+        },
+        "calibration": {
+          "n": 39,
+          "mean_delta": -0.48717948717948717,
+          "wins": 2,
+          "ties": 20,
+          "losses": 17,
+          "win_task_ids": [
+            "dask/dask#1317",
+            "sympy/sympy#12602"
+          ],
+          "loss_task_ids": [
+            "ManimCommunity/manim#1172",
+            "ManimCommunity/manim#1250",
+            "ManimCommunity/manim#1530",
+            "ManimCommunity/manim#365",
+            "ManimCommunity/manim#3713",
+            "ManimCommunity/manim#866",
+            "dask/dask#5069",
+            "dask/dask#6202",
+            "napari/napari#7675",
+            "napari/napari#789",
+            "ray-project/ray#19155",
+            "ray-project/ray#3269",
+            "ray-project/ray#49011",
+            "ray-project/ray#59729",
+            "sympy/sympy#10456",
+            "sympy/sympy#2806",
+            "sympy/sympy#5090"
+          ]
+        },
+        "guidance_actionability": {
+          "n": 39,
+          "mean_delta": -0.07692307692307693,
+          "wins": 1,
+          "ties": 34,
+          "losses": 4,
+          "win_task_ids": [
+            "ray-project/ray#25144"
+          ],
+          "loss_task_ids": [
+            "ManimCommunity/manim#365",
+            "dask/dask#7823",
+            "ray-project/ray#3269",
+            "ray-project/ray#8894"
+          ]
+        }
+      },
+      "D-C": {
+        "correctness": {
+          "n": 39,
+          "mean_delta": 0.38461538461538464,
+          "wins": 17,
+          "ties": 19,
+          "losses": 3,
+          "win_task_ids": [
+            "ManimCommunity/manim#1250",
+            "ManimCommunity/manim#1530",
+            "ManimCommunity/manim#365",
+            "ManimCommunity/manim#866",
+            "dask/dask#5069",
+            "dask/dask#6202",
+            "dask/dask#7823",
+            "dask/dask#9166",
+            "napari/napari#789",
+            "ray-project/ray#25144",
+            "ray-project/ray#50266",
+            "ray-project/ray#58727",
+            "ray-project/ray#59729",
+            "sympy/sympy#10456",
+            "sympy/sympy#14033",
+            "sympy/sympy#15877",
+            "sympy/sympy#2806"
+          ],
+          "loss_task_ids": [
+            "ManimCommunity/manim#1369",
+            "ManimCommunity/manim#3174",
+            "ray-project/ray#3269"
+          ]
+        },
+        "completeness": {
+          "n": 39,
+          "mean_delta": 0.5128205128205128,
+          "wins": 18,
+          "ties": 19,
+          "losses": 2,
+          "win_task_ids": [
+            "ManimCommunity/manim#1250",
+            "ManimCommunity/manim#1369",
+            "ManimCommunity/manim#1530",
+            "dask/dask#6202",
+            "dask/dask#7823",
+            "dask/dask#8342",
+            "dask/dask#9166",
+            "napari/napari#7675",
+            "napari/napari#789",
+            "ray-project/ray#50266",
+            "ray-project/ray#58727",
+            "ray-project/ray#59729",
+            "ray-project/ray#60421",
+            "ray-project/ray#8894",
+            "sympy/sympy#10243",
+            "sympy/sympy#12602",
+            "sympy/sympy#2806",
+            "sympy/sympy#9339"
+          ],
+          "loss_task_ids": [
+            "ManimCommunity/manim#3713",
+            "sympy/sympy#5090"
+          ]
+        },
+        "actionability": {
+          "n": 39,
+          "mean_delta": 0.48717948717948717,
+          "wins": 18,
+          "ties": 20,
+          "losses": 1,
+          "win_task_ids": [
+            "ManimCommunity/manim#1172",
+            "ManimCommunity/manim#1250",
+            "ManimCommunity/manim#1369",
+            "ManimCommunity/manim#1530",
+            "ManimCommunity/manim#866",
+            "dask/dask#6202",
+            "dask/dask#7823",
+            "napari/napari#789",
+            "ray-project/ray#25144",
+            "ray-project/ray#3269",
+            "ray-project/ray#50266",
+            "ray-project/ray#58727",
+            "ray-project/ray#59729",
+            "ray-project/ray#60421",
+            "ray-project/ray#8894",
+            "sympy/sympy#10243",
+            "sympy/sympy#12602",
+            "sympy/sympy#9339"
+          ],
+          "loss_task_ids": [
+            "sympy/sympy#6698"
+          ]
+        },
+        "calibration": {
+          "n": 39,
+          "mean_delta": 0.48717948717948717,
+          "wins": 20,
+          "ties": 17,
+          "losses": 2,
+          "win_task_ids": [
+            "ManimCommunity/manim#1172",
+            "ManimCommunity/manim#1250",
+            "ManimCommunity/manim#1530",
+            "ManimCommunity/manim#365",
+            "ManimCommunity/manim#3713",
+            "dask/dask#3657",
+            "dask/dask#5069",
+            "dask/dask#6202",
+            "dask/dask#9166",
+            "napari/napari#7675",
+            "napari/napari#789",
+            "ray-project/ray#25144",
+            "ray-project/ray#50266",
+            "ray-project/ray#58727",
+            "ray-project/ray#59729",
+            "sympy/sympy#14033",
+            "sympy/sympy#15877",
+            "sympy/sympy#2806",
+            "sympy/sympy#5090",
+            "sympy/sympy#9339"
+          ],
+          "loss_task_ids": [
+            "dask/dask#4278",
+            "sympy/sympy#12602"
+          ]
+        },
+        "guidance_actionability": {
+          "n": 39,
+          "mean_delta": 0.23076923076923078,
+          "wins": 11,
+          "ties": 25,
+          "losses": 3,
+          "win_task_ids": [
+            "ManimCommunity/manim#1250",
+            "ManimCommunity/manim#1530",
+            "ManimCommunity/manim#365",
+            "ManimCommunity/manim#866",
+            "dask/dask#7823",
+            "napari/napari#2999",
+            "ray-project/ray#3269",
+            "ray-project/ray#58727",
+            "ray-project/ray#8894",
+            "sympy/sympy#2806",
+            "sympy/sympy#9339"
+          ],
+          "loss_task_ids": [
+            "ManimCommunity/manim#3174",
+            "ray-project/ray#49011",
+            "sympy/sympy#12602"
+          ]
+        }
+      },
+      "D-B": {
+        "correctness": {
+          "n": 39,
+          "mean_delta": 0.10256410256410256,
+          "wins": 10,
+          "ties": 23,
+          "losses": 6,
+          "win_task_ids": [
+            "ManimCommunity/manim#365",
+            "ManimCommunity/manim#866",
+            "dask/dask#1317",
+            "dask/dask#7823",
+            "dask/dask#8342",
+            "dask/dask#9166",
+            "ray-project/ray#25144",
+            "ray-project/ray#50266",
+            "sympy/sympy#14033",
+            "sympy/sympy#15877"
+          ],
+          "loss_task_ids": [
+            "ManimCommunity/manim#1172",
+            "ManimCommunity/manim#1369",
+            "ManimCommunity/manim#3174",
+            "napari/napari#7675",
+            "ray-project/ray#19155",
+            "sympy/sympy#5090"
+          ]
+        },
+        "completeness": {
+          "n": 39,
+          "mean_delta": 0.10256410256410256,
+          "wins": 13,
+          "ties": 17,
+          "losses": 9,
+          "win_task_ids": [
+            "ManimCommunity/manim#1250",
+            "ManimCommunity/manim#1530",
+            "dask/dask#8342",
+            "dask/dask#9166",
+            "napari/napari#7568",
+            "ray-project/ray#25144",
+            "ray-project/ray#50266",
+            "ray-project/ray#58727",
+            "ray-project/ray#60421",
+            "sympy/sympy#10243",
+            "sympy/sympy#12602",
+            "sympy/sympy#14033",
+            "sympy/sympy#9339"
+          ],
+          "loss_task_ids": [
+            "ManimCommunity/manim#1172",
+            "ManimCommunity/manim#866",
+            "dask/dask#3206",
+            "dask/dask#5069",
+            "napari/napari#2999",
+            "ray-project/ray#19155",
+            "ray-project/ray#49011",
+            "sympy/sympy#10456",
+            "sympy/sympy#5090"
+          ]
+        },
+        "actionability": {
+          "n": 39,
+          "mean_delta": 0.3076923076923077,
+          "wins": 18,
+          "ties": 15,
+          "losses": 6,
+          "win_task_ids": [
+            "ManimCommunity/manim#1369",
+            "ManimCommunity/manim#866",
+            "dask/dask#1317",
+            "dask/dask#3206",
+            "dask/dask#3657",
+            "dask/dask#7823",
+            "napari/napari#7568",
+            "napari/napari#7675",
+            "ray-project/ray#25144",
+            "ray-project/ray#3269",
+            "ray-project/ray#50266",
+            "ray-project/ray#58727",
+            "ray-project/ray#59729",
+            "ray-project/ray#60421",
+            "ray-project/ray#8894",
+            "sympy/sympy#10243",
+            "sympy/sympy#12602",
+            "sympy/sympy#9339"
+          ],
+          "loss_task_ids": [
+            "ManimCommunity/manim#1172",
+            "dask/dask#4278",
+            "ray-project/ray#19155",
+            "sympy/sympy#2806",
+            "sympy/sympy#5090",
+            "sympy/sympy#6698"
+          ]
+        },
+        "calibration": {
+          "n": 39,
+          "mean_delta": 0,
+          "wins": 9,
+          "ties": 21,
+          "losses": 9,
+          "win_task_ids": [
+            "dask/dask#1317",
+            "dask/dask#3657",
+            "dask/dask#9166",
+            "ray-project/ray#25144",
+            "ray-project/ray#50266",
+            "ray-project/ray#58727",
+            "sympy/sympy#14033",
+            "sympy/sympy#15877",
+            "sympy/sympy#9339"
+          ],
+          "loss_task_ids": [
+            "ManimCommunity/manim#866",
+            "dask/dask#4278",
+            "dask/dask#5069",
+            "napari/napari#7675",
+            "ray-project/ray#19155",
+            "ray-project/ray#3269",
+            "ray-project/ray#49011",
+            "sympy/sympy#10456",
+            "sympy/sympy#5090"
+          ]
+        },
+        "guidance_actionability": {
+          "n": 39,
+          "mean_delta": 0.15384615384615385,
+          "wins": 9,
+          "ties": 27,
+          "losses": 3,
+          "win_task_ids": [
+            "ManimCommunity/manim#1250",
+            "ManimCommunity/manim#1530",
+            "ManimCommunity/manim#866",
+            "napari/napari#2999",
+            "ray-project/ray#25144",
+            "ray-project/ray#58727",
+            "ray-project/ray#8894",
+            "sympy/sympy#2806",
+            "sympy/sympy#9339"
+          ],
+          "loss_task_ids": [
+            "ManimCommunity/manim#3174",
+            "ray-project/ray#49011",
+            "sympy/sympy#12602"
+          ]
+        }
+      }
+    },
+    "by_project": {
+      "ManimCommunity/manim": {
+        "n": 8,
+        "means": {
+          "A": {
+            "correctness": {
+              "n": 8,
+              "mean": 3.5
+            },
+            "completeness": {
+              "n": 8,
+              "mean": 3
+            },
+            "actionability": {
+              "n": 8,
+              "mean": 2.5
+            },
+            "calibration": {
+              "n": 8,
+              "mean": 3.625
+            },
+            "guidance_actionability": {
+              "n": 8,
+              "mean": 3.25
+            }
+          },
+          "B": {
+            "correctness": {
+              "n": 8,
+              "mean": 3.625
+            },
+            "completeness": {
+              "n": 8,
+              "mean": 3.125
+            },
+            "actionability": {
+              "n": 8,
+              "mean": 2.875
+            },
+            "calibration": {
+              "n": 8,
+              "mean": 3.875
+            },
+            "guidance_actionability": {
+              "n": 8,
+              "mean": 3.625
+            }
+          },
+          "C": {
+            "correctness": {
+              "n": 8,
+              "mean": 3.125
+            },
+            "completeness": {
+              "n": 8,
+              "mean": 2.625
+            },
+            "actionability": {
+              "n": 8,
+              "mean": 2.375
+            },
+            "calibration": {
+              "n": 8,
+              "mean": 3
+            },
+            "guidance_actionability": {
+              "n": 8,
+              "mean": 3.5
+            }
+          },
+          "D": {
+            "correctness": {
+              "n": 8,
+              "mean": 3.5
+            },
+            "completeness": {
+              "n": 8,
+              "mean": 3.125
+            },
+            "actionability": {
+              "n": 8,
+              "mean": 3
+            },
+            "calibration": {
+              "n": 8,
+              "mean": 3.75
+            },
+            "guidance_actionability": {
+              "n": 8,
+              "mean": 3.875
+            }
+          }
+        },
+        "d_minus_b": {
+          "correctness": {
+            "n": 8,
+            "mean_delta": -0.125,
+            "wins": 2,
+            "ties": 3,
+            "losses": 3,
+            "win_task_ids": [
+              "ManimCommunity/manim#365",
+              "ManimCommunity/manim#866"
+            ],
+            "loss_task_ids": [
+              "ManimCommunity/manim#1172",
+              "ManimCommunity/manim#1369",
+              "ManimCommunity/manim#3174"
+            ]
+          },
+          "completeness": {
+            "n": 8,
+            "mean_delta": 0,
+            "wins": 2,
+            "ties": 4,
+            "losses": 2,
+            "win_task_ids": [
+              "ManimCommunity/manim#1250",
+              "ManimCommunity/manim#1530"
+            ],
+            "loss_task_ids": [
+              "ManimCommunity/manim#1172",
+              "ManimCommunity/manim#866"
+            ]
+          },
+          "actionability": {
+            "n": 8,
+            "mean_delta": 0.125,
+            "wins": 2,
+            "ties": 5,
+            "losses": 1,
+            "win_task_ids": [
+              "ManimCommunity/manim#1369",
+              "ManimCommunity/manim#866"
+            ],
+            "loss_task_ids": [
+              "ManimCommunity/manim#1172"
+            ]
+          },
+          "calibration": {
+            "n": 8,
+            "mean_delta": -0.125,
+            "wins": 0,
+            "ties": 7,
+            "losses": 1,
+            "win_task_ids": [],
+            "loss_task_ids": [
+              "ManimCommunity/manim#866"
+            ]
+          },
+          "guidance_actionability": {
+            "n": 8,
+            "mean_delta": 0.25,
+            "wins": 3,
+            "ties": 4,
+            "losses": 1,
+            "win_task_ids": [
+              "ManimCommunity/manim#1250",
+              "ManimCommunity/manim#1530",
+              "ManimCommunity/manim#866"
+            ],
+            "loss_task_ids": [
+              "ManimCommunity/manim#3174"
+            ]
+          }
+        }
+      },
+      "dask/dask": {
+        "n": 9,
+        "means": {
+          "A": {
+            "correctness": {
+              "n": 9,
+              "mean": 3.3333333333333335
+            },
+            "completeness": {
+              "n": 9,
+              "mean": 2.5555555555555554
+            },
+            "actionability": {
+              "n": 9,
+              "mean": 2.3333333333333335
+            },
+            "calibration": {
+              "n": 9,
+              "mean": 3.3333333333333335
+            },
+            "guidance_actionability": {
+              "n": 9,
+              "mean": 3
+            }
+          },
+          "B": {
+            "correctness": {
+              "n": 9,
+              "mean": 3.4444444444444446
+            },
+            "completeness": {
+              "n": 9,
+              "mean": 3.2222222222222223
+            },
+            "actionability": {
+              "n": 9,
+              "mean": 2.5555555555555554
+            },
+            "calibration": {
+              "n": 9,
+              "mean": 3.6666666666666665
+            },
+            "guidance_actionability": {
+              "n": 9,
+              "mean": 4
+            }
+          },
+          "C": {
+            "correctness": {
+              "n": 9,
+              "mean": 3.4444444444444446
+            },
+            "completeness": {
+              "n": 9,
+              "mean": 2.7777777777777777
+            },
+            "actionability": {
+              "n": 9,
+              "mean": 2.6666666666666665
+            },
+            "calibration": {
+              "n": 9,
+              "mean": 3.4444444444444446
+            },
+            "guidance_actionability": {
+              "n": 9,
+              "mean": 3.888888888888889
+            }
+          },
+          "D": {
+            "correctness": {
+              "n": 9,
+              "mean": 3.888888888888889
+            },
+            "completeness": {
+              "n": 9,
+              "mean": 3.2222222222222223
+            },
+            "actionability": {
+              "n": 9,
+              "mean": 2.888888888888889
+            },
+            "calibration": {
+              "n": 9,
+              "mean": 3.7777777777777777
+            },
+            "guidance_actionability": {
+              "n": 9,
+              "mean": 4
+            }
+          }
+        },
+        "d_minus_b": {
+          "correctness": {
+            "n": 9,
+            "mean_delta": 0.4444444444444444,
+            "wins": 4,
+            "ties": 5,
+            "losses": 0,
+            "win_task_ids": [
+              "dask/dask#1317",
+              "dask/dask#7823",
+              "dask/dask#8342",
+              "dask/dask#9166"
+            ],
+            "loss_task_ids": []
+          },
+          "completeness": {
+            "n": 9,
+            "mean_delta": 0,
+            "wins": 2,
+            "ties": 5,
+            "losses": 2,
+            "win_task_ids": [
+              "dask/dask#8342",
+              "dask/dask#9166"
+            ],
+            "loss_task_ids": [
+              "dask/dask#3206",
+              "dask/dask#5069"
+            ]
+          },
+          "actionability": {
+            "n": 9,
+            "mean_delta": 0.3333333333333333,
+            "wins": 4,
+            "ties": 4,
+            "losses": 1,
+            "win_task_ids": [
+              "dask/dask#1317",
+              "dask/dask#3206",
+              "dask/dask#3657",
+              "dask/dask#7823"
+            ],
+            "loss_task_ids": [
+              "dask/dask#4278"
+            ]
+          },
+          "calibration": {
+            "n": 9,
+            "mean_delta": 0.1111111111111111,
+            "wins": 3,
+            "ties": 4,
+            "losses": 2,
+            "win_task_ids": [
+              "dask/dask#1317",
+              "dask/dask#3657",
+              "dask/dask#9166"
+            ],
+            "loss_task_ids": [
+              "dask/dask#4278",
+              "dask/dask#5069"
+            ]
+          },
+          "guidance_actionability": {
+            "n": 9,
+            "mean_delta": 0,
+            "wins": 0,
+            "ties": 9,
+            "losses": 0,
+            "win_task_ids": [],
+            "loss_task_ids": []
+          }
+        }
+      },
+      "napari/napari": {
+        "n": 4,
+        "means": {
+          "A": {
+            "correctness": {
+              "n": 4,
+              "mean": 3.5
+            },
+            "completeness": {
+              "n": 4,
+              "mean": 2.25
+            },
+            "actionability": {
+              "n": 4,
+              "mean": 2
+            },
+            "calibration": {
+              "n": 4,
+              "mean": 3.25
+            },
+            "guidance_actionability": {
+              "n": 4,
+              "mean": 2.75
+            }
+          },
+          "B": {
+            "correctness": {
+              "n": 4,
+              "mean": 3.5
+            },
+            "completeness": {
+              "n": 4,
+              "mean": 3
+            },
+            "actionability": {
+              "n": 4,
+              "mean": 2.25
+            },
+            "calibration": {
+              "n": 4,
+              "mean": 3.5
+            },
+            "guidance_actionability": {
+              "n": 4,
+              "mean": 3.75
+            }
+          },
+          "C": {
+            "correctness": {
+              "n": 4,
+              "mean": 3
+            },
+            "completeness": {
+              "n": 4,
+              "mean": 2.25
+            },
+            "actionability": {
+              "n": 4,
+              "mean": 2.5
+            },
+            "calibration": {
+              "n": 4,
+              "mean": 2.75
+            },
+            "guidance_actionability": {
+              "n": 4,
+              "mean": 3.75
+            }
+          },
+          "D": {
+            "correctness": {
+              "n": 4,
+              "mean": 3.25
+            },
+            "completeness": {
+              "n": 4,
+              "mean": 3
+            },
+            "actionability": {
+              "n": 4,
+              "mean": 2.75
+            },
+            "calibration": {
+              "n": 4,
+              "mean": 3.25
+            },
+            "guidance_actionability": {
+              "n": 4,
+              "mean": 4
+            }
+          }
+        },
+        "d_minus_b": {
+          "correctness": {
+            "n": 4,
+            "mean_delta": -0.25,
+            "wins": 0,
+            "ties": 3,
+            "losses": 1,
+            "win_task_ids": [],
+            "loss_task_ids": [
+              "napari/napari#7675"
+            ]
+          },
+          "completeness": {
+            "n": 4,
+            "mean_delta": 0,
+            "wins": 1,
+            "ties": 2,
+            "losses": 1,
+            "win_task_ids": [
+              "napari/napari#7568"
+            ],
+            "loss_task_ids": [
+              "napari/napari#2999"
+            ]
+          },
+          "actionability": {
+            "n": 4,
+            "mean_delta": 0.5,
+            "wins": 2,
+            "ties": 2,
+            "losses": 0,
+            "win_task_ids": [
+              "napari/napari#7568",
+              "napari/napari#7675"
+            ],
+            "loss_task_ids": []
+          },
+          "calibration": {
+            "n": 4,
+            "mean_delta": -0.25,
+            "wins": 0,
+            "ties": 3,
+            "losses": 1,
+            "win_task_ids": [],
+            "loss_task_ids": [
+              "napari/napari#7675"
+            ]
+          },
+          "guidance_actionability": {
+            "n": 4,
+            "mean_delta": 0.25,
+            "wins": 1,
+            "ties": 3,
+            "losses": 0,
+            "win_task_ids": [
+              "napari/napari#2999"
+            ],
+            "loss_task_ids": []
+          }
+        }
+      },
+      "ray-project/ray": {
+        "n": 9,
+        "means": {
+          "A": {
+            "correctness": {
+              "n": 9,
+              "mean": 3.3333333333333335
+            },
+            "completeness": {
+              "n": 9,
+              "mean": 2.4444444444444446
+            },
+            "actionability": {
+              "n": 9,
+              "mean": 2
+            },
+            "calibration": {
+              "n": 9,
+              "mean": 3.5555555555555554
+            },
+            "guidance_actionability": {
+              "n": 9,
+              "mean": 3
+            }
+          },
+          "B": {
+            "correctness": {
+              "n": 9,
+              "mean": 3.3333333333333335
+            },
+            "completeness": {
+              "n": 9,
+              "mean": 2.7777777777777777
+            },
+            "actionability": {
+              "n": 9,
+              "mean": 2.4444444444444446
+            },
+            "calibration": {
+              "n": 9,
+              "mean": 3.6666666666666665
+            },
+            "guidance_actionability": {
+              "n": 9,
+              "mean": 3.3333333333333335
+            }
+          },
+          "C": {
+            "correctness": {
+              "n": 9,
+              "mean": 3.111111111111111
+            },
+            "completeness": {
+              "n": 9,
+              "mean": 2.4444444444444446
+            },
+            "actionability": {
+              "n": 9,
+              "mean": 2.111111111111111
+            },
+            "calibration": {
+              "n": 9,
+              "mean": 3.2222222222222223
+            },
+            "guidance_actionability": {
+              "n": 9,
+              "mean": 3.2222222222222223
+            }
+          },
+          "D": {
+            "correctness": {
+              "n": 9,
+              "mean": 3.4444444444444446
+            },
+            "completeness": {
+              "n": 9,
+              "mean": 3.111111111111111
+            },
+            "actionability": {
+              "n": 9,
+              "mean": 3.111111111111111
+            },
+            "calibration": {
+              "n": 9,
+              "mean": 3.6666666666666665
+            },
+            "guidance_actionability": {
+              "n": 9,
+              "mean": 3.5555555555555554
+            }
+          }
+        },
+        "d_minus_b": {
+          "correctness": {
+            "n": 9,
+            "mean_delta": 0.1111111111111111,
+            "wins": 2,
+            "ties": 6,
+            "losses": 1,
+            "win_task_ids": [
+              "ray-project/ray#25144",
+              "ray-project/ray#50266"
+            ],
+            "loss_task_ids": [
+              "ray-project/ray#19155"
+            ]
+          },
+          "completeness": {
+            "n": 9,
+            "mean_delta": 0.3333333333333333,
+            "wins": 4,
+            "ties": 3,
+            "losses": 2,
+            "win_task_ids": [
+              "ray-project/ray#25144",
+              "ray-project/ray#50266",
+              "ray-project/ray#58727",
+              "ray-project/ray#60421"
+            ],
+            "loss_task_ids": [
+              "ray-project/ray#19155",
+              "ray-project/ray#49011"
+            ]
+          },
+          "actionability": {
+            "n": 9,
+            "mean_delta": 0.6666666666666666,
+            "wins": 7,
+            "ties": 1,
+            "losses": 1,
+            "win_task_ids": [
+              "ray-project/ray#25144",
+              "ray-project/ray#3269",
+              "ray-project/ray#50266",
+              "ray-project/ray#58727",
+              "ray-project/ray#59729",
+              "ray-project/ray#60421",
+              "ray-project/ray#8894"
+            ],
+            "loss_task_ids": [
+              "ray-project/ray#19155"
+            ]
+          },
+          "calibration": {
+            "n": 9,
+            "mean_delta": 0,
+            "wins": 3,
+            "ties": 3,
+            "losses": 3,
+            "win_task_ids": [
+              "ray-project/ray#25144",
+              "ray-project/ray#50266",
+              "ray-project/ray#58727"
+            ],
+            "loss_task_ids": [
+              "ray-project/ray#19155",
+              "ray-project/ray#3269",
+              "ray-project/ray#49011"
+            ]
+          },
+          "guidance_actionability": {
+            "n": 9,
+            "mean_delta": 0.2222222222222222,
+            "wins": 3,
+            "ties": 5,
+            "losses": 1,
+            "win_task_ids": [
+              "ray-project/ray#25144",
+              "ray-project/ray#58727",
+              "ray-project/ray#8894"
+            ],
+            "loss_task_ids": [
+              "ray-project/ray#49011"
+            ]
+          }
+        }
+      },
+      "sympy/sympy": {
+        "n": 9,
+        "means": {
+          "A": {
+            "correctness": {
+              "n": 9,
+              "mean": 3.4444444444444446
+            },
+            "completeness": {
+              "n": 9,
+              "mean": 2.3333333333333335
+            },
+            "actionability": {
+              "n": 9,
+              "mean": 2.2222222222222223
+            },
+            "calibration": {
+              "n": 9,
+              "mean": 3.5555555555555554
+            },
+            "guidance_actionability": {
+              "n": 9,
+              "mean": 3.111111111111111
+            }
+          },
+          "B": {
+            "correctness": {
+              "n": 9,
+              "mean": 3.4444444444444446
+            },
+            "completeness": {
+              "n": 9,
+              "mean": 3
+            },
+            "actionability": {
+              "n": 9,
+              "mean": 2.7777777777777777
+            },
+            "calibration": {
+              "n": 9,
+              "mean": 3.3333333333333335
+            },
+            "guidance_actionability": {
+              "n": 9,
+              "mean": 3.7777777777777777
+            }
+          },
+          "C": {
+            "correctness": {
+              "n": 9,
+              "mean": 3.111111111111111
+            },
+            "completeness": {
+              "n": 9,
+              "mean": 2.7777777777777777
+            },
+            "actionability": {
+              "n": 9,
+              "mean": 2.5555555555555554
+            },
+            "calibration": {
+              "n": 9,
+              "mean": 3
+            },
+            "guidance_actionability": {
+              "n": 9,
+              "mean": 3.7777777777777777
+            }
+          },
+          "D": {
+            "correctness": {
+              "n": 9,
+              "mean": 3.5555555555555554
+            },
+            "completeness": {
+              "n": 9,
+              "mean": 3.111111111111111
+            },
+            "actionability": {
+              "n": 9,
+              "mean": 2.7777777777777777
+            },
+            "calibration": {
+              "n": 9,
+              "mean": 3.4444444444444446
+            },
+            "guidance_actionability": {
+              "n": 9,
+              "mean": 3.888888888888889
+            }
+          }
+        },
+        "d_minus_b": {
+          "correctness": {
+            "n": 9,
+            "mean_delta": 0.1111111111111111,
+            "wins": 2,
+            "ties": 6,
+            "losses": 1,
+            "win_task_ids": [
+              "sympy/sympy#14033",
+              "sympy/sympy#15877"
+            ],
+            "loss_task_ids": [
+              "sympy/sympy#5090"
+            ]
+          },
+          "completeness": {
+            "n": 9,
+            "mean_delta": 0.1111111111111111,
+            "wins": 4,
+            "ties": 3,
+            "losses": 2,
+            "win_task_ids": [
+              "sympy/sympy#10243",
+              "sympy/sympy#12602",
+              "sympy/sympy#14033",
+              "sympy/sympy#9339"
+            ],
+            "loss_task_ids": [
+              "sympy/sympy#10456",
+              "sympy/sympy#5090"
+            ]
+          },
+          "actionability": {
+            "n": 9,
+            "mean_delta": 0,
+            "wins": 3,
+            "ties": 3,
+            "losses": 3,
+            "win_task_ids": [
+              "sympy/sympy#10243",
+              "sympy/sympy#12602",
+              "sympy/sympy#9339"
+            ],
+            "loss_task_ids": [
+              "sympy/sympy#2806",
+              "sympy/sympy#5090",
+              "sympy/sympy#6698"
+            ]
+          },
+          "calibration": {
+            "n": 9,
+            "mean_delta": 0.1111111111111111,
+            "wins": 3,
+            "ties": 4,
+            "losses": 2,
+            "win_task_ids": [
+              "sympy/sympy#14033",
+              "sympy/sympy#15877",
+              "sympy/sympy#9339"
+            ],
+            "loss_task_ids": [
+              "sympy/sympy#10456",
+              "sympy/sympy#5090"
+            ]
+          },
+          "guidance_actionability": {
+            "n": 9,
+            "mean_delta": 0.1111111111111111,
+            "wins": 2,
+            "ties": 6,
+            "losses": 1,
+            "win_task_ids": [
+              "sympy/sympy#2806",
+              "sympy/sympy#9339"
+            ],
+            "loss_task_ids": [
+              "sympy/sympy#12602"
+            ]
+          }
+        }
+      }
+    },
+    "by_type": {
+      "bugfix": {
+        "n": 4,
+        "means": {
+          "A": {
+            "correctness": {
+              "n": 4,
+              "mean": 3.25
+            },
+            "completeness": {
+              "n": 4,
+              "mean": 2.25
+            },
+            "actionability": {
+              "n": 4,
+              "mean": 2.25
+            },
+            "calibration": {
+              "n": 4,
+              "mean": 3.25
+            },
+            "guidance_actionability": {
+              "n": 4,
+              "mean": 3.5
+            }
+          },
+          "B": {
+            "correctness": {
+              "n": 4,
+              "mean": 3.25
+            },
+            "completeness": {
+              "n": 4,
+              "mean": 3.25
+            },
+            "actionability": {
+              "n": 4,
+              "mean": 2.5
+            },
+            "calibration": {
+              "n": 4,
+              "mean": 3.75
+            },
+            "guidance_actionability": {
+              "n": 4,
+              "mean": 3.5
+            }
+          },
+          "C": {
+            "correctness": {
+              "n": 4,
+              "mean": 3
+            },
+            "completeness": {
+              "n": 4,
+              "mean": 2.5
+            },
+            "actionability": {
+              "n": 4,
+              "mean": 2.25
+            },
+            "calibration": {
+              "n": 4,
+              "mean": 3
+            },
+            "guidance_actionability": {
+              "n": 4,
+              "mean": 3.25
+            }
+          },
+          "D": {
+            "correctness": {
+              "n": 4,
+              "mean": 3.5
+            },
+            "completeness": {
+              "n": 4,
+              "mean": 2.75
+            },
+            "actionability": {
+              "n": 4,
+              "mean": 2.75
+            },
+            "calibration": {
+              "n": 4,
+              "mean": 3.5
+            },
+            "guidance_actionability": {
+              "n": 4,
+              "mean": 4
+            }
+          }
+        },
+        "d_minus_b": {
+          "correctness": {
+            "n": 4,
+            "mean_delta": 0.25,
+            "wins": 2,
+            "ties": 1,
+            "losses": 1,
+            "win_task_ids": [
+              "ManimCommunity/manim#866",
+              "dask/dask#9166"
+            ],
+            "loss_task_ids": [
+              "sympy/sympy#5090"
+            ]
+          },
+          "completeness": {
+            "n": 4,
+            "mean_delta": -0.5,
+            "wins": 1,
+            "ties": 1,
+            "losses": 2,
+            "win_task_ids": [
+              "dask/dask#9166"
+            ],
+            "loss_task_ids": [
+              "ManimCommunity/manim#866",
+              "sympy/sympy#5090"
+            ]
+          },
+          "actionability": {
+            "n": 4,
+            "mean_delta": 0.25,
+            "wins": 2,
+            "ties": 1,
+            "losses": 1,
+            "win_task_ids": [
+              "ManimCommunity/manim#866",
+              "ray-project/ray#8894"
+            ],
+            "loss_task_ids": [
+              "sympy/sympy#5090"
+            ]
+          },
+          "calibration": {
+            "n": 4,
+            "mean_delta": -0.25,
+            "wins": 1,
+            "ties": 1,
+            "losses": 2,
+            "win_task_ids": [
+              "dask/dask#9166"
+            ],
+            "loss_task_ids": [
+              "ManimCommunity/manim#866",
+              "sympy/sympy#5090"
+            ]
+          },
+          "guidance_actionability": {
+            "n": 4,
+            "mean_delta": 0.5,
+            "wins": 2,
+            "ties": 2,
+            "losses": 0,
+            "win_task_ids": [
+              "ManimCommunity/manim#866",
+              "ray-project/ray#8894"
+            ],
+            "loss_task_ids": []
+          }
+        }
+      },
+      "documentation": {
+        "n": 7,
+        "means": {
+          "A": {
+            "correctness": {
+              "n": 7,
+              "mean": 3.4285714285714284
+            },
+            "completeness": {
+              "n": 7,
+              "mean": 2.5714285714285716
+            },
+            "actionability": {
+              "n": 7,
+              "mean": 2.142857142857143
+            },
+            "calibration": {
+              "n": 7,
+              "mean": 3.7142857142857144
+            },
+            "guidance_actionability": {
+              "n": 7,
+              "mean": 3
+            }
+          },
+          "B": {
+            "correctness": {
+              "n": 7,
+              "mean": 3.5714285714285716
+            },
+            "completeness": {
+              "n": 7,
+              "mean": 3.2857142857142856
+            },
+            "actionability": {
+              "n": 7,
+              "mean": 3
+            },
+            "calibration": {
+              "n": 7,
+              "mean": 3.857142857142857
+            },
+            "guidance_actionability": {
+              "n": 7,
+              "mean": 3.857142857142857
+            }
+          },
+          "C": {
+            "correctness": {
+              "n": 7,
+              "mean": 3.2857142857142856
+            },
+            "completeness": {
+              "n": 7,
+              "mean": 2.7142857142857144
+            },
+            "actionability": {
+              "n": 7,
+              "mean": 2.4285714285714284
+            },
+            "calibration": {
+              "n": 7,
+              "mean": 3.142857142857143
+            },
+            "guidance_actionability": {
+              "n": 7,
+              "mean": 3.7142857142857144
+            }
+          },
+          "D": {
+            "correctness": {
+              "n": 7,
+              "mean": 3.5714285714285716
+            },
+            "completeness": {
+              "n": 7,
+              "mean": 3.2857142857142856
+            },
+            "actionability": {
+              "n": 7,
+              "mean": 3
+            },
+            "calibration": {
+              "n": 7,
+              "mean": 3.5714285714285716
+            },
+            "guidance_actionability": {
+              "n": 7,
+              "mean": 4
+            }
+          }
+        },
+        "d_minus_b": {
+          "correctness": {
+            "n": 7,
+            "mean_delta": 0,
+            "wins": 1,
+            "ties": 5,
+            "losses": 1,
+            "win_task_ids": [
+              "dask/dask#8342"
+            ],
+            "loss_task_ids": [
+              "ManimCommunity/manim#1172"
+            ]
+          },
+          "completeness": {
+            "n": 7,
+            "mean_delta": 0,
+            "wins": 2,
+            "ties": 3,
+            "losses": 2,
+            "win_task_ids": [
+              "dask/dask#8342",
+              "ray-project/ray#60421"
+            ],
+            "loss_task_ids": [
+              "ManimCommunity/manim#1172",
+              "sympy/sympy#10456"
+            ]
+          },
+          "actionability": {
+            "n": 7,
+            "mean_delta": 0,
+            "wins": 2,
+            "ties": 3,
+            "losses": 2,
+            "win_task_ids": [
+              "ray-project/ray#3269",
+              "ray-project/ray#60421"
+            ],
+            "loss_task_ids": [
+              "ManimCommunity/manim#1172",
+              "sympy/sympy#2806"
+            ]
+          },
+          "calibration": {
+            "n": 7,
+            "mean_delta": -0.2857142857142857,
+            "wins": 0,
+            "ties": 5,
+            "losses": 2,
+            "win_task_ids": [],
+            "loss_task_ids": [
+              "ray-project/ray#3269",
+              "sympy/sympy#10456"
+            ]
+          },
+          "guidance_actionability": {
+            "n": 7,
+            "mean_delta": 0.14285714285714285,
+            "wins": 1,
+            "ties": 6,
+            "losses": 0,
+            "win_task_ids": [
+              "sympy/sympy#2806"
+            ],
+            "loss_task_ids": []
+          }
+        }
+      },
+      "feature": {
+        "n": 12,
+        "means": {
+          "A": {
+            "correctness": {
+              "n": 12,
+              "mean": 3.4166666666666665
+            },
+            "completeness": {
+              "n": 12,
+              "mean": 2.5
+            },
+            "actionability": {
+              "n": 12,
+              "mean": 2.0833333333333335
+            },
+            "calibration": {
+              "n": 12,
+              "mean": 3.4166666666666665
+            },
+            "guidance_actionability": {
+              "n": 12,
+              "mean": 2.75
+            }
+          },
+          "B": {
+            "correctness": {
+              "n": 12,
+              "mean": 3.4166666666666665
+            },
+            "completeness": {
+              "n": 12,
+              "mean": 2.9166666666666665
+            },
+            "actionability": {
+              "n": 12,
+              "mean": 2.5
+            },
+            "calibration": {
+              "n": 12,
+              "mean": 3.4166666666666665
+            },
+            "guidance_actionability": {
+              "n": 12,
+              "mean": 3.75
+            }
+          },
+          "C": {
+            "correctness": {
+              "n": 12,
+              "mean": 3.1666666666666665
+            },
+            "completeness": {
+              "n": 12,
+              "mean": 2.5833333333333335
+            },
+            "actionability": {
+              "n": 12,
+              "mean": 2.4166666666666665
+            },
+            "calibration": {
+              "n": 12,
+              "mean": 3
+            },
+            "guidance_actionability": {
+              "n": 12,
+              "mean": 3.75
+            }
+          },
+          "D": {
+            "correctness": {
+              "n": 12,
+              "mean": 3.5
+            },
+            "completeness": {
+              "n": 12,
+              "mean": 3.1666666666666665
+            },
+            "actionability": {
+              "n": 12,
+              "mean": 2.8333333333333335
+            },
+            "calibration": {
+              "n": 12,
+              "mean": 3.5
+            },
+            "guidance_actionability": {
+              "n": 12,
+              "mean": 3.8333333333333335
+            }
+          }
+        },
+        "d_minus_b": {
+          "correctness": {
+            "n": 12,
+            "mean_delta": 0.08333333333333333,
+            "wins": 3,
+            "ties": 7,
+            "losses": 2,
+            "win_task_ids": [
+              "ray-project/ray#50266",
+              "sympy/sympy#14033",
+              "sympy/sympy#15877"
+            ],
+            "loss_task_ids": [
+              "ManimCommunity/manim#1369",
+              "napari/napari#7675"
+            ]
+          },
+          "completeness": {
+            "n": 12,
+            "mean_delta": 0.25,
+            "wins": 4,
+            "ties": 6,
+            "losses": 2,
+            "win_task_ids": [
+              "ManimCommunity/manim#1530",
+              "napari/napari#7568",
+              "ray-project/ray#50266",
+              "sympy/sympy#14033"
+            ],
+            "loss_task_ids": [
+              "napari/napari#2999",
+              "ray-project/ray#49011"
+            ]
+          },
+          "actionability": {
+            "n": 12,
+            "mean_delta": 0.3333333333333333,
+            "wins": 5,
+            "ties": 6,
+            "losses": 1,
+            "win_task_ids": [
+              "ManimCommunity/manim#1369",
+              "dask/dask#3657",
+              "napari/napari#7568",
+              "napari/napari#7675",
+              "ray-project/ray#50266"
+            ],
+            "loss_task_ids": [
+              "dask/dask#4278"
+            ]
+          },
+          "calibration": {
+            "n": 12,
+            "mean_delta": 0.08333333333333333,
+            "wins": 4,
+            "ties": 5,
+            "losses": 3,
+            "win_task_ids": [
+              "dask/dask#3657",
+              "ray-project/ray#50266",
+              "sympy/sympy#14033",
+              "sympy/sympy#15877"
+            ],
+            "loss_task_ids": [
+              "dask/dask#4278",
+              "napari/napari#7675",
+              "ray-project/ray#49011"
+            ]
+          },
+          "guidance_actionability": {
+            "n": 12,
+            "mean_delta": 0.08333333333333333,
+            "wins": 2,
+            "ties": 9,
+            "losses": 1,
+            "win_task_ids": [
+              "ManimCommunity/manim#1530",
+              "napari/napari#2999"
+            ],
+            "loss_task_ids": [
+              "ray-project/ray#49011"
+            ]
+          }
+        }
+      },
+      "maintenance": {
+        "n": 3,
+        "means": {
+          "A": {
+            "correctness": {
+              "n": 3,
+              "mean": 4
+            },
+            "completeness": {
+              "n": 3,
+              "mean": 3.3333333333333335
+            },
+            "actionability": {
+              "n": 3,
+              "mean": 2.6666666666666665
+            },
+            "calibration": {
+              "n": 3,
+              "mean": 4
+            },
+            "guidance_actionability": {
+              "n": 3,
+              "mean": 4
+            }
+          },
+          "B": {
+            "correctness": {
+              "n": 3,
+              "mean": 3.6666666666666665
+            },
+            "completeness": {
+              "n": 3,
+              "mean": 3.3333333333333335
+            },
+            "actionability": {
+              "n": 3,
+              "mean": 3
+            },
+            "calibration": {
+              "n": 3,
+              "mean": 4
+            },
+            "guidance_actionability": {
+              "n": 3,
+              "mean": 4
+            }
+          },
+          "C": {
+            "correctness": {
+              "n": 3,
+              "mean": 3.3333333333333335
+            },
+            "completeness": {
+              "n": 3,
+              "mean": 3
+            },
+            "actionability": {
+              "n": 3,
+              "mean": 2.6666666666666665
+            },
+            "calibration": {
+              "n": 3,
+              "mean": 3.3333333333333335
+            },
+            "guidance_actionability": {
+              "n": 3,
+              "mean": 4
+            }
+          },
+          "D": {
+            "correctness": {
+              "n": 3,
+              "mean": 3.3333333333333335
+            },
+            "completeness": {
+              "n": 3,
+              "mean": 3.3333333333333335
+            },
+            "actionability": {
+              "n": 3,
+              "mean": 3.3333333333333335
+            },
+            "calibration": {
+              "n": 3,
+              "mean": 4
+            },
+            "guidance_actionability": {
+              "n": 3,
+              "mean": 3.6666666666666665
+            }
+          }
+        },
+        "d_minus_b": {
+          "correctness": {
+            "n": 3,
+            "mean_delta": -0.3333333333333333,
+            "wins": 0,
+            "ties": 2,
+            "losses": 1,
+            "win_task_ids": [],
+            "loss_task_ids": [
+              "ManimCommunity/manim#3174"
+            ]
+          },
+          "completeness": {
+            "n": 3,
+            "mean_delta": 0,
+            "wins": 0,
+            "ties": 3,
+            "losses": 0,
+            "win_task_ids": [],
+            "loss_task_ids": []
+          },
+          "actionability": {
+            "n": 3,
+            "mean_delta": 0.3333333333333333,
+            "wins": 1,
+            "ties": 2,
+            "losses": 0,
+            "win_task_ids": [
+              "ray-project/ray#59729"
+            ],
+            "loss_task_ids": []
+          },
+          "calibration": {
+            "n": 3,
+            "mean_delta": 0,
+            "wins": 0,
+            "ties": 3,
+            "losses": 0,
+            "win_task_ids": [],
+            "loss_task_ids": []
+          },
+          "guidance_actionability": {
+            "n": 3,
+            "mean_delta": -0.3333333333333333,
+            "wins": 0,
+            "ties": 2,
+            "losses": 1,
+            "win_task_ids": [],
+            "loss_task_ids": [
+              "ManimCommunity/manim#3174"
+            ]
+          }
+        }
+      },
+      "needs_review": {
+        "n": 4,
+        "means": {
+          "A": {
+            "correctness": {
+              "n": 4,
+              "mean": 3.5
+            },
+            "completeness": {
+              "n": 4,
+              "mean": 2.25
+            },
+            "actionability": {
+              "n": 4,
+              "mean": 2.25
+            },
+            "calibration": {
+              "n": 4,
+              "mean": 3.25
+            },
+            "guidance_actionability": {
+              "n": 4,
+              "mean": 3
+            }
+          },
+          "B": {
+            "correctness": {
+              "n": 4,
+              "mean": 3.5
+            },
+            "completeness": {
+              "n": 4,
+              "mean": 2.75
+            },
+            "actionability": {
+              "n": 4,
+              "mean": 2.25
+            },
+            "calibration": {
+              "n": 4,
+              "mean": 3.5
+            },
+            "guidance_actionability": {
+              "n": 4,
+              "mean": 3
+            }
+          },
+          "C": {
+            "correctness": {
+              "n": 4,
+              "mean": 3
+            },
+            "completeness": {
+              "n": 4,
+              "mean": 2.5
+            },
+            "actionability": {
+              "n": 4,
+              "mean": 2.25
+            },
+            "calibration": {
+              "n": 4,
+              "mean": 3
+            },
+            "guidance_actionability": {
+              "n": 4,
+              "mean": 3.25
+            }
+          },
+          "D": {
+            "correctness": {
+              "n": 4,
+              "mean": 3.75
+            },
+            "completeness": {
+              "n": 4,
+              "mean": 3.25
+            },
+            "actionability": {
+              "n": 4,
+              "mean": 3
+            },
+            "calibration": {
+              "n": 4,
+              "mean": 4
+            },
+            "guidance_actionability": {
+              "n": 4,
+              "mean": 3.75
+            }
+          }
+        },
+        "d_minus_b": {
+          "correctness": {
+            "n": 4,
+            "mean_delta": 0.25,
+            "wins": 1,
+            "ties": 3,
+            "losses": 0,
+            "win_task_ids": [
+              "ray-project/ray#25144"
+            ],
+            "loss_task_ids": []
+          },
+          "completeness": {
+            "n": 4,
+            "mean_delta": 0.5,
+            "wins": 3,
+            "ties": 0,
+            "losses": 1,
+            "win_task_ids": [
+              "ManimCommunity/manim#1250",
+              "ray-project/ray#25144",
+              "sympy/sympy#9339"
+            ],
+            "loss_task_ids": [
+              "dask/dask#3206"
+            ]
+          },
+          "actionability": {
+            "n": 4,
+            "mean_delta": 0.75,
+            "wins": 3,
+            "ties": 1,
+            "losses": 0,
+            "win_task_ids": [
+              "dask/dask#3206",
+              "ray-project/ray#25144",
+              "sympy/sympy#9339"
+            ],
+            "loss_task_ids": []
+          },
+          "calibration": {
+            "n": 4,
+            "mean_delta": 0.5,
+            "wins": 2,
+            "ties": 2,
+            "losses": 0,
+            "win_task_ids": [
+              "ray-project/ray#25144",
+              "sympy/sympy#9339"
+            ],
+            "loss_task_ids": []
+          },
+          "guidance_actionability": {
+            "n": 4,
+            "mean_delta": 0.75,
+            "wins": 3,
+            "ties": 1,
+            "losses": 0,
+            "win_task_ids": [
+              "ManimCommunity/manim#1250",
+              "ray-project/ray#25144",
+              "sympy/sympy#9339"
+            ],
+            "loss_task_ids": []
+          }
+        }
+      },
+      "performance": {
+        "n": 2,
+        "means": {
+          "A": {
+            "correctness": {
+              "n": 2,
+              "mean": 3
+            },
+            "completeness": {
+              "n": 2,
+              "mean": 2.5
+            },
+            "actionability": {
+              "n": 2,
+              "mean": 2
+            },
+            "calibration": {
+              "n": 2,
+              "mean": 3.5
+            },
+            "guidance_actionability": {
+              "n": 2,
+              "mean": 3
+            }
+          },
+          "B": {
+            "correctness": {
+              "n": 2,
+              "mean": 4
+            },
+            "completeness": {
+              "n": 2,
+              "mean": 3
+            },
+            "actionability": {
+              "n": 2,
+              "mean": 2.5
+            },
+            "calibration": {
+              "n": 2,
+              "mean": 3.5
+            },
+            "guidance_actionability": {
+              "n": 2,
+              "mean": 4
+            }
+          },
+          "C": {
+            "correctness": {
+              "n": 2,
+              "mean": 3.5
+            },
+            "completeness": {
+              "n": 2,
+              "mean": 2.5
+            },
+            "actionability": {
+              "n": 2,
+              "mean": 2.5
+            },
+            "calibration": {
+              "n": 2,
+              "mean": 3
+            },
+            "guidance_actionability": {
+              "n": 2,
+              "mean": 4
+            }
+          },
+          "D": {
+            "correctness": {
+              "n": 2,
+              "mean": 4
+            },
+            "completeness": {
+              "n": 2,
+              "mean": 3
+            },
+            "actionability": {
+              "n": 2,
+              "mean": 3
+            },
+            "calibration": {
+              "n": 2,
+              "mean": 3
+            },
+            "guidance_actionability": {
+              "n": 2,
+              "mean": 3.5
+            }
+          }
+        },
+        "d_minus_b": {
+          "correctness": {
+            "n": 2,
+            "mean_delta": 0,
+            "wins": 0,
+            "ties": 2,
+            "losses": 0,
+            "win_task_ids": [],
+            "loss_task_ids": []
+          },
+          "completeness": {
+            "n": 2,
+            "mean_delta": 0,
+            "wins": 1,
+            "ties": 0,
+            "losses": 1,
+            "win_task_ids": [
+              "sympy/sympy#12602"
+            ],
+            "loss_task_ids": [
+              "dask/dask#5069"
+            ]
+          },
+          "actionability": {
+            "n": 2,
+            "mean_delta": 0.5,
+            "wins": 1,
+            "ties": 1,
+            "losses": 0,
+            "win_task_ids": [
+              "sympy/sympy#12602"
+            ],
+            "loss_task_ids": []
+          },
+          "calibration": {
+            "n": 2,
+            "mean_delta": -0.5,
+            "wins": 0,
+            "ties": 1,
+            "losses": 1,
+            "win_task_ids": [],
+            "loss_task_ids": [
+              "dask/dask#5069"
+            ]
+          },
+          "guidance_actionability": {
+            "n": 2,
+            "mean_delta": -0.5,
+            "wins": 0,
+            "ties": 1,
+            "losses": 1,
+            "win_task_ids": [],
+            "loss_task_ids": [
+              "sympy/sympy#12602"
+            ]
+          }
+        }
+      },
+      "refactor": {
+        "n": 3,
+        "means": {
+          "A": {
+            "correctness": {
+              "n": 3,
+              "mean": 3.3333333333333335
+            },
+            "completeness": {
+              "n": 3,
+              "mean": 2.6666666666666665
+            },
+            "actionability": {
+              "n": 3,
+              "mean": 2.3333333333333335
+            },
+            "calibration": {
+              "n": 3,
+              "mean": 3.3333333333333335
+            },
+            "guidance_actionability": {
+              "n": 3,
+              "mean": 3
+            }
+          },
+          "B": {
+            "correctness": {
+              "n": 3,
+              "mean": 3.6666666666666665
+            },
+            "completeness": {
+              "n": 3,
+              "mean": 3.3333333333333335
+            },
+            "actionability": {
+              "n": 3,
+              "mean": 3
+            },
+            "calibration": {
+              "n": 3,
+              "mean": 4
+            },
+            "guidance_actionability": {
+              "n": 3,
+              "mean": 3.6666666666666665
+            }
+          },
+          "C": {
+            "correctness": {
+              "n": 3,
+              "mean": 3.3333333333333335
+            },
+            "completeness": {
+              "n": 3,
+              "mean": 2.6666666666666665
+            },
+            "actionability": {
+              "n": 3,
+              "mean": 2.6666666666666665
+            },
+            "calibration": {
+              "n": 3,
+              "mean": 3.6666666666666665
+            },
+            "guidance_actionability": {
+              "n": 3,
+              "mean": 3.3333333333333335
+            }
+          },
+          "D": {
+            "correctness": {
+              "n": 3,
+              "mean": 3.6666666666666665
+            },
+            "completeness": {
+              "n": 3,
+              "mean": 3
+            },
+            "actionability": {
+              "n": 3,
+              "mean": 2.6666666666666665
+            },
+            "calibration": {
+              "n": 3,
+              "mean": 3.6666666666666665
+            },
+            "guidance_actionability": {
+              "n": 3,
+              "mean": 3.6666666666666665
+            }
+          }
+        },
+        "d_minus_b": {
+          "correctness": {
+            "n": 3,
+            "mean_delta": 0,
+            "wins": 1,
+            "ties": 1,
+            "losses": 1,
+            "win_task_ids": [
+              "dask/dask#7823"
+            ],
+            "loss_task_ids": [
+              "ray-project/ray#19155"
+            ]
+          },
+          "completeness": {
+            "n": 3,
+            "mean_delta": -0.3333333333333333,
+            "wins": 0,
+            "ties": 2,
+            "losses": 1,
+            "win_task_ids": [],
+            "loss_task_ids": [
+              "ray-project/ray#19155"
+            ]
+          },
+          "actionability": {
+            "n": 3,
+            "mean_delta": -0.3333333333333333,
+            "wins": 1,
+            "ties": 0,
+            "losses": 2,
+            "win_task_ids": [
+              "dask/dask#7823"
+            ],
+            "loss_task_ids": [
+              "ray-project/ray#19155",
+              "sympy/sympy#6698"
+            ]
+          },
+          "calibration": {
+            "n": 3,
+            "mean_delta": -0.3333333333333333,
+            "wins": 0,
+            "ties": 2,
+            "losses": 1,
+            "win_task_ids": [],
+            "loss_task_ids": [
+              "ray-project/ray#19155"
+            ]
+          },
+          "guidance_actionability": {
+            "n": 3,
+            "mean_delta": 0,
+            "wins": 0,
+            "ties": 3,
+            "losses": 0,
+            "win_task_ids": [],
+            "loss_task_ids": []
+          }
+        }
+      },
+      "testing": {
+        "n": 4,
+        "means": {
+          "A": {
+            "correctness": {
+              "n": 4,
+              "mean": 3.25
+            },
+            "completeness": {
+              "n": 4,
+              "mean": 2.5
+            },
+            "actionability": {
+              "n": 4,
+              "mean": 2.5
+            },
+            "calibration": {
+              "n": 4,
+              "mean": 3.5
+            },
+            "guidance_actionability": {
+              "n": 4,
+              "mean": 3
+            }
+          },
+          "B": {
+            "correctness": {
+              "n": 4,
+              "mean": 3
+            },
+            "completeness": {
+              "n": 4,
+              "mean": 2.5
+            },
+            "actionability": {
+              "n": 4,
+              "mean": 2.25
+            },
+            "calibration": {
+              "n": 4,
+              "mean": 3.25
+            },
+            "guidance_actionability": {
+              "n": 4,
+              "mean": 3.75
+            }
+          },
+          "C": {
+            "correctness": {
+              "n": 4,
+              "mean": 3
+            },
+            "completeness": {
+              "n": 4,
+              "mean": 2.5
+            },
+            "actionability": {
+              "n": 4,
+              "mean": 2.5
+            },
+            "calibration": {
+              "n": 4,
+              "mean": 3.25
+            },
+            "guidance_actionability": {
+              "n": 4,
+              "mean": 3.5
+            }
+          },
+          "D": {
+            "correctness": {
+              "n": 4,
+              "mean": 3.5
+            },
+            "completeness": {
+              "n": 4,
+              "mean": 3
+            },
+            "actionability": {
+              "n": 4,
+              "mean": 3
+            },
+            "calibration": {
+              "n": 4,
+              "mean": 3.75
+            },
+            "guidance_actionability": {
+              "n": 4,
+              "mean": 4
+            }
+          }
+        },
+        "d_minus_b": {
+          "correctness": {
+            "n": 4,
+            "mean_delta": 0.5,
+            "wins": 2,
+            "ties": 2,
+            "losses": 0,
+            "win_task_ids": [
+              "ManimCommunity/manim#365",
+              "dask/dask#1317"
+            ],
+            "loss_task_ids": []
+          },
+          "completeness": {
+            "n": 4,
+            "mean_delta": 0.5,
+            "wins": 2,
+            "ties": 2,
+            "losses": 0,
+            "win_task_ids": [
+              "ray-project/ray#58727",
+              "sympy/sympy#10243"
+            ],
+            "loss_task_ids": []
+          },
+          "actionability": {
+            "n": 4,
+            "mean_delta": 0.75,
+            "wins": 3,
+            "ties": 1,
+            "losses": 0,
+            "win_task_ids": [
+              "dask/dask#1317",
+              "ray-project/ray#58727",
+              "sympy/sympy#10243"
+            ],
+            "loss_task_ids": []
+          },
+          "calibration": {
+            "n": 4,
+            "mean_delta": 0.5,
+            "wins": 2,
+            "ties": 2,
+            "losses": 0,
+            "win_task_ids": [
+              "dask/dask#1317",
+              "ray-project/ray#58727"
+            ],
+            "loss_task_ids": []
+          },
+          "guidance_actionability": {
+            "n": 4,
+            "mean_delta": 0.25,
+            "wins": 1,
+            "ties": 3,
+            "losses": 0,
+            "win_task_ids": [
+              "ray-project/ray#58727"
+            ],
+            "loss_task_ids": []
+          }
+        }
+      }
+    },
+    "decline_task_ids": [
+      "ManimCommunity/manim#1172",
+      "dask/dask#4278",
+      "ray-project/ray#19155",
+      "sympy/sympy#2806",
+      "sympy/sympy#5090",
+      "sympy/sympy#6698"
+    ],
+    "mechanism": {
+      "by_complete_rounds": {
+        "1": {
+          "n": 12,
+          "actionability": {
+            "n": 12,
+            "mean_delta": 0.25,
+            "wins": 5,
+            "ties": 5,
+            "losses": 2,
+            "win_task_ids": [
+              "dask/dask#1317",
+              "dask/dask#3206",
+              "ray-project/ray#59729",
+              "ray-project/ray#60421",
+              "sympy/sympy#10243"
+            ],
+            "loss_task_ids": [
+              "dask/dask#4278",
+              "sympy/sympy#6698"
+            ]
+          },
+          "median_request_seconds": 17.328
+        },
+        "2": {
+          "n": 8,
+          "actionability": {
+            "n": 8,
+            "mean_delta": 0.625,
+            "wins": 6,
+            "ties": 1,
+            "losses": 1,
+            "win_task_ids": [
+              "dask/dask#3657",
+              "napari/napari#7568",
+              "napari/napari#7675",
+              "ray-project/ray#50266",
+              "ray-project/ray#58727",
+              "sympy/sympy#12602"
+            ],
+            "loss_task_ids": [
+              "ManimCommunity/manim#1172"
+            ]
+          },
+          "median_request_seconds": 33.3445
+        },
+        "3": {
+          "n": 19,
+          "actionability": {
+            "n": 19,
+            "mean_delta": 0.21052631578947367,
+            "wins": 7,
+            "ties": 9,
+            "losses": 3,
+            "win_task_ids": [
+              "ManimCommunity/manim#1369",
+              "ManimCommunity/manim#866",
+              "dask/dask#7823",
+              "ray-project/ray#25144",
+              "ray-project/ray#3269",
+              "ray-project/ray#8894",
+              "sympy/sympy#9339"
+            ],
+            "loss_task_ids": [
+              "ray-project/ray#19155",
+              "sympy/sympy#2806",
+              "sympy/sympy#5090"
+            ]
+          },
+          "median_request_seconds": 51.095
+        }
+      },
+      "stop_reasons": {
+        "all_claims_supported": 25,
+        "supplement_round_limit": 13,
+        "model_or_validation_error": 1
+      },
+      "execution_error_cases": [
+        {
+          "task_id": "sympy/sympy#10243",
+          "stop_reason": "model_or_validation_error",
+          "errors": [
+            {
+              "round": 1,
+              "error_type": "ProviderFailure",
+              "http_status": null,
+              "budget_reason": null
+            }
+          ],
+          "complete_rounds": 1
+        }
+      ],
+      "sensitivity_without_execution_errors": {
+        "correctness": {
+          "n": 38,
+          "mean_delta": 0.10526315789473684,
+          "wins": 10,
+          "ties": 22,
+          "losses": 6,
+          "win_task_ids": [
+            "ManimCommunity/manim#365",
+            "ManimCommunity/manim#866",
+            "dask/dask#1317",
+            "dask/dask#7823",
+            "dask/dask#8342",
+            "dask/dask#9166",
+            "ray-project/ray#25144",
+            "ray-project/ray#50266",
+            "sympy/sympy#14033",
+            "sympy/sympy#15877"
+          ],
+          "loss_task_ids": [
+            "ManimCommunity/manim#1172",
+            "ManimCommunity/manim#1369",
+            "ManimCommunity/manim#3174",
+            "napari/napari#7675",
+            "ray-project/ray#19155",
+            "sympy/sympy#5090"
+          ]
+        },
+        "completeness": {
+          "n": 38,
+          "mean_delta": 0.07894736842105263,
+          "wins": 12,
+          "ties": 17,
+          "losses": 9,
+          "win_task_ids": [
+            "ManimCommunity/manim#1250",
+            "ManimCommunity/manim#1530",
+            "dask/dask#8342",
+            "dask/dask#9166",
+            "napari/napari#7568",
+            "ray-project/ray#25144",
+            "ray-project/ray#50266",
+            "ray-project/ray#58727",
+            "ray-project/ray#60421",
+            "sympy/sympy#12602",
+            "sympy/sympy#14033",
+            "sympy/sympy#9339"
+          ],
+          "loss_task_ids": [
+            "ManimCommunity/manim#1172",
+            "ManimCommunity/manim#866",
+            "dask/dask#3206",
+            "dask/dask#5069",
+            "napari/napari#2999",
+            "ray-project/ray#19155",
+            "ray-project/ray#49011",
+            "sympy/sympy#10456",
+            "sympy/sympy#5090"
+          ]
+        },
+        "actionability": {
+          "n": 38,
+          "mean_delta": 0.2894736842105263,
+          "wins": 17,
+          "ties": 15,
+          "losses": 6,
+          "win_task_ids": [
+            "ManimCommunity/manim#1369",
+            "ManimCommunity/manim#866",
+            "dask/dask#1317",
+            "dask/dask#3206",
+            "dask/dask#3657",
+            "dask/dask#7823",
+            "napari/napari#7568",
+            "napari/napari#7675",
+            "ray-project/ray#25144",
+            "ray-project/ray#3269",
+            "ray-project/ray#50266",
+            "ray-project/ray#58727",
+            "ray-project/ray#59729",
+            "ray-project/ray#60421",
+            "ray-project/ray#8894",
+            "sympy/sympy#12602",
+            "sympy/sympy#9339"
+          ],
+          "loss_task_ids": [
+            "ManimCommunity/manim#1172",
+            "dask/dask#4278",
+            "ray-project/ray#19155",
+            "sympy/sympy#2806",
+            "sympy/sympy#5090",
+            "sympy/sympy#6698"
+          ]
+        },
+        "calibration": {
+          "n": 38,
+          "mean_delta": 0,
+          "wins": 9,
+          "ties": 20,
+          "losses": 9,
+          "win_task_ids": [
+            "dask/dask#1317",
+            "dask/dask#3657",
+            "dask/dask#9166",
+            "ray-project/ray#25144",
+            "ray-project/ray#50266",
+            "ray-project/ray#58727",
+            "sympy/sympy#14033",
+            "sympy/sympy#15877",
+            "sympy/sympy#9339"
+          ],
+          "loss_task_ids": [
+            "ManimCommunity/manim#866",
+            "dask/dask#4278",
+            "dask/dask#5069",
+            "napari/napari#7675",
+            "ray-project/ray#19155",
+            "ray-project/ray#3269",
+            "ray-project/ray#49011",
+            "sympy/sympy#10456",
+            "sympy/sympy#5090"
+          ]
+        }
+      },
+      "costs": {
+        "A": {
+          "model_calls": 45,
+          "recorded_tokens": 155817,
+          "usage_complete_count": 39,
+          "median_request_seconds": 7.312
+        },
+        "B": {
+          "model_calls": 43,
+          "recorded_tokens": 489457,
+          "usage_complete_count": 39,
+          "median_request_seconds": 8.938
+        },
+        "C": {
+          "model_calls": 84,
+          "recorded_tokens": 765442,
+          "usage_complete_count": 39,
+          "median_request_seconds": 16.422
+        },
+        "D": {
+          "model_calls": 182,
+          "recorded_tokens": 1903946,
+          "usage_complete_count": 38,
+          "median_request_seconds": 45.719
+        }
+      }
+    }
+  },
+  "per_task": [
+    {
+      "task_id": "ManimCommunity/manim#1172",
+      "repo": "ManimCommunity/manim",
+      "stratum": "documentation",
+      "scores": {
+        "B": {
+          "correctness": 4,
+          "completeness": 4,
+          "actionability": 4,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "A": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 3
+        },
+        "C": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 4
+        },
+        "D": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        }
+      },
+      "prediction_ids": {
+        "B": "P0092",
+        "A": "P0094",
+        "C": "P0108",
+        "D": "P0115"
+      }
+    },
+    {
+      "task_id": "ManimCommunity/manim#1250",
+      "repo": "ManimCommunity/manim",
+      "stratum": "needs_review",
+      "scores": {
+        "C": {
+          "correctness": 2,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 2,
+          "guidance_actionability": 3
+        },
+        "A": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 3
+        },
+        "D": {
+          "correctness": 4,
+          "completeness": 4,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "B": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 3
+        }
+      },
+      "prediction_ids": {
+        "C": "P0038",
+        "A": "P0042",
+        "D": "P0122",
+        "B": "P0137"
+      }
+    },
+    {
+      "task_id": "ManimCommunity/manim#1369",
+      "repo": "ManimCommunity/manim",
+      "stratum": "feature",
+      "scores": {
+        "A": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 3
+        },
+        "D": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 3,
+          "guidance_actionability": 4
+        },
+        "B": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 4
+        },
+        "C": {
+          "correctness": 4,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 4
+        }
+      },
+      "prediction_ids": {
+        "A": "P0055",
+        "D": "P0138",
+        "B": "P0144",
+        "C": "P0153"
+      }
+    },
+    {
+      "task_id": "ManimCommunity/manim#1530",
+      "repo": "ManimCommunity/manim",
+      "stratum": "feature",
+      "scores": {
+        "C": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 3
+        },
+        "B": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 3
+        },
+        "D": {
+          "correctness": 4,
+          "completeness": 4,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "A": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 3
+        }
+      },
+      "prediction_ids": {
+        "C": "P0036",
+        "B": "P0074",
+        "D": "P0112",
+        "A": "P0124"
+      }
+    },
+    {
+      "task_id": "ManimCommunity/manim#3174",
+      "repo": "ManimCommunity/manim",
+      "stratum": "maintenance",
+      "scores": {
+        "A": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "D": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 3
+        },
+        "B": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "C": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        }
+      },
+      "prediction_ids": {
+        "A": "P0046",
+        "D": "P0061",
+        "B": "P0097",
+        "C": "P0109"
+      }
+    },
+    {
+      "task_id": "ManimCommunity/manim#365",
+      "repo": "ManimCommunity/manim",
+      "stratum": "testing",
+      "scores": {
+        "B": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "C": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 3,
+          "guidance_actionability": 3
+        },
+        "A": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 3
+        },
+        "D": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        }
+      },
+      "prediction_ids": {
+        "B": "P0029",
+        "C": "P0052",
+        "A": "P0058",
+        "D": "P0086"
+      }
+    },
+    {
+      "task_id": "ManimCommunity/manim#3713",
+      "repo": "ManimCommunity/manim",
+      "stratum": "maintenance",
+      "scores": {
+        "A": {
+          "correctness": 4,
+          "completeness": 4,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "B": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "C": {
+          "correctness": 3,
+          "completeness": 4,
+          "actionability": 3,
+          "calibration": 3,
+          "guidance_actionability": 4
+        },
+        "D": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        }
+      },
+      "prediction_ids": {
+        "A": "P0034",
+        "B": "P0059",
+        "C": "P0080",
+        "D": "P0121"
+      }
+    },
+    {
+      "task_id": "ManimCommunity/manim#866",
+      "repo": "ManimCommunity/manim",
+      "stratum": "bugfix",
+      "scores": {
+        "D": {
+          "correctness": 4,
+          "completeness": 2,
+          "actionability": 3,
+          "calibration": 3,
+          "guidance_actionability": 4
+        },
+        "C": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 3
+        },
+        "B": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 4,
+          "guidance_actionability": 3
+        },
+        "A": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 4,
+          "guidance_actionability": 3
+        }
+      },
+      "prediction_ids": {
+        "D": "P0051",
+        "C": "P0054",
+        "B": "P0123",
+        "A": "P0136"
+      }
+    },
+    {
+      "task_id": "dask/dask#1317",
+      "repo": "dask/dask",
+      "stratum": "testing",
+      "scores": {
+        "C": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "A": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "D": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "B": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 4
+        }
+      },
+      "prediction_ids": {
+        "C": "P0011",
+        "A": "P0082",
+        "D": "P0129",
+        "B": "P0132"
+      }
+    },
+    {
+      "task_id": "dask/dask#3206",
+      "repo": "dask/dask",
+      "stratum": "needs_review",
+      "scores": {
+        "B": {
+          "correctness": 4,
+          "completeness": 4,
+          "actionability": 2,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "C": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "A": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 3
+        },
+        "D": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        }
+      },
+      "prediction_ids": {
+        "B": "P0006",
+        "C": "P0064",
+        "A": "P0095",
+        "D": "P0155"
+      }
+    },
+    {
+      "task_id": "dask/dask#3657",
+      "repo": "dask/dask",
+      "stratum": "feature",
+      "scores": {
+        "A": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 3
+        },
+        "D": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "C": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 3,
+          "guidance_actionability": 4
+        },
+        "B": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 4
+        }
+      },
+      "prediction_ids": {
+        "A": "P0015",
+        "D": "P0076",
+        "C": "P0085",
+        "B": "P0106"
+      }
+    },
+    {
+      "task_id": "dask/dask#4278",
+      "repo": "dask/dask",
+      "stratum": "feature",
+      "scores": {
+        "A": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 3
+        },
+        "B": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "C": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "D": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 4
+        }
+      },
+      "prediction_ids": {
+        "A": "P0025",
+        "B": "P0040",
+        "C": "P0050",
+        "D": "P0075"
+      }
+    },
+    {
+      "task_id": "dask/dask#5069",
+      "repo": "dask/dask",
+      "stratum": "performance",
+      "scores": {
+        "C": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 2,
+          "guidance_actionability": 4
+        },
+        "A": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 3
+        },
+        "D": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 3,
+          "guidance_actionability": 4
+        },
+        "B": {
+          "correctness": 4,
+          "completeness": 4,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        }
+      },
+      "prediction_ids": {
+        "C": "P0047",
+        "A": "P0077",
+        "D": "P0084",
+        "B": "P0105"
+      }
+    },
+    {
+      "task_id": "dask/dask#6202",
+      "repo": "dask/dask",
+      "stratum": "documentation",
+      "scores": {
+        "D": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "A": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 2
+        },
+        "B": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "C": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 4
+        }
+      },
+      "prediction_ids": {
+        "D": "P0016",
+        "A": "P0090",
+        "B": "P0128",
+        "C": "P0140"
+      }
+    },
+    {
+      "task_id": "dask/dask#7823",
+      "repo": "dask/dask",
+      "stratum": "refactor",
+      "scores": {
+        "C": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 4,
+          "guidance_actionability": 3
+        },
+        "D": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "A": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 3
+        },
+        "B": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 4,
+          "guidance_actionability": 4
+        }
+      },
+      "prediction_ids": {
+        "C": "P0021",
+        "D": "P0022",
+        "A": "P0063",
+        "B": "P0067"
+      }
+    },
+    {
+      "task_id": "dask/dask#8342",
+      "repo": "dask/dask",
+      "stratum": "documentation",
+      "scores": {
+        "B": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "A": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 3
+        },
+        "C": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "D": {
+          "correctness": 4,
+          "completeness": 4,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        }
+      },
+      "prediction_ids": {
+        "B": "P0033",
+        "A": "P0056",
+        "C": "P0116",
+        "D": "P0152"
+      }
+    },
+    {
+      "task_id": "dask/dask#9166",
+      "repo": "dask/dask",
+      "stratum": "bugfix",
+      "scores": {
+        "B": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 3,
+          "guidance_actionability": 4
+        },
+        "A": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 3
+        },
+        "D": {
+          "correctness": 4,
+          "completeness": 4,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "C": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 3,
+          "guidance_actionability": 4
+        }
+      },
+      "prediction_ids": {
+        "B": "P0027",
+        "A": "P0053",
+        "D": "P0060",
+        "C": "P0133"
+      }
+    },
+    {
+      "task_id": "napari/napari#2999",
+      "repo": "napari/napari",
+      "stratum": "feature",
+      "scores": {
+        "B": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 3
+        },
+        "C": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 3
+        },
+        "A": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 3
+        },
+        "D": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 4
+        }
+      },
+      "prediction_ids": {
+        "B": "P0008",
+        "C": "P0057",
+        "A": "P0065",
+        "D": "P0156"
+      }
+    },
+    {
+      "task_id": "napari/napari#7568",
+      "repo": "napari/napari",
+      "stratum": "feature",
+      "scores": {
+        "C": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 3,
+          "guidance_actionability": 4
+        },
+        "D": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 3,
+          "guidance_actionability": 4
+        },
+        "A": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 4,
+          "guidance_actionability": 3
+        },
+        "B": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 4
+        }
+      },
+      "prediction_ids": {
+        "C": "P0028",
+        "D": "P0071",
+        "A": "P0100",
+        "B": "P0102"
+      }
+    },
+    {
+      "task_id": "napari/napari#7675",
+      "repo": "napari/napari",
+      "stratum": "feature",
+      "scores": {
+        "A": {
+          "correctness": 4,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 3
+        },
+        "B": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "C": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 3,
+          "calibration": 2,
+          "guidance_actionability": 4
+        },
+        "D": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 3,
+          "guidance_actionability": 4
+        }
+      },
+      "prediction_ids": {
+        "A": "P0030",
+        "B": "P0035",
+        "C": "P0070",
+        "D": "P0079"
+      }
+    },
+    {
+      "task_id": "napari/napari#789",
+      "repo": "napari/napari",
+      "stratum": "feature",
+      "scores": {
+        "C": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 4
+        },
+        "B": {
+          "correctness": 4,
+          "completeness": 4,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "D": {
+          "correctness": 4,
+          "completeness": 4,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "A": {
+          "correctness": 4,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 2
+        }
+      },
+      "prediction_ids": {
+        "C": "P0026",
+        "B": "P0043",
+        "D": "P0131",
+        "A": "P0135"
+      }
+    },
+    {
+      "task_id": "ray-project/ray#19155",
+      "repo": "ray-project/ray",
+      "stratum": "refactor",
+      "scores": {
+        "D": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 3
+        },
+        "B": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 3
+        },
+        "C": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 3
+        },
+        "A": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 2
+        }
+      },
+      "prediction_ids": {
+        "D": "P0012",
+        "B": "P0031",
+        "C": "P0087",
+        "A": "P0145"
+      }
+    },
+    {
+      "task_id": "ray-project/ray#25144",
+      "repo": "ray-project/ray",
+      "stratum": "needs_review",
+      "scores": {
+        "B": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 2
+        },
+        "A": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 3
+        },
+        "D": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 3
+        },
+        "C": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 3
+        }
+      },
+      "prediction_ids": {
+        "B": "P0013",
+        "A": "P0048",
+        "D": "P0081",
+        "C": "P0089"
+      }
+    },
+    {
+      "task_id": "ray-project/ray#3269",
+      "repo": "ray-project/ray",
+      "stratum": "documentation",
+      "scores": {
+        "B": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "D": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 3,
+          "guidance_actionability": 4
+        },
+        "C": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 3
+        },
+        "A": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 4,
+          "guidance_actionability": 3
+        }
+      },
+      "prediction_ids": {
+        "B": "P0037",
+        "D": "P0049",
+        "C": "P0062",
+        "A": "P0099"
+      }
+    },
+    {
+      "task_id": "ray-project/ray#49011",
+      "repo": "ray-project/ray",
+      "stratum": "feature",
+      "scores": {
+        "B": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 4,
+          "guidance_actionability": 3
+        },
+        "A": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 4,
+          "guidance_actionability": 2
+        },
+        "D": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 2
+        },
+        "C": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 3
+        }
+      },
+      "prediction_ids": {
+        "B": "P0078",
+        "A": "P0083",
+        "D": "P0104",
+        "C": "P0118"
+      }
+    },
+    {
+      "task_id": "ray-project/ray#50266",
+      "repo": "ray-project/ray",
+      "stratum": "feature",
+      "scores": {
+        "D": {
+          "correctness": 4,
+          "completeness": 4,
+          "actionability": 4,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "C": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 4
+        },
+        "A": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 4,
+          "guidance_actionability": 3
+        },
+        "B": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 3,
+          "calibration": 3,
+          "guidance_actionability": 4
+        }
+      },
+      "prediction_ids": {
+        "D": "P0009",
+        "C": "P0111",
+        "A": "P0127",
+        "B": "P0141"
+      }
+    },
+    {
+      "task_id": "ray-project/ray#58727",
+      "repo": "ray-project/ray",
+      "stratum": "testing",
+      "scores": {
+        "D": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "A": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 2
+        },
+        "B": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 3
+        },
+        "C": {
+          "correctness": 2,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 3
+        }
+      },
+      "prediction_ids": {
+        "D": "P0002",
+        "A": "P0005",
+        "B": "P0018",
+        "C": "P0019"
+      }
+    },
+    {
+      "task_id": "ray-project/ray#59729",
+      "repo": "ray-project/ray",
+      "stratum": "maintenance",
+      "scores": {
+        "D": {
+          "correctness": 4,
+          "completeness": 4,
+          "actionability": 4,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "C": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 4
+        },
+        "B": {
+          "correctness": 4,
+          "completeness": 4,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "A": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 4,
+          "guidance_actionability": 4
+        }
+      },
+      "prediction_ids": {
+        "D": "P0003",
+        "C": "P0023",
+        "B": "P0039",
+        "A": "P0088"
+      }
+    },
+    {
+      "task_id": "ray-project/ray#60421",
+      "repo": "ray-project/ray",
+      "stratum": "documentation",
+      "scores": {
+        "C": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "B": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "D": {
+          "correctness": 4,
+          "completeness": 4,
+          "actionability": 4,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "A": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 4,
+          "guidance_actionability": 4
+        }
+      },
+      "prediction_ids": {
+        "C": "P0091",
+        "B": "P0110",
+        "D": "P0134",
+        "A": "P0154"
+      }
+    },
+    {
+      "task_id": "ray-project/ray#8894",
+      "repo": "ray-project/ray",
+      "stratum": "bugfix",
+      "scores": {
+        "A": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 4
+        },
+        "D": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "B": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 4,
+          "guidance_actionability": 3
+        },
+        "C": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 4,
+          "guidance_actionability": 2
+        }
+      },
+      "prediction_ids": {
+        "A": "P0004",
+        "D": "P0014",
+        "B": "P0024",
+        "C": "P0096"
+      }
+    },
+    {
+      "task_id": "sympy/sympy#10243",
+      "repo": "sympy/sympy",
+      "stratum": "testing",
+      "scores": {
+        "A": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 3
+        },
+        "B": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 4
+        },
+        "D": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 3,
+          "guidance_actionability": 4
+        },
+        "C": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 4
+        }
+      },
+      "prediction_ids": {
+        "A": "P0066",
+        "B": "P0072",
+        "D": "P0119",
+        "C": "P0143"
+      }
+    },
+    {
+      "task_id": "sympy/sympy#10456",
+      "repo": "sympy/sympy",
+      "stratum": "documentation",
+      "scores": {
+        "C": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 3,
+          "guidance_actionability": 4
+        },
+        "B": {
+          "correctness": 4,
+          "completeness": 4,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "D": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 3,
+          "guidance_actionability": 4
+        },
+        "A": {
+          "correctness": 4,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 4,
+          "guidance_actionability": 3
+        }
+      },
+      "prediction_ids": {
+        "C": "P0073",
+        "B": "P0107",
+        "D": "P0117",
+        "A": "P0151"
+      }
+    },
+    {
+      "task_id": "sympy/sympy#12602",
+      "repo": "sympy/sympy",
+      "stratum": "performance",
+      "scores": {
+        "A": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 4,
+          "guidance_actionability": 3
+        },
+        "C": {
+          "correctness": 4,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "B": {
+          "correctness": 4,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 4
+        },
+        "D": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 3,
+          "guidance_actionability": 3
+        }
+      },
+      "prediction_ids": {
+        "A": "P0017",
+        "C": "P0069",
+        "B": "P0113",
+        "D": "P0142"
+      }
+    },
+    {
+      "task_id": "sympy/sympy#14033",
+      "repo": "sympy/sympy",
+      "stratum": "feature",
+      "scores": {
+        "A": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 4,
+          "guidance_actionability": 3
+        },
+        "B": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 3,
+          "guidance_actionability": 4
+        },
+        "D": {
+          "correctness": 4,
+          "completeness": 4,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "C": {
+          "correctness": 3,
+          "completeness": 4,
+          "actionability": 3,
+          "calibration": 3,
+          "guidance_actionability": 4
+        }
+      },
+      "prediction_ids": {
+        "A": "P0045",
+        "B": "P0148",
+        "D": "P0149",
+        "C": "P0150"
+      }
+    },
+    {
+      "task_id": "sympy/sympy#15877",
+      "repo": "sympy/sympy",
+      "stratum": "feature",
+      "scores": {
+        "B": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 3,
+          "guidance_actionability": 4
+        },
+        "D": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "A": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 2
+        },
+        "C": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 3,
+          "guidance_actionability": 4
+        }
+      },
+      "prediction_ids": {
+        "B": "P0020",
+        "D": "P0101",
+        "A": "P0125",
+        "C": "P0130"
+      }
+    },
+    {
+      "task_id": "sympy/sympy#2806",
+      "repo": "sympy/sympy",
+      "stratum": "documentation",
+      "scores": {
+        "A": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 4,
+          "guidance_actionability": 3
+        },
+        "D": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 4
+        },
+        "B": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 3,
+          "guidance_actionability": 3
+        },
+        "C": {
+          "correctness": 2,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 2,
+          "guidance_actionability": 3
+        }
+      },
+      "prediction_ids": {
+        "A": "P0103",
+        "D": "P0139",
+        "B": "P0146",
+        "C": "P0147"
+      }
+    },
+    {
+      "task_id": "sympy/sympy#5090",
+      "repo": "sympy/sympy",
+      "stratum": "bugfix",
+      "scores": {
+        "A": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 3,
+          "calibration": 3,
+          "guidance_actionability": 4
+        },
+        "C": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 2,
+          "guidance_actionability": 4
+        },
+        "B": {
+          "correctness": 4,
+          "completeness": 4,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "D": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 4
+        }
+      },
+      "prediction_ids": {
+        "A": "P0010",
+        "C": "P0041",
+        "B": "P0044",
+        "D": "P0120"
+      }
+    },
+    {
+      "task_id": "sympy/sympy#6698",
+      "repo": "sympy/sympy",
+      "stratum": "refactor",
+      "scores": {
+        "D": {
+          "correctness": 4,
+          "completeness": 4,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "A": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "B": {
+          "correctness": 4,
+          "completeness": 4,
+          "actionability": 4,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "C": {
+          "correctness": 4,
+          "completeness": 4,
+          "actionability": 4,
+          "calibration": 4,
+          "guidance_actionability": 4
+        }
+      },
+      "prediction_ids": {
+        "D": "P0007",
+        "A": "P0032",
+        "B": "P0093",
+        "C": "P0114"
+      }
+    },
+    {
+      "task_id": "sympy/sympy#9339",
+      "repo": "sympy/sympy",
+      "stratum": "needs_review",
+      "scores": {
+        "D": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "C": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 3
+        },
+        "B": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 3
+        },
+        "A": {
+          "correctness": 4,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 3
+        }
+      },
+      "prediction_ids": {
+        "D": "P0001",
+        "C": "P0068",
+        "B": "P0098",
+        "A": "P0126"
+      }
+    }
+  ]
+}

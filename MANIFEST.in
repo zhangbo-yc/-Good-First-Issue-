@@ -1,0 +1,16 @@
+include README.md RUN_GUIDE.md CONTRIBUTING.md SECURITY.md
+include requirements.in requirements.txt pyproject.toml .env.example
+include *.py *.json *.ps1
+recursive-include gfi_prototype *.py
+recursive-include tests *.py *.mjs
+recursive-include web *.html *.css *.js
+recursive-include scripts *.py *.md
+recursive-include docs *.md
+prune docs/maintenance
+prune data
+prune experiments
+prune .venv
+prune .idea
+prune output
+exclude .env
+global-exclude *.py[cod] __pycache__ *.log

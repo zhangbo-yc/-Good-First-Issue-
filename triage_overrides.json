@@ -1,0 +1,134 @@
+{
+  "sympy/sympy#13520": {
+    "record_type": "guide",
+    "match_text": "looking for some way to contribute",
+    "reason": "标签入口重定向和贡献指南，不是一项具体待解决任务。"
+  },
+  "sympy/sympy#23161": {
+    "record_type": "umbrella",
+    "match_text": "no current issues",
+    "reason": "零碎改动汇总帖，正文明确当前没有待办项。",
+    "flags": ["empty_task_list"]
+  },
+  "sympy/sympy#27888": {
+    "record_type": "umbrella",
+    "match_text": "many issues bundled together",
+    "reason": "维护者明确说明这里捆绑了多个独立问题，需要先选择具体子任务。",
+    "flags": ["needs_subtask_selection", "review_capacity_warning"]
+  },
+  "sympy/sympy#30671": {
+    "record_type": "guide",
+    "match_text": "you would be opening issues (and maybe eventually PRs?)",
+    "reason": "主要是贡献指引，并将寻找缺陷的工作引导到另一个仓库，不应作为本仓库的一项具体任务排名。",
+    "flags": ["external_repository_workflow"]
+  },
+  "napari/napari#316": {
+    "record_type": "umbrella",
+    "match_text": "keep track of datasets",
+    "reason": "候选演示数据集跟踪清单，需要先确定具体数据接入子任务。",
+    "flags": ["needs_subtask_selection"]
+  },
+  "napari/napari#5585": {
+    "record_type": "umbrella",
+    "match_text": "this issue will be automatically updated",
+    "reason": "自动更新的翻译缺失跟踪帖，需要查阅最新工作流输出才能确定当前子任务。",
+    "flags": ["recurring_tracker", "external_context_required"]
+  },
+  "dask/dask#1259": {
+    "record_type": "umbrella",
+    "match_text": "go through the API",
+    "reason": "补齐Series方法的系列工作，需先选定一个具体缺失方法。",
+    "flags": ["needs_subtask_selection"]
+  },
+  "dask/dask#3688": {
+    "record_type": "umbrella",
+    "match_text": "list of methods where the default values differ",
+    "reason": "集合API签名兼容性汇总，需要确定具体方法和参数差异。",
+    "flags": ["needs_subtask_selection", "external_context_required"]
+  },
+  "dask/dask#9187": {
+    "record_type": "umbrella",
+    "match_text": "Launch an organised effort to comb through",
+    "reason": "跨DataFrame API的差异说明协调帖，需要先选择具体API子任务。",
+    "flags": ["needs_subtask_selection"]
+  },
+  "ManimCommunity/manim#193": {
+    "record_type": "umbrella",
+    "match_text": "This issue will keep a list of tests",
+    "reason": "长期测试待办清单，不是单一测试任务。",
+    "flags": ["needs_subtask_selection"]
+  },
+  "ManimCommunity/manim#5032": {
+    "record_type": "umbrella",
+    "match_text": "spread this over multiple PRs",
+    "reason": "跨仓库配置访问写法迁移，正文明确建议拆分多个PR。",
+    "flags": ["needs_subtask_selection"]
+  },
+  "ManimCommunity/manim#3622": {
+    "record_type": "umbrella",
+    "match_text": "I propose using Ruff",
+    "comment_match_text": "Tracking PRs:",
+    "reason": "评论维护跨多个PR和lint规则的清单，需选定具体尚未完成的规则后再形成独立任务。",
+    "flags": ["needs_subtask_selection"]
+  },
+  "ray-project/ray#25044": {
+    "record_type": "umbrella",
+    "match_text": "below is a wish list by category",
+    "reason": "RLlib贡献愿望清单覆盖多个算法和功能，不是一条具体修改任务。",
+    "flags": ["needs_subtask_selection"]
+  },
+  "ray-project/ray#50583": {
+    "record_type": "umbrella",
+    "match_text": "folder by folder",
+    "reason": "按C++目录逐步加入cpplint的系列工作，需要先选定目录。",
+    "flags": ["needs_subtask_selection"]
+  },
+  "ray-project/ray#50586": {
+    "record_type": "umbrella",
+    "match_text": "The task could be broken down into smaller pieces",
+    "reason": "多个Bazel目标拆分及指派清单，正文明确可以拆为子任务。",
+    "flags": ["needs_subtask_selection"]
+  },
+  "ray-project/ray#50718": {
+    "record_type": "umbrella",
+    "match_text": "This issue could be split into multiple sub-issues",
+    "reason": "多组C++ mock目录依赖整理清单，虽然已关闭，仍按汇总帖保留而不作为单个任务。",
+    "flags": ["needs_subtask_selection"]
+  },
+  "ray-project/ray#51442": {
+    "record_type": "umbrella",
+    "match_text": "[Umbrella] Revisit Ray dashboard API status code",
+    "reason": "标题明确是Dashboard多个API状态码检查的Umbrella任务。",
+    "flags": ["needs_subtask_selection"]
+  },
+  "ray-project/ray#51969": {
+    "record_type": "umbrella",
+    "match_text": "Place bazel targets into separate directories",
+    "reason": "按不同Bazel包与目标逐项迁移的多任务跟踪清单。",
+    "flags": ["needs_subtask_selection"]
+  },
+  "ray-project/ray#52314": {
+    "record_type": "umbrella",
+    "match_text": "[Umbrella][core] Add context information for all C++ logs",
+    "reason": "所有C++日志上下文迁移涉及多个位置，标题明确为Umbrella。",
+    "flags": ["needs_subtask_selection"]
+  },
+  "ray-project/ray#52536": {
+    "record_type": "umbrella",
+    "match_text": "Documentation code coverage",
+    "reason": "多个文档页doctest恢复清单，保留历史汇总身份，不当作单个具体任务。",
+    "flags": ["needs_subtask_selection"]
+  },
+  "ray-project/ray#58674": {
+    "record_type": "umbrella",
+    "match_text": "completing the namespace system",
+    "reason": "多个Ray Data表达式命名空间及大量函数的扩展路线，需要选择具体API子任务。",
+    "flags": ["needs_subtask_selection"]
+  },
+  "napari/napari#7991": {
+    "record_type": "umbrella",
+    "match_text": "As a community, let's work to update and improve our examples",
+    "reason": "示例库改进的 Meta 帖，需选择具体示例后才能形成可接手任务。",
+    "flags": ["needs_subtask_selection"]
+  }
+}

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#6258d6">
+  <meta name="description" content="用固定源码证据和自适应检索，帮助科研软件新手读懂开源任务。">
+  <title>开源起点 · 科研软件任务证据导读</title>
+  <link rel="stylesheet" href="/app.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#/projects" aria-label="开源起点首页"><span class="brand-mark" aria-hidden="true">&lt;·&gt;</span><span>开源起点<small>从读懂一个任务开始</small></span></a>
+      <nav aria-label="主导航"><a href="#/projects" data-nav="projects">发现项目</a><a href="#/tasks" data-nav="tasks">全部任务</a><a href="#/method" data-nav="method">研究方法</a></nav>
+      <button class="connection-button" id="settings-open" type="button"><span class="connection-dot" aria-hidden="true"></span><span id="connection-label">助手设置</span></button>
+    </div>
+  </header>
+  <main id="main" class="main" tabindex="-1"><div class="loading" role="status">正在整理项目入口…</div></main>
+  <footer class="site-footer"><span class="footer-brand">开源起点</span><span>先理解问题，再写下第一行贡献。</span><a href="#/projects">浏览项目</a></footer>
+  <dialog id="settings-dialog" class="settings-dialog" aria-labelledby="settings-title">
+    <form id="settings-form">
+      <div class="dialog-heading"><div><h2 id="settings-title">助手连接设置</h2><p>选择当前会话中的回答方式</p></div><button type="button" class="icon-button" data-close-settings aria-label="关闭设置">×</button></div>
+      <div class="setting-option"><label><input type="radio" name="mode" value="local"> <strong>资料助手</strong></label><p>依据当前任务的已有材料，整理目标、技术与阅读入口。</p></div>
+      <div class="setting-option"><label><input type="radio" name="mode" value="model"> <strong>模型助手</strong></label><p>围绕当前任务自由追问；使用服务器连接或会话内密钥。</p></div>
+      <p class="connection-status" id="server-status" role="status"></p>
+      <label class="field-label" for="api-key">会话 API Key <span>可选</span></label><input id="api-key" class="text-input" type="password" autocomplete="off" spellcheck="false" maxlength="512" placeholder="服务器已配置时，无需填写">
+      <p class="field-help">密钥仅保留在当前页面内存中，刷新即清除。也可由服务器的 .env 配置。</p>
+      <p id="settings-message" class="form-error" role="alert"></p>
+      <div class="dialog-actions"><button type="button" class="button secondary" id="forget-key">清除会话密钥</button><button type="submit" class="button primary">保存设置</button></div>
+    </form>
+  </dialog>
+  <dialog id="assistant-dialog" class="assistant-dialog" aria-labelledby="assistant-title">
+    <div class="assistant-shell">
+      <div class="assistant-header"><div class="assistant-heading"><span class="assistant-symbol" aria-hidden="true">✳</span><div><h2 id="assistant-title">任务助手</h2><p id="assistant-mode-label">资料助手</p></div></div><button type="button" class="icon-button" id="assistant-close" aria-label="关闭任务助手">×</button></div>
+      <div class="assistant-context"><span>正在讨论</span><strong id="assistant-task-title"></strong><button type="button" class="text-button" id="assistant-settings">连接设置</button></div>
+      <div id="chat-log" class="chat-log" role="log" aria-label="任务对话" aria-live="polite" aria-relevant="additions"></div>
+      <div class="chat-bottom"><div class="chat-suggestions" id="chat-suggestions"><button type="button" data-question="这个任务需要哪些技术基础？">需要哪些基础？</button><button type="button" data-question="我该如何开始并验证这个任务？">从哪里开始？</button><button type="button" data-question="有哪些相关任务值得继续探索？">接着探索什么？</button></div><p id="chat-error" class="form-error" role="alert"></p><div class="chat-tools"><button type="button" class="text-button" id="chat-clear">清空对话</button><button type="button" class="text-button" id="chat-retry" hidden>重新回答</button><button type="button" class="text-button" id="chat-cancel" hidden>停止回答</button></div><form id="chat-form"><label class="sr-only" for="chat-question">向任务助手提问</label><textarea id="chat-question" rows="2" maxlength="2000" placeholder="关于这个任务，你想了解什么？"></textarea><button type="submit" class="button primary" id="chat-send">发送</button></form><p class="chat-hint">Enter 发送 · Shift + Enter 换行</p></div>
+    </div>
+  </dialog>
+  <div class="toast" id="toast" role="status" hidden></div>
+</body>
+</html>

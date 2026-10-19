@@ -1,0 +1,2715 @@
+{
+  "created_at": "2026-10-19T06:44:47.683500+00:00",
+  "scope": "posthoc_complete_case_analysis_not_all_planned_tasks",
+  "planned_tasks": 39,
+  "complete_tasks": 34,
+  "answer_count": 102,
+  "excluded_tasks": [
+    {
+      "task_id": "ManimCommunity/manim#3174",
+      "methods": {
+        "R": {
+          "status": "not_generated",
+          "errors": []
+        },
+        "S": {
+          "status": "not_generated",
+          "errors": []
+        },
+        "D": {
+          "status": "failed",
+          "errors": [
+            {
+              "round": 0,
+              "error_type": "ValueError",
+              "http_status": null,
+              "budget_reason": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "task_id": "ray-project/ray#25144",
+      "methods": {
+        "R": {
+          "status": "not_generated",
+          "errors": []
+        },
+        "S": {
+          "status": "not_generated",
+          "errors": []
+        },
+        "D": {
+          "status": "failed",
+          "errors": [
+            {
+              "round": 2,
+              "error_type": "ValueError",
+              "http_status": null,
+              "budget_reason": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "task_id": "ray-project/ray#59729",
+      "methods": {
+        "R": {
+          "status": "not_generated",
+          "errors": []
+        },
+        "S": {
+          "status": "not_generated",
+          "errors": []
+        },
+        "D": {
+          "status": "failed",
+          "errors": [
+            {
+              "round": 0,
+              "error_type": "ValueError",
+              "http_status": null,
+              "budget_reason": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "task_id": "ray-project/ray#60421",
+      "methods": {
+        "R": {
+          "status": "not_generated",
+          "errors": []
+        },
+        "S": {
+          "status": "not_generated",
+          "errors": []
+        },
+        "D": {
+          "status": "failed",
+          "errors": [
+            {
+              "round": 0,
+              "error_type": "ValueError",
+              "http_status": null,
+              "budget_reason": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "task_id": "sympy/sympy#15877",
+      "methods": {
+        "R": {
+          "status": "not_generated",
+          "errors": []
+        },
+        "S": {
+          "status": "not_generated",
+          "errors": []
+        },
+        "D": {
+          "status": "failed",
+          "errors": [
+            {
+              "round": 0,
+              "error_type": "ValueError",
+              "http_status": null,
+              "budget_reason": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "averages": {
+    "R": {
+      "correctness": 3.4411764705882355,
+      "completeness": 2.911764705882353,
+      "actionability": 2.4411764705882355,
+      "calibration": 3.5294117647058822,
+      "guidance_actionability": 3.676470588235294
+    },
+    "S": {
+      "correctness": 3.411764705882353,
+      "completeness": 2.764705882352941,
+      "actionability": 2.5588235294117645,
+      "calibration": 3.3529411764705883,
+      "guidance_actionability": 3.764705882352941
+    },
+    "D": {
+      "correctness": 3.4705882352941178,
+      "completeness": 2.911764705882353,
+      "actionability": 2.676470588235294,
+      "calibration": 3.5294117647058822,
+      "guidance_actionability": 3.764705882352941
+    }
+  },
+  "comparisons": {
+    "all": {
+      "R": {
+        "n": 34,
+        "mean_difference": 0.23529411764705882,
+        "difference_sum": 8,
+        "wins": 7,
+        "ties": 26,
+        "losses": 1,
+        "missing_pairs": 0
+      },
+      "S": {
+        "n": 34,
+        "mean_difference": 0.11764705882352941,
+        "difference_sum": 4,
+        "wins": 8,
+        "ties": 21,
+        "losses": 5,
+        "missing_pairs": 0
+      }
+    },
+    "no_failed_attempts": {
+      "R": {
+        "n": 30,
+        "mean_difference": 0.2,
+        "difference_sum": 6,
+        "wins": 5,
+        "ties": 24,
+        "losses": 1,
+        "missing_pairs": 0
+      },
+      "S": {
+        "n": 30,
+        "mean_difference": 0.06666666666666667,
+        "difference_sum": 2,
+        "wins": 6,
+        "ties": 19,
+        "losses": 5,
+        "missing_pairs": 0
+      }
+    },
+    "one_round": {
+      "R": {
+        "n": 12,
+        "mean_difference": 0,
+        "difference_sum": 0,
+        "wins": 0,
+        "ties": 12,
+        "losses": 0,
+        "missing_pairs": 0
+      },
+      "S": {
+        "n": 12,
+        "mean_difference": 0,
+        "difference_sum": 0,
+        "wins": 0,
+        "ties": 12,
+        "losses": 0,
+        "missing_pairs": 0
+      }
+    },
+    "additional_rounds": {
+      "R": {
+        "n": 22,
+        "mean_difference": 0.36363636363636365,
+        "difference_sum": 8,
+        "wins": 7,
+        "ties": 14,
+        "losses": 1,
+        "missing_pairs": 0
+      },
+      "S": {
+        "n": 22,
+        "mean_difference": 0.18181818181818182,
+        "difference_sum": 4,
+        "wins": 8,
+        "ties": 9,
+        "losses": 5,
+        "missing_pairs": 0
+      }
+    }
+  },
+  "subsets": {
+    "all": [
+      "ManimCommunity/manim#1172",
+      "ManimCommunity/manim#1250",
+      "ManimCommunity/manim#1369",
+      "ManimCommunity/manim#1530",
+      "ManimCommunity/manim#365",
+      "ManimCommunity/manim#3713",
+      "ManimCommunity/manim#866",
+      "dask/dask#1317",
+      "dask/dask#3206",
+      "dask/dask#3657",
+      "dask/dask#4278",
+      "dask/dask#5069",
+      "dask/dask#6202",
+      "dask/dask#7823",
+      "dask/dask#8342",
+      "dask/dask#9166",
+      "napari/napari#2999",
+      "napari/napari#7568",
+      "napari/napari#7675",
+      "napari/napari#789",
+      "ray-project/ray#19155",
+      "ray-project/ray#3269",
+      "ray-project/ray#49011",
+      "ray-project/ray#50266",
+      "ray-project/ray#58727",
+      "ray-project/ray#8894",
+      "sympy/sympy#10243",
+      "sympy/sympy#10456",
+      "sympy/sympy#12602",
+      "sympy/sympy#14033",
+      "sympy/sympy#2806",
+      "sympy/sympy#5090",
+      "sympy/sympy#6698",
+      "sympy/sympy#9339"
+    ],
+    "no_failed_attempts": [
+      "ManimCommunity/manim#1250",
+      "ManimCommunity/manim#1369",
+      "ManimCommunity/manim#1530",
+      "ManimCommunity/manim#365",
+      "ManimCommunity/manim#3713",
+      "ManimCommunity/manim#866",
+      "dask/dask#1317",
+      "dask/dask#3206",
+      "dask/dask#3657",
+      "dask/dask#4278",
+      "dask/dask#5069",
+      "dask/dask#6202",
+      "dask/dask#7823",
+      "dask/dask#8342",
+      "napari/napari#2999",
+      "napari/napari#7568",
+      "napari/napari#7675",
+      "napari/napari#789",
+      "ray-project/ray#19155",
+      "ray-project/ray#49011",
+      "ray-project/ray#50266",
+      "ray-project/ray#58727",
+      "ray-project/ray#8894",
+      "sympy/sympy#10243",
+      "sympy/sympy#10456",
+      "sympy/sympy#12602",
+      "sympy/sympy#14033",
+      "sympy/sympy#2806",
+      "sympy/sympy#5090",
+      "sympy/sympy#6698"
+    ],
+    "one_round": [
+      "ManimCommunity/manim#1250",
+      "ManimCommunity/manim#1530",
+      "ManimCommunity/manim#365",
+      "ManimCommunity/manim#3713",
+      "dask/dask#3206",
+      "dask/dask#3657",
+      "dask/dask#4278",
+      "dask/dask#5069",
+      "dask/dask#8342",
+      "napari/napari#7675",
+      "sympy/sympy#2806",
+      "sympy/sympy#6698"
+    ],
+    "additional_rounds": [
+      "ManimCommunity/manim#1172",
+      "ManimCommunity/manim#1369",
+      "ManimCommunity/manim#866",
+      "dask/dask#1317",
+      "dask/dask#6202",
+      "dask/dask#7823",
+      "dask/dask#9166",
+      "napari/napari#2999",
+      "napari/napari#7568",
+      "napari/napari#789",
+      "ray-project/ray#19155",
+      "ray-project/ray#3269",
+      "ray-project/ray#49011",
+      "ray-project/ray#50266",
+      "ray-project/ray#58727",
+      "ray-project/ray#8894",
+      "sympy/sympy#10243",
+      "sympy/sympy#10456",
+      "sympy/sympy#12602",
+      "sympy/sympy#14033",
+      "sympy/sympy#5090",
+      "sympy/sympy#9339"
+    ]
+  },
+  "project_comparisons": {
+    "ManimCommunity/manim": {
+      "n": 7,
+      "R": {
+        "n": 7,
+        "mean_difference": 0.42857142857142855,
+        "difference_sum": 3,
+        "wins": 2,
+        "ties": 5,
+        "losses": 0,
+        "missing_pairs": 0
+      },
+      "S": {
+        "n": 7,
+        "mean_difference": 0.5714285714285714,
+        "difference_sum": 4,
+        "wins": 3,
+        "ties": 4,
+        "losses": 0,
+        "missing_pairs": 0
+      }
+    },
+    "dask/dask": {
+      "n": 9,
+      "R": {
+        "n": 9,
+        "mean_difference": 0,
+        "difference_sum": 0,
+        "wins": 0,
+        "ties": 9,
+        "losses": 0,
+        "missing_pairs": 0
+      },
+      "S": {
+        "n": 9,
+        "mean_difference": 0,
+        "difference_sum": 0,
+        "wins": 1,
+        "ties": 7,
+        "losses": 1,
+        "missing_pairs": 0
+      }
+    },
+    "napari/napari": {
+      "n": 4,
+      "R": {
+        "n": 4,
+        "mean_difference": 0.25,
+        "difference_sum": 1,
+        "wins": 1,
+        "ties": 3,
+        "losses": 0,
+        "missing_pairs": 0
+      },
+      "S": {
+        "n": 4,
+        "mean_difference": 0,
+        "difference_sum": 0,
+        "wins": 0,
+        "ties": 4,
+        "losses": 0,
+        "missing_pairs": 0
+      }
+    },
+    "ray-project/ray": {
+      "n": 6,
+      "R": {
+        "n": 6,
+        "mean_difference": 0.5,
+        "difference_sum": 3,
+        "wins": 3,
+        "ties": 2,
+        "losses": 1,
+        "missing_pairs": 0
+      },
+      "S": {
+        "n": 6,
+        "mean_difference": 0,
+        "difference_sum": 0,
+        "wins": 2,
+        "ties": 2,
+        "losses": 2,
+        "missing_pairs": 0
+      }
+    },
+    "sympy/sympy": {
+      "n": 8,
+      "R": {
+        "n": 8,
+        "mean_difference": 0.125,
+        "difference_sum": 1,
+        "wins": 1,
+        "ties": 7,
+        "losses": 0,
+        "missing_pairs": 0
+      },
+      "S": {
+        "n": 8,
+        "mean_difference": 0,
+        "difference_sum": 0,
+        "wins": 2,
+        "ties": 4,
+        "losses": 2,
+        "missing_pairs": 0
+      }
+    }
+  },
+  "tokens": {
+    "totals": {
+      "R": 1465541,
+      "S": 1523618,
+      "D": 1566210
+    },
+    "D_over_R": 1.0686906746382394,
+    "D_over_S": 1.0279545135329198
+  },
+  "actual_generation_attempts": {
+    "model_calls": 329,
+    "recorded_tokens": 3607329,
+    "usage_complete": false,
+    "failed_calls": 22
+  },
+  "review_resources": {
+    "model_calls": 113,
+    "prompt_tokens": 2254578,
+    "completion_tokens": 580964,
+    "total_tokens": 2835542,
+    "usage_complete": false
+  },
+  "round_distribution": {
+    "3": 17,
+    "1": 12,
+    "2": 5
+  },
+  "case_rule": "strongest_D_minus_S; tie_D_minus_R_then_task_id; posthoc_illustrative_not_independent_validation",
+  "cases": {
+    "win": {
+      "task_id": "ManimCommunity/manim#1369",
+      "scores": {
+        "R": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 4,
+          "guidance_actionability": 2
+        },
+        "S": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 4
+        },
+        "D": {
+          "correctness": 4,
+          "completeness": 4,
+          "actionability": 4,
+          "calibration": 4,
+          "guidance_actionability": 4
+        }
+      },
+      "judge_summaries": {
+        "R": "主答案正确理解任务目标，技术要求和验收条件基本符合 Issue；阶段判断合理，但 R1 的语言推断未得到直接证据支持，且验收部分缺少导出检查和测试验证。原始配套指导给出了大致步骤和知识背景，但未能定位具体定义文件，且将 X024 的 Mobject get/set 兼容层列为相关文件可能误导。",
+        "S": "主答案对 goal、stage 和验收条件的判断总体正确，stage 没有误用 Issue 生命周期信息，unknowns 也合理表达了材料不足。但 requirements 完全为空，任务所需知识/技术未展开，且验收条件缺少对现有测试回归的明确覆盖，因此完整性和可操作性中等；校准较好，没有无依据推断。原始配套指导较为充分，给出了读 Issue、查历史变更、理解弃用工具、检索符号、删除后运行测试等可执行步骤，并说明了所需背景和范围，作为辅助入手材料指导性较强。",
+        "D": "主答案质量：目标明确且与Issue和changelog一致，阶段判断合理，所需知识域和验收条件具体有据，unknowns详细列举了缺失信息，整体正确性和可操作性高，没有遗漏关键点。原始配套指导：提供了清晰的入手步骤、知识背景、相关文件和测试建议，指导性强；但作为未经核查的辅助内容，不能替代最终结论，且个别关联文件（如mobject.py）并非核心，但不影响整体指导价值。"
+      },
+      "methods": {
+        "R": {
+          "rounds": 3,
+          "stop_reason": "matched_call_schedule_complete",
+          "retained_technologies": [
+            "Python",
+            "Manim TeX Mobjects (Tex/MathTex)"
+          ],
+          "acceptance": [
+            {
+              "text": "TexMobject 与 TextMobject 的兼容层及弃用警告被移除，这两个名称不再可用。",
+              "evidence_ids": [
+                "I1",
+                "E1"
+              ],
+              "basis": "explicit"
+            }
+          ],
+          "withheld": [
+            "technology:2",
+            "acceptance:1",
+            "acceptance:2"
+          ]
+        },
+        "S": {
+          "rounds": 3,
+          "stop_reason": "matched_call_schedule_complete",
+          "retained_technologies": [],
+          "acceptance": [
+            {
+              "text": "仓库中不再定义或导出 TexMobject 与 TextMobject 兼容层，导入这两个名称应失败。",
+              "evidence_ids": [
+                "I1",
+                "E1"
+              ],
+              "basis": "explicit"
+            },
+            {
+              "text": "与这两个名称相关的弃用警告代码被一并移除，不再产生对应 DeprecationWarning。",
+              "evidence_ids": [
+                "I1"
+              ],
+              "basis": "explicit"
+            },
+            {
+              "text": "文档或变更记录中说明用户应改用 Tex 或 MathTex。",
+              "evidence_ids": [
+                "E1",
+                "E3"
+              ],
+              "basis": "inferred"
+            }
+          ],
+          "withheld": [
+            "technology:0",
+            "technology:1",
+            "technology:2",
+            "acceptance:2"
+          ]
+        },
+        "D": {
+          "rounds": 3,
+          "stop_reason": "supplement_round_limit",
+          "retained_technologies": [
+            "Manim TeX mobject 体系（Tex/MathTex/SingleStringMathTex）",
+            "manim 弃用工具（deprecated 装饰器等）"
+          ],
+          "acceptance": [
+            {
+              "text": "TexMobject 与 TextMobject 的弃用兼容层被移除，代码中不再保留这两个类的定义。",
+              "evidence_ids": [
+                "I1",
+                "E1"
+              ],
+              "basis": "explicit"
+            },
+            {
+              "text": "用户应改用 Tex 或 MathTex 作为替代。",
+              "evidence_ids": [
+                "E1",
+                "E3"
+              ],
+              "basis": "explicit"
+            },
+            {
+              "text": "Tex、MathTex、SingleStringMathTex 的现有测试仍应通过，证明替代类未受影响。",
+              "evidence_ids": [
+                "E9",
+                "E12"
+              ],
+              "basis": "inferred"
+            }
+          ],
+          "withheld": [
+            "technology:0",
+            "technology:1",
+            "acceptance:3"
+          ]
+        }
+      },
+      "D_trace": [
+        {
+          "round": 0,
+          "retrieval": {
+            "queries": [
+              "grep -R \"TexMobject\\|TextMobject\" manim tests docs",
+              "tests/module/test_tex.py Tex MathTex import pytest"
+            ],
+            "added_evidence_ids": [
+              "E9",
+              "E10",
+              "E11",
+              "E12"
+            ]
+          },
+          "evidence": [
+            {
+              "id": "E8",
+              "path": "tests/module/utils/test_deprecation.py",
+              "start_line": 181,
+              "end_line": 260
+            },
+            {
+              "id": "E1",
+              "path": "docs/source/changelog/0.6.0-changelog.rst",
+              "start_line": 61,
+              "end_line": 140
+            },
+            {
+              "id": "E2",
+              "path": "docs/source/changelog/0.15.0-changelog.rst",
+              "start_line": 61,
+              "end_line": 140
+            },
+            {
+              "id": "E3",
+              "path": "docs/source/changelog/0.6.0-changelog.rst",
+              "start_line": 121,
+              "end_line": 200
+            },
+            {
+              "id": "E4",
+              "path": "manim/mobject/mobject.py",
+              "start_line": 781,
+              "end_line": 860
+            },
+            {
+              "id": "E5",
+              "path": "docs/source/changelog/0.1.0-changelog.rst",
+              "start_line": 61,
+              "end_line": 118
+            },
+            {
+              "id": "E6",
+              "path": "docs/source/changelog/0.8.0-changelog.rst",
+              "start_line": 61,
+              "end_line": 140
+            },
+            {
+              "id": "E7",
+              "path": "docs/source/changelog/0.1.0-changelog.rst",
+              "start_line": 1,
+              "end_line": 80
+            }
+          ]
+        },
+        {
+          "round": 1,
+          "retrieval": {
+            "queries": [
+              "pytest tests/module/mobject/text/test_texmobject.py tests/opengl/test_texmobject_opengl.py",
+              "grep -R \"TexMobject\\|TextMobject\" manim docs tests examples"
+            ],
+            "added_evidence_ids": [
+              "E13",
+              "E14",
+              "E15",
+              "E16"
+            ]
+          },
+          "evidence": [
+            {
+              "id": "E9",
+              "path": "tests/module/mobject/text/test_texmobject.py",
+              "start_line": 1,
+              "end_line": 80
+            },
+            {
+              "id": "E10",
+              "path": "tests/module/mobject/text/test_texmobject.py",
+              "start_line": 61,
+              "end_line": 140
+            },
+            {
+              "id": "E11",
+              "path": "tests/opengl/test_texmobject_opengl.py",
+              "start_line": 61,
+              "end_line": 110
+            },
+            {
+              "id": "E12",
+              "path": "tests/opengl/test_texmobject_opengl.py",
+              "start_line": 1,
+              "end_line": 80
+            },
+            {
+              "id": "E8",
+              "path": "tests/module/utils/test_deprecation.py",
+              "start_line": 181,
+              "end_line": 260
+            },
+            {
+              "id": "E1",
+              "path": "docs/source/changelog/0.6.0-changelog.rst",
+              "start_line": 61,
+              "end_line": 140
+            },
+            {
+              "id": "E2",
+              "path": "docs/source/changelog/0.15.0-changelog.rst",
+              "start_line": 61,
+              "end_line": 140
+            },
+            {
+              "id": "E3",
+              "path": "docs/source/changelog/0.6.0-changelog.rst",
+              "start_line": 121,
+              "end_line": 200
+            },
+            {
+              "id": "E4",
+              "path": "manim/mobject/mobject.py",
+              "start_line": 781,
+              "end_line": 860
+            },
+            {
+              "id": "E5",
+              "path": "docs/source/changelog/0.1.0-changelog.rst",
+              "start_line": 61,
+              "end_line": 118
+            },
+            {
+              "id": "E6",
+              "path": "docs/source/changelog/0.8.0-changelog.rst",
+              "start_line": 61,
+              "end_line": 140
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "retrieval": null,
+          "evidence": [
+            {
+              "id": "E13",
+              "path": "tests/module/mobject/text/test_texmobject.py",
+              "start_line": 301,
+              "end_line": 357
+            },
+            {
+              "id": "E14",
+              "path": "tests/conftest.py",
+              "start_line": 61,
+              "end_line": 127
+            },
+            {
+              "id": "E15",
+              "path": "tests/module/animation/test_creation.py",
+              "start_line": 1,
+              "end_line": 34
+            },
+            {
+              "id": "E16",
+              "path": "tests/module/mobject/text/test_code_mobject.py",
+              "start_line": 241,
+              "end_line": 248
+            },
+            {
+              "id": "E9",
+              "path": "tests/module/mobject/text/test_texmobject.py",
+              "start_line": 1,
+              "end_line": 80
+            },
+            {
+              "id": "E10",
+              "path": "tests/module/mobject/text/test_texmobject.py",
+              "start_line": 61,
+              "end_line": 140
+            },
+            {
+              "id": "E11",
+              "path": "tests/opengl/test_texmobject_opengl.py",
+              "start_line": 61,
+              "end_line": 110
+            },
+            {
+              "id": "E12",
+              "path": "tests/opengl/test_texmobject_opengl.py",
+              "start_line": 1,
+              "end_line": 80
+            },
+            {
+              "id": "E8",
+              "path": "tests/module/utils/test_deprecation.py",
+              "start_line": 181,
+              "end_line": 260
+            },
+            {
+              "id": "E1",
+              "path": "docs/source/changelog/0.6.0-changelog.rst",
+              "start_line": 61,
+              "end_line": 140
+            },
+            {
+              "id": "E2",
+              "path": "docs/source/changelog/0.15.0-changelog.rst",
+              "start_line": 61,
+              "end_line": 140
+            },
+            {
+              "id": "E3",
+              "path": "docs/source/changelog/0.6.0-changelog.rst",
+              "start_line": 121,
+              "end_line": 200
+            },
+            {
+              "id": "E4",
+              "path": "manim/mobject/mobject.py",
+              "start_line": 781,
+              "end_line": 860
+            }
+          ]
+        }
+      ]
+    },
+    "loss": {
+      "task_id": "ray-project/ray#49011",
+      "scores": {
+        "D": {
+          "correctness": 3,
+          "completeness": 1,
+          "actionability": 1,
+          "calibration": 3,
+          "guidance_actionability": 3
+        },
+        "R": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 3
+        },
+        "S": {
+          "correctness": 4,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 4
+        }
+      },
+      "judge_summaries": {
+        "R": "主答案准确识别了 Issue 的目标和核心验收条件（显示最后加载时间、可选手动刷新），stage 暂缓判断合理，未知项也大多基于证据包确实缺少前端代码和刷新逻辑。不足之处是 requirements 仅列出 Ray Dashboard，没有纳入数据刷新机制和现有 TTL/stale 模式等关键技术知识，完整性有限。original_guidance 给出了较清晰的入手步骤和文件定位建议，但对 autoscaler TTL 与 Dashboard 的关联已做了适当提示，且将 Serve 的 test_columnar.py 列为相关测试略显牵强。",
+        "S": "主答案的目标和验收标准与 Issue 高度一致，两个 requirements 也基本合理，stage 判断虽有推断但未出现明显错误；但 requirements 覆盖不够全面，遗漏了刷新间隔、staleness 处理模式等关键知识，导致 completeness 和 actionability 偏低。original_guidance 提供了清晰的文件定位、测试路径和入手步骤，指导性很强，有助于新手进入任务。",
+        "D": "主答案准确抓住了 issue 的核心目标：显示最后加载时间并可能增加手动刷新。stage 采用信息不足并暂缓是合理的，避免了无依据推断。但主答案的 requirements 仅列出 Ray Dashboard 和 aiohttp 两个技术域，内容过薄；acceptance 只包含一条直接验收条件和一条建议，缺少手动刷新的选项、视图范围、自动/手动刷新共存、前端实现位置等关键点，完整性和可操作性较差。校准方面较好，列出了大量 unknown 并避免过度断言，但 C2 作为建议仍被放在 acceptance 中稍有不妥。原始配套指导给出了具体文件、测试和本地观察步骤，对入手有帮助，但同样未覆盖前端代码和刷新机制的具体实现。"
+      },
+      "methods": {
+        "R": {
+          "rounds": 3,
+          "stop_reason": "matched_call_schedule_complete",
+          "retained_technologies": [
+            "Ray Dashboard"
+          ],
+          "acceptance": [
+            {
+              "text": "Dashboard 视图中能看到所展示数据的最后加载时间。",
+              "evidence_ids": [
+                "I1"
+              ],
+              "basis": "explicit"
+            },
+            {
+              "text": "提供手动刷新数据的按钮（Issue 以“perhaps”表述，属期望而非硬性要求）。",
+              "evidence_ids": [
+                "I1"
+              ],
+              "basis": "explicit"
+            },
+            {
+              "text": "建议：最后加载时间应随数据重新拉取而更新，能反映数据是否陈旧。",
+              "evidence_ids": [
+                "I1",
+                "E2"
+              ],
+              "basis": "inferred"
+            },
+            {
+              "text": "建议：刷新操作应触发对应视图数据重新加载，且不破坏现有视图展示。",
+              "evidence_ids": [
+                "I1",
+                "E5"
+              ],
+              "basis": "inferred"
+            }
+          ],
+          "withheld": [
+            "technology:1",
+            "stage"
+          ]
+        },
+        "S": {
+          "rounds": 3,
+          "stop_reason": "matched_call_schedule_complete",
+          "retained_technologies": [
+            "Ray Dashboard",
+            "Python asyncio"
+          ],
+          "acceptance": [
+            {
+              "text": "Dashboard UI 能显示所展示数据的最后加载时间，使用户可判断视图是否陈旧。",
+              "evidence_ids": [
+                "I1"
+              ],
+              "basis": "explicit"
+            },
+            {
+              "text": "提供手动刷新数据的按钮（Issue 以“perhaps”表述，属期望但非强制）。",
+              "evidence_ids": [
+                "I1"
+              ],
+              "basis": "explicit"
+            }
+          ],
+          "withheld": [
+            "technology:2",
+            "acceptance:2",
+            "acceptance:3"
+          ]
+        },
+        "D": {
+          "rounds": 3,
+          "stop_reason": "supplement_round_limit",
+          "retained_technologies": [
+            "Ray Dashboard",
+            "aiohttp"
+          ],
+          "acceptance": [
+            {
+              "text": "Dashboard UI 能显示所展示数据的最后加载时间。",
+              "evidence_ids": [
+                "I1"
+              ],
+              "basis": "explicit"
+            },
+            {
+              "text": "建议：最后加载时间应基于后端返回的时间戳而非仅前端本地时间，以保证陈旧度语义一致。",
+              "evidence_ids": [
+                "I1",
+                "E15"
+              ],
+              "basis": "inferred"
+            }
+          ],
+          "withheld": [
+            "technology:2",
+            "stage",
+            "acceptance:1",
+            "acceptance:3"
+          ]
+        }
+      },
+      "D_trace": [
+        {
+          "round": 0,
+          "retrieval": {
+            "queries": [
+              "dashboard head python/ray/dashboard/ dashboard_agent.py data_fetch",
+              "last_loaded_timestamp staleness dashboard data fetch TTL",
+              "dashboard client src pages overview data fetch lastUpdated refresh button"
+            ],
+            "added_evidence_ids": [
+              "E9",
+              "E10",
+              "E11",
+              "E12"
+            ]
+          },
+          "evidence": [
+            {
+              "id": "E8",
+              "path": "python/ray/serve/tests/unit/test_columnar.py",
+              "start_line": 661,
+              "end_line": 740
+            },
+            {
+              "id": "E1",
+              "path": "python/ray/autoscaler/_private/node_provider_availability_tracker.py",
+              "start_line": 1,
+              "end_line": 80
+            },
+            {
+              "id": "E2",
+              "path": "python/ray/autoscaler/_private/node_provider_availability_tracker.py",
+              "start_line": 61,
+              "end_line": 140
+            },
+            {
+              "id": "E3",
+              "path": "doc/source/ray-observability/user-guides/debug-apps/debug-hangs.md",
+              "start_line": 1,
+              "end_line": 45
+            },
+            {
+              "id": "E4",
+              "path": "python/ray/_private/worker.py",
+              "start_line": 1261,
+              "end_line": 1340
+            },
+            {
+              "id": "E5",
+              "path": "doc/source/ray-observability/getting-started.md",
+              "start_line": 301,
+              "end_line": 380
+            },
+            {
+              "id": "E6",
+              "path": "doc/source/ray-observability/user-guides/debug-apps/optimize-performance.md",
+              "start_line": 1,
+              "end_line": 80
+            },
+            {
+              "id": "E7",
+              "path": "python/ray/_private/worker.py",
+              "start_line": 1321,
+              "end_line": 1400
+            }
+          ]
+        },
+        {
+          "round": 1,
+          "retrieval": {
+            "queries": [
+              "python/ray/dashboard 前端数据获取 API、last updated timestamp、dashboard client fetch",
+              "dashboard client fetch data refresh interval、dashboard frontend src、last updated timestamp",
+              "dashboard test last updated timestamp refresh button pytest"
+            ],
+            "added_evidence_ids": [
+              "E13",
+              "E14",
+              "E15",
+              "E16"
+            ]
+          },
+          "evidence": [
+            {
+              "id": "E9",
+              "path": "python/ray/dashboard/modules/job/tests/test_job_agent.py",
+              "start_line": 481,
+              "end_line": 560
+            },
+            {
+              "id": "E10",
+              "path": "python/ray/dashboard/modules/aggregator/tests/test_aggregator_agent.py",
+              "start_line": 121,
+              "end_line": 200
+            },
+            {
+              "id": "E11",
+              "path": "python/ray/dashboard/modules/aggregator/tests/test_aggregator_agent.py",
+              "start_line": 181,
+              "end_line": 260
+            },
+            {
+              "id": "E12",
+              "path": "doc/source/kuberay/troubleshooting/rayservice-troubleshooting.md",
+              "start_line": 121,
+              "end_line": 200
+            },
+            {
+              "id": "E8",
+              "path": "python/ray/serve/tests/unit/test_columnar.py",
+              "start_line": 661,
+              "end_line": 740
+            },
+            {
+              "id": "E1",
+              "path": "python/ray/autoscaler/_private/node_provider_availability_tracker.py",
+              "start_line": 1,
+              "end_line": 80
+            },
+            {
+              "id": "E2",
+              "path": "python/ray/autoscaler/_private/node_provider_availability_tracker.py",
+              "start_line": 61,
+              "end_line": 140
+            },
+            {
+              "id": "E3",
+              "path": "doc/source/ray-observability/user-guides/debug-apps/debug-hangs.md",
+              "start_line": 1,
+              "end_line": 45
+            },
+            {
+              "id": "E4",
+              "path": "python/ray/_private/worker.py",
+              "start_line": 1261,
+              "end_line": 1340
+            },
+            {
+              "id": "E5",
+              "path": "doc/source/ray-observability/getting-started.md",
+              "start_line": 301,
+              "end_line": 380
+            },
+            {
+              "id": "E7",
+              "path": "python/ray/_private/worker.py",
+              "start_line": 1321,
+              "end_line": 1400
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "retrieval": null,
+          "evidence": [
+            {
+              "id": "E13",
+              "path": "python/ray/dashboard/modules/platform_events/tests/test_k8s_provider.py",
+              "start_line": 1,
+              "end_line": 80
+            },
+            {
+              "id": "E14",
+              "path": "python/ray/data/_internal/block_batching/iter_batches.py",
+              "start_line": 121,
+              "end_line": 200
+            },
+            {
+              "id": "E15",
+              "path": "python/ray/dashboard/modules/job/job_head.py",
+              "start_line": 721,
+              "end_line": 793
+            },
+            {
+              "id": "E16",
+              "path": "release/train_tests/benchmark/image_classification/jpeg/jpeg_iterable_dataset.py",
+              "start_line": 61,
+              "end_line": 140
+            },
+            {
+              "id": "E9",
+              "path": "python/ray/dashboard/modules/job/tests/test_job_agent.py",
+              "start_line": 481,
+              "end_line": 560
+            },
+            {
+              "id": "E10",
+              "path": "python/ray/dashboard/modules/aggregator/tests/test_aggregator_agent.py",
+              "start_line": 121,
+              "end_line": 200
+            },
+            {
+              "id": "E11",
+              "path": "python/ray/dashboard/modules/aggregator/tests/test_aggregator_agent.py",
+              "start_line": 181,
+              "end_line": 260
+            },
+            {
+              "id": "E12",
+              "path": "doc/source/kuberay/troubleshooting/rayservice-troubleshooting.md",
+              "start_line": 121,
+              "end_line": 200
+            },
+            {
+              "id": "E8",
+              "path": "python/ray/serve/tests/unit/test_columnar.py",
+              "start_line": 661,
+              "end_line": 740
+            },
+            {
+              "id": "E1",
+              "path": "python/ray/autoscaler/_private/node_provider_availability_tracker.py",
+              "start_line": 1,
+              "end_line": 80
+            },
+            {
+              "id": "E2",
+              "path": "python/ray/autoscaler/_private/node_provider_availability_tracker.py",
+              "start_line": 61,
+              "end_line": 140
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "frontend_scope": {
+    "commit": "3235a8e1e84de7c7fde217553c83e3c38d8560fe",
+    "frontend_js_ts_files": 214,
+    "indexed_suffixes": [
+      ".ini",
+      ".md",
+      ".py",
+      ".rst",
+      ".toml",
+      ".txt",
+      ".yaml",
+      ".yml"
+    ],
+    "frontend_suffixes_excluded": true
+  },
+  "per_task": {
+    "ManimCommunity/manim#1172": {
+      "scores": {
+        "D": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "S": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 4
+        },
+        "R": {
+          "correctness": 4,
+          "completeness": 4,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        }
+      },
+      "rounds": 3,
+      "tokens": {
+        "R": 60436,
+        "S": 63757,
+        "D": 62681
+      }
+    },
+    "ManimCommunity/manim#1250": {
+      "scores": {
+        "D": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 3,
+          "guidance_actionability": 3
+        },
+        "S": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 3,
+          "guidance_actionability": 3
+        },
+        "R": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 3,
+          "guidance_actionability": 3
+        }
+      },
+      "rounds": 1,
+      "tokens": {
+        "R": 12600,
+        "S": 12600,
+        "D": 12600
+      }
+    },
+    "ManimCommunity/manim#1369": {
+      "scores": {
+        "R": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 4,
+          "guidance_actionability": 2
+        },
+        "S": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 4
+        },
+        "D": {
+          "correctness": 4,
+          "completeness": 4,
+          "actionability": 4,
+          "calibration": 4,
+          "guidance_actionability": 4
+        }
+      },
+      "rounds": 3,
+      "tokens": {
+        "R": 63738,
+        "S": 65603,
+        "D": 72154
+      }
+    },
+    "ManimCommunity/manim#1530": {
+      "scores": {
+        "R": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 3
+        },
+        "S": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 3
+        },
+        "D": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 3
+        }
+      },
+      "rounds": 1,
+      "tokens": {
+        "R": 14137,
+        "S": 14137,
+        "D": 14137
+      }
+    },
+    "ManimCommunity/manim#365": {
+      "scores": {
+        "D": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "R": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "S": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 4,
+          "guidance_actionability": 4
+        }
+      },
+      "rounds": 1,
+      "tokens": {
+        "R": 15023,
+        "S": 15023,
+        "D": 15023
+      }
+    },
+    "ManimCommunity/manim#3713": {
+      "scores": {
+        "S": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 3
+        },
+        "D": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 3
+        },
+        "R": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 3
+        }
+      },
+      "rounds": 1,
+      "tokens": {
+        "R": 21259,
+        "S": 21259,
+        "D": 21259
+      }
+    },
+    "ManimCommunity/manim#866": {
+      "scores": {
+        "R": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 4
+        },
+        "S": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 4
+        },
+        "D": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        }
+      },
+      "rounds": 3,
+      "tokens": {
+        "R": 64116,
+        "S": 66438,
+        "D": 69850
+      }
+    },
+    "dask/dask#1317": {
+      "scores": {
+        "R": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "S": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 4
+        },
+        "D": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 3,
+          "guidance_actionability": 4
+        }
+      },
+      "rounds": 3,
+      "tokens": {
+        "R": 47403,
+        "S": 52935,
+        "D": 63634
+      }
+    },
+    "dask/dask#3206": {
+      "scores": {
+        "D": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "S": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "R": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        }
+      },
+      "rounds": 1,
+      "tokens": {
+        "R": 18411,
+        "S": 18411,
+        "D": 18411
+      }
+    },
+    "dask/dask#3657": {
+      "scores": {
+        "S": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "D": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "R": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        }
+      },
+      "rounds": 1,
+      "tokens": {
+        "R": 15806,
+        "S": 15806,
+        "D": 15806
+      }
+    },
+    "dask/dask#4278": {
+      "scores": {
+        "R": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "S": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "D": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        }
+      },
+      "rounds": 1,
+      "tokens": {
+        "R": 15382,
+        "S": 15382,
+        "D": 15382
+      }
+    },
+    "dask/dask#5069": {
+      "scores": {
+        "S": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 3,
+          "guidance_actionability": 4
+        },
+        "R": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 3,
+          "guidance_actionability": 4
+        },
+        "D": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 3,
+          "guidance_actionability": 4
+        }
+      },
+      "rounds": 1,
+      "tokens": {
+        "R": 20571,
+        "S": 20571,
+        "D": 20571
+      }
+    },
+    "dask/dask#6202": {
+      "scores": {
+        "D": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 3,
+          "guidance_actionability": 4
+        },
+        "S": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 3,
+          "guidance_actionability": 4
+        },
+        "R": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 3,
+          "guidance_actionability": 4
+        }
+      },
+      "rounds": 3,
+      "tokens": {
+        "R": 61958,
+        "S": 67916,
+        "D": 69223
+      }
+    },
+    "dask/dask#7823": {
+      "scores": {
+        "R": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 4
+        },
+        "D": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 4
+        },
+        "S": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        }
+      },
+      "rounds": 3,
+      "tokens": {
+        "R": 65643,
+        "S": 65243,
+        "D": 69041
+      }
+    },
+    "dask/dask#8342": {
+      "scores": {
+        "D": {
+          "correctness": 4,
+          "completeness": 4,
+          "actionability": 4,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "S": {
+          "correctness": 4,
+          "completeness": 4,
+          "actionability": 4,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "R": {
+          "correctness": 4,
+          "completeness": 4,
+          "actionability": 4,
+          "calibration": 4,
+          "guidance_actionability": 4
+        }
+      },
+      "rounds": 1,
+      "tokens": {
+        "R": 23123,
+        "S": 23123,
+        "D": 23123
+      }
+    },
+    "dask/dask#9166": {
+      "scores": {
+        "D": {
+          "correctness": 4,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 4
+        },
+        "R": {
+          "correctness": 4,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "S": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 4
+        }
+      },
+      "rounds": 3,
+      "tokens": {
+        "R": 68937,
+        "S": 74058,
+        "D": 73220
+      }
+    },
+    "napari/napari#2999": {
+      "scores": {
+        "S": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 4
+        },
+        "R": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 3
+        },
+        "D": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 4
+        }
+      },
+      "rounds": 3,
+      "tokens": {
+        "R": 42298,
+        "S": 47751,
+        "D": 58135
+      }
+    },
+    "napari/napari#7568": {
+      "scores": {
+        "S": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 3,
+          "guidance_actionability": 4
+        },
+        "D": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "R": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        }
+      },
+      "rounds": 3,
+      "tokens": {
+        "R": 72443,
+        "S": 78918,
+        "D": 69441
+      }
+    },
+    "napari/napari#7675": {
+      "scores": {
+        "R": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 4
+        },
+        "S": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 4
+        },
+        "D": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 4
+        }
+      },
+      "rounds": 1,
+      "tokens": {
+        "R": 16323,
+        "S": 16323,
+        "D": 16323
+      }
+    },
+    "napari/napari#789": {
+      "scores": {
+        "S": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "D": {
+          "correctness": 4,
+          "completeness": 4,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "R": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 4,
+          "guidance_actionability": 4
+        }
+      },
+      "rounds": 3,
+      "tokens": {
+        "R": 56470,
+        "S": 58823,
+        "D": 60251
+      }
+    },
+    "ray-project/ray#19155": {
+      "scores": {
+        "R": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 3
+        },
+        "S": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "D": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 3
+        }
+      },
+      "rounds": 3,
+      "tokens": {
+        "R": 55617,
+        "S": 59036,
+        "D": 58987
+      }
+    },
+    "ray-project/ray#3269": {
+      "scores": {
+        "S": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 3,
+          "guidance_actionability": 3
+        },
+        "R": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 4
+        },
+        "D": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 3,
+          "guidance_actionability": 4
+        }
+      },
+      "rounds": 2,
+      "tokens": {
+        "R": 36374,
+        "S": 40315,
+        "D": 38979
+      }
+    },
+    "ray-project/ray#49011": {
+      "scores": {
+        "D": {
+          "correctness": 3,
+          "completeness": 1,
+          "actionability": 1,
+          "calibration": 3,
+          "guidance_actionability": 3
+        },
+        "R": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 3
+        },
+        "S": {
+          "correctness": 4,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 4
+        }
+      },
+      "rounds": 3,
+      "tokens": {
+        "R": 57613,
+        "S": 63464,
+        "D": 62225
+      }
+    },
+    "ray-project/ray#50266": {
+      "scores": {
+        "R": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 4
+        },
+        "S": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 2,
+          "guidance_actionability": 4
+        },
+        "D": {
+          "correctness": 4,
+          "completeness": 4,
+          "actionability": 4,
+          "calibration": 4,
+          "guidance_actionability": 4
+        }
+      },
+      "rounds": 2,
+      "tokens": {
+        "R": 38877,
+        "S": 39773,
+        "D": 39903
+      }
+    },
+    "ray-project/ray#58727": {
+      "scores": {
+        "S": {
+          "correctness": 1,
+          "completeness": 1,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 3
+        },
+        "D": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "R": {
+          "correctness": 2,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 3
+        }
+      },
+      "rounds": 2,
+      "tokens": {
+        "R": 32818,
+        "S": 33051,
+        "D": 37764
+      }
+    },
+    "ray-project/ray#8894": {
+      "scores": {
+        "D": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 4,
+          "guidance_actionability": 3
+        },
+        "S": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 3,
+          "calibration": 3,
+          "guidance_actionability": 3
+        },
+        "R": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 4,
+          "guidance_actionability": 2
+        }
+      },
+      "rounds": 3,
+      "tokens": {
+        "R": 45485,
+        "S": 48778,
+        "D": 51100
+      }
+    },
+    "sympy/sympy#10243": {
+      "scores": {
+        "S": {
+          "correctness": 4,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "R": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 4
+        },
+        "D": {
+          "correctness": 4,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 4
+        }
+      },
+      "rounds": 3,
+      "tokens": {
+        "R": 69282,
+        "S": 64438,
+        "D": 72196
+      }
+    },
+    "sympy/sympy#10456": {
+      "scores": {
+        "R": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "D": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "S": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        }
+      },
+      "rounds": 3,
+      "tokens": {
+        "R": 72214,
+        "S": 73511,
+        "D": 76354
+      }
+    },
+    "sympy/sympy#12602": {
+      "scores": {
+        "S": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 3,
+          "calibration": 3,
+          "guidance_actionability": 4
+        },
+        "D": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 4
+        },
+        "R": {
+          "correctness": 3,
+          "completeness": 2,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 4
+        }
+      },
+      "rounds": 3,
+      "tokens": {
+        "R": 91575,
+        "S": 90540,
+        "D": 88862
+      }
+    },
+    "sympy/sympy#14033": {
+      "scores": {
+        "D": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 3,
+          "guidance_actionability": 3
+        },
+        "S": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "R": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        }
+      },
+      "rounds": 2,
+      "tokens": {
+        "R": 51874,
+        "S": 51177,
+        "D": 53748
+      }
+    },
+    "sympy/sympy#2806": {
+      "scores": {
+        "D": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "S": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "R": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        }
+      },
+      "rounds": 1,
+      "tokens": {
+        "R": 18994,
+        "S": 18994,
+        "D": 18994
+      }
+    },
+    "sympy/sympy#5090": {
+      "scores": {
+        "R": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "D": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 3
+        },
+        "S": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 4
+        }
+      },
+      "rounds": 3,
+      "tokens": {
+        "R": 62109,
+        "S": 65663,
+        "D": 66834
+      }
+    },
+    "sympy/sympy#6698": {
+      "scores": {
+        "S": {
+          "correctness": 4,
+          "completeness": 4,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "R": {
+          "correctness": 4,
+          "completeness": 4,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "D": {
+          "correctness": 4,
+          "completeness": 4,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        }
+      },
+      "rounds": 1,
+      "tokens": {
+        "R": 18665,
+        "S": 18665,
+        "D": 18665
+      }
+    },
+    "sympy/sympy#9339": {
+      "scores": {
+        "D": {
+          "correctness": 4,
+          "completeness": 4,
+          "actionability": 3,
+          "calibration": 4,
+          "guidance_actionability": 4
+        },
+        "S": {
+          "correctness": 3,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 3,
+          "guidance_actionability": 2
+        },
+        "R": {
+          "correctness": 4,
+          "completeness": 3,
+          "actionability": 2,
+          "calibration": 4,
+          "guidance_actionability": 4
+        }
+      },
+      "rounds": 2,
+      "tokens": {
+        "R": 37967,
+        "S": 42136,
+        "D": 41334
+      }
+    }
+  },
+  "source_sha256": {
+    "experiments\\frozen_20261017\\equal_calls_v1\\evaluation_completed_v1\\scores.json": "e8892aae483e3e6e51ce6b71b8b8041f1fc7807695d9c5a1197f066ce291e34d",
+    "experiments\\frozen_20261017\\equal_calls_v1\\evaluation_completed_v1\\cohort.json": "18857196c5c9e5b4af631c394e314e075414b025751106ec27d590b774379b89",
+    "experiments\\frozen_20261017\\equal_calls_v1\\evaluation_completed_v1\\blind\\private\\mapping.json": "e0d5a2b410290f84c2b1d1217b86bc437a58f563c7ec697a8adceda33e9daa75",
+    "experiments\\frozen_20261017\\equal_calls_v1\\design.json": "2d5ccb62ca853ee48f7ec30ad6d37e2a517c07911fbd646088c073d66fb0d695",
+    "gfi_prototype\\retrieval.py": "ffb1ce340ba85df0475d89c5e1773018f6f124a4b49f9763c2bdd2e01687f8ca",
+    "analyze_equal_budget_results.py": "2dd81a98ac22b40eccea0654063d31b4ce4baa965671e9698609af7dd2a5d93c",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\ManimCommunity__manim__1172\\R.json": "eae2b50c656fb6535da09dac353787f31b2c8339e08ddabae68a8c25b2a5f10e",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\ManimCommunity__manim__1172\\S.json": "4d7f6e3ad71ed1848d57722c66a231bef7fb7a7a55a5d655950dac4fbebb71e4",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\ManimCommunity__manim__1172\\D.json": "654d4bf44c61b1911ad289972ce638b88b19194f0fbf437b2b2f330be42e3125",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\ManimCommunity__manim__1250\\R.json": "53a62784c17595ced4e5ce3541f5dcdc84007cb96b501424d9274b1e3e2b07f0",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\ManimCommunity__manim__1250\\S.json": "844fdc705bb4985ef31ee916edd67ac92d56f19c682b03db5795be684b13585d",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\ManimCommunity__manim__1250\\D.json": "84fbd5952467ae950e15b9a5d965944654cfa77ea0406fb2a91a241c8fd7de0e",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\ManimCommunity__manim__1369\\R.json": "476608cfb3e91b04d12a057064392e8b0043c5bec1e78e27a51ecb190b4d6ff9",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\ManimCommunity__manim__1369\\S.json": "cc8fe5c203c555d100cc9b42d7f0575606cbacce0770a7bd4c7eeac2462400ab",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\ManimCommunity__manim__1369\\D.json": "7cb51403aecb6c0e082bb14de33f7ad6e61d7d67644e1f690b616f5f32f55fdb",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\ManimCommunity__manim__1530\\R.json": "43a18ca25a9e21ba757743507425435191b9f73bcf2c408dd682b15e3bfcf318",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\ManimCommunity__manim__1530\\S.json": "27007c72c751677cb3901217800d59f2f49dcebde52f676b66b7417b3541cf0a",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\ManimCommunity__manim__1530\\D.json": "feb4dc6ff41f744becb4e51694b64f3713aa66174df0ea5d916b3610b84ee50d",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\ManimCommunity__manim__365\\R.json": "75aa4855f1ae65d53d9ad3ccbce9d968d8fc503ee401f88cbd5dc633cce10131",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\ManimCommunity__manim__365\\S.json": "7a97e8eed62768553db7e893a56e298a04b6a03e73f3ef437c9dc9f6c04de5ed",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\ManimCommunity__manim__365\\D.json": "123dd2421e6785667b8d39bd45f92f1ce293d54fa0236c76808404a950a36cb0",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\ManimCommunity__manim__3713\\R.json": "b32777369a362d636676b1e418e2931cd284146ff7c206a6739ca8b495a06c46",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\ManimCommunity__manim__3713\\S.json": "8bb82c26381b522e124e04153883f978678feea2566cc3c1176e8d9ff439dd40",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\ManimCommunity__manim__3713\\D.json": "448d1b63270ec283e38635a55361c8f7fb012322922f3986250959183f5607b8",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\ManimCommunity__manim__866\\R.json": "bce56b160825aa78dc99d5e8aeb0c76fa02629cd5260d664a8c96059b2889902",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\ManimCommunity__manim__866\\S.json": "a4415d515d1f09c87037e77d8fec63d7c4665b8c1326eac00242196be645d103",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\ManimCommunity__manim__866\\D.json": "1487bc34b1d3c3d578aad20e522c6bc99c4c584502d62fe4bf667146ff76eeb3",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\dask__dask__1317\\R.json": "f06f6f5f6ed21f17cc0f7f960e56e60e67359962bd7db775b68bd6496ce1afe0",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\dask__dask__1317\\S.json": "26d8c09d0a7c03a9f946b30588c590e5d714683961933096f9a83d2ce7c86369",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\dask__dask__1317\\D.json": "e4d655196e61da60c3d38e6fb39498e0004c01321c1b881378a32f167f3d688e",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\dask__dask__3206\\R.json": "fb4c0c4a916371d02813f451a49bd01499ec5d068f6aa4fd7554f3250f23d706",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\dask__dask__3206\\S.json": "0e376cd87601bea9cfe9744833d4d8e35a391cc2fccdd518800c3f6fd3d72c79",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\dask__dask__3206\\D.json": "84bebfa3b135330f0b4908855a2eb10ba7957efdca5b100561ef5a2349da8ce7",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\dask__dask__3657\\R.json": "0536aa96898f5d2b31f99dbd99f1f4b14fc6cfd98975e78cfe1bd13519408477",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\dask__dask__3657\\S.json": "435823f6ef9ba13bddab67ebdc71ab4da719c7a2d131fe3eb4f6ad364a59e3a8",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\dask__dask__3657\\D.json": "69c0fc6bfb101236e5da1ed789b3a905d919afb64b25fd5b0078f330080d7572",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\dask__dask__4278\\R.json": "33ba084632d8186b4e797f798451965135c34d423b5eb8b2e4e1a8f35e425968",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\dask__dask__4278\\S.json": "6923a152d9ededa5e1ebc7fd6b1678b8517cb119498682e0f746ec9944f74a5f",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\dask__dask__4278\\D.json": "7e2a91d0193a463f34194436f09204285b2c5466b38df5f9498e90e11a600e9e",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\dask__dask__5069\\R.json": "deecf180b7482201b68ab88c85b82208bfd55cc71874e1edf80980e6e7970599",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\dask__dask__5069\\S.json": "f1caff218ca2dc5c1358e7c8f054395306f0c701b790f3c09c81301618d1595b",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\dask__dask__5069\\D.json": "f78f3471d35d514159df07168712bf6d0fdcb98654aa3cfef6df2cfd447b3842",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\dask__dask__6202\\R.json": "d95001a55c433181212353113215ecb6742b0557e026345b4ec7af3e21309577",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\dask__dask__6202\\S.json": "6d9f023367c5a83909da9ad255bdb2c807e7763c48630dc75e4d5fdd4f9033a3",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\dask__dask__6202\\D.json": "745d57f5d71b0c62c404f05444f802163dc961a36918e9827d3b9790c021374b",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\dask__dask__7823\\R.json": "2c24b15919659990ee7b1e332f6839daa53c2c5458748bb08ff8d65d4745e212",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\dask__dask__7823\\S.json": "6edba1d1d5d60023f68e7868eb99709e928e4598741f1635f1ee8ee613c09edb",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\dask__dask__7823\\D.json": "37e7984d63ae1b41230c3ee6468181df572b3944cea2b5b10317545527760085",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\dask__dask__8342\\R.json": "06dfd3174de1c1e7e471317096c2ebe4feccc48a4d155ebf03e4c3edfc9fd9da",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\dask__dask__8342\\S.json": "916b3d9c4fee1f8474e544f897f982567dd8bea9c3b3da2afe0a24a614fcbb7d",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\dask__dask__8342\\D.json": "c66528b08dd4d244299c67b56680c5d93b690062678859b944f966b6e38c7b9a",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\dask__dask__9166\\R.json": "ba890c21ab057dbdd31204172c278320d679c49e237e005b72977279c34619a2",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\dask__dask__9166\\S.json": "0b68b9f9daedf0ceeca0b7ff17953de470499550ceeeee2e42ba90c476ad8f14",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\dask__dask__9166\\D.json": "16b0a7604282bd6c259f59f116d116bf291f17a47f7baf02312a4781e9128ce8",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\napari__napari__2999\\R.json": "adc27c5057cb483aee00e54346966cf7d418fa910f2e5d747d289e225a6c2064",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\napari__napari__2999\\S.json": "645080fd48459d454d6acdd9fe7615434eb93c2a7c69f21ce44b9e60a9709bb4",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\napari__napari__2999\\D.json": "439b94dabb38a7497303d7438f1a41ec351daedc01b3fc0c777aad6a79bb450f",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\napari__napari__7568\\R.json": "13076db1b8b34b668e73a3888fb914f1f8153376b7603eabac891b5afb0e38eb",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\napari__napari__7568\\S.json": "8629c7a09adb33cf64852f9ec69716df67ce203aecf72922d2dcc2cf614386f8",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\napari__napari__7568\\D.json": "e27299f904aa02ba6746d1289badda0e22003d73586f2336822fff8fb90ea9cf",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\napari__napari__7675\\R.json": "e1656be5e8b2b177ade6edaaae300bffa1d89ea90b35b2249855d606f240cae2",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\napari__napari__7675\\S.json": "7d694f87580fe95eba4340f2f1d2522bde04c9a80667820f058c7016c61efac6",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\napari__napari__7675\\D.json": "7b224017ee64b4c51bf15d82aaf370ce8b0fd30c9763aa61aebb5a6a7eb6bfb3",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\napari__napari__789\\R.json": "42befb28c4e2e51f9444198d872c8db47eb2bb1e8497b750a56d36012e09240a",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\napari__napari__789\\S.json": "e9b14017d9f4af38f2a9f7f58549ca7e04659efa6b5a818c30c4527e10c280f3",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\napari__napari__789\\D.json": "b39fee97ac17c0b15d41b1a4fe0a61b9c16ea75eb5fe9b7c18769f6b17b00144",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\ray-project__ray__19155\\R.json": "b7d9c9dc4303f78b072e8a18a0abd59c7a88466d0597020c6eef7eefa10a1459",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\ray-project__ray__19155\\S.json": "a7830ec370fac8317ae746ef4a0f6ef4ee3381413c94af7e2b38e511607014cb",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\ray-project__ray__19155\\D.json": "35758b381e118b2fe554d68b7850adc957d64384632bdfe1bcee8d463a3badff",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\ray-project__ray__3269\\R.json": "140a3d0ec6751ce3ab4056a63788ca0409bef1fe0f18bf651082ba55c5c1bef9",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\ray-project__ray__3269\\S.json": "d99009603e9e9287bd621745bbf61114d9c513ef2dfd277c4de5ea5fb84eaf8f",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\ray-project__ray__3269\\D.json": "b1b8e03bb16476dc8d80e2804e2f8ba26752dc43ac16d1463c8bf4ceeea58a95",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\ray-project__ray__49011\\R.json": "de5ec8f67deb822b79bdd04d5b3d9c4eff2d4a0f2310c1a33e9339676a5a6199",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\ray-project__ray__49011\\S.json": "e13b922b8ace1adf25b7bbd93677e1cd26b08f65de3f13bdacaa2b188e5269f4",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\ray-project__ray__49011\\D.json": "6fd834da2d74d47e9a8eac507c680381d85c90d7bde50ad8fb3ba32a705ebbee",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\ray-project__ray__50266\\R.json": "da1c6535e09460b01571a8693b8491c3b6264602002f30d7adc14b7e224f91b2",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\ray-project__ray__50266\\S.json": "acb33f180895f318e415919c55bebfeee590d43560d0df5b2129107e4cbbc9df",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\ray-project__ray__50266\\D.json": "41b3bc2d4482a85fb5a91afd1218276fed60eacfc650367f74c437c24e8b3dd7",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\ray-project__ray__58727\\R.json": "7ac40b264796b58586f197719880fa1b019407052c6e1db2ff6d9bf053601e18",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\ray-project__ray__58727\\S.json": "c8e7c131348039abbb349728a4c7e437ae87adfc5092bfb81d5e3c268637be20",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\ray-project__ray__58727\\D.json": "8d5f1f88698aae55a276040c374c09db150216d46b17ee70ec5f59d143199e5f",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\ray-project__ray__8894\\R.json": "0caaa137e377fd1f79eb7837055873cd672c5e09ca236643d2960f3d2faa58e1",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\ray-project__ray__8894\\S.json": "158e9fcee2f517386296af6530810d55e74369ec857810d977497b294091e4e9",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\ray-project__ray__8894\\D.json": "fc90761aebf95cd91a7def927c5ef49db3762c0c7b949568ccceb5e5143c0b60",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\sympy__sympy__10243\\R.json": "cd370fd34bb14ce15f30d68aced4bdf4caf6270c043d7a55c202d8d72b10ab62",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\sympy__sympy__10243\\S.json": "06ca168d9becb1f23b6c3dce19df24946c6ab6163822f989f976f0d89a07cfac",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\sympy__sympy__10243\\D.json": "b2ca32b60f82dce9cfd0e8f98a86e2c5d4aaef014cc2fc662d14303420451a0b",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\sympy__sympy__10456\\R.json": "5206e9932e16ae6cd5e34386c2cd7860d7ba17fc080a287e47e4f4b553acaa4c",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\sympy__sympy__10456\\S.json": "2b92d9269108e7ea3e316c109d31abe22e8e7d00100e32f574b0a8829da5ef82",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\sympy__sympy__10456\\D.json": "5e7889e2da87bdef58f801ed9dd96f84989b1239d0224689af9cf442348d308d",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\sympy__sympy__12602\\R.json": "4f939811723f1a0e3cb2a832764793c9820b6db14df8cd9a4b5ba5cda649bd90",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\sympy__sympy__12602\\S.json": "1ef37052d994462587e36fc50d49c70e06a7db829d6a267bdb3f44f149254683",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\sympy__sympy__12602\\D.json": "504fdd8c18bdec720742b326284dee3ee36befe124022a1d437b05c9a10e700f",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\sympy__sympy__14033\\R.json": "e4632297e90c6c7026f4f2c9640fe921a18e13784170d5d55478557fbd73aaab",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\sympy__sympy__14033\\S.json": "f211d430506bc25c545220a51a13efa8f5475a0142613e0daec904d8d0e7f486",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\sympy__sympy__14033\\D.json": "1f162791b7b1ee5908c62676b33b3ba1e4b5d079ddd583476ac8ba3739eec61c",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\sympy__sympy__2806\\R.json": "ce582fbbd3ef2a98a3c1af284133ea53900bdd2db1dbbaa3d2e06f063c6bc6f6",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\sympy__sympy__2806\\S.json": "8bbd802394574e750707b792b60c8aea4fb0c97337e038ede9be2f5ca8d56323",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\sympy__sympy__2806\\D.json": "06ad569d00c46103ad0c8871180c3fc58ff65d3ccdb14cb061597c9a5a223c98",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\sympy__sympy__5090\\R.json": "13a31e40209d55aa098ae90b96fdf78d383d438de213b3f428e7f6e5a64530ef",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\sympy__sympy__5090\\S.json": "8f1edb92ef96fe38dfd9c221a1c6cd6c6f9ecc8c9543c6a4c8c182f7112dd276",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\sympy__sympy__5090\\D.json": "4b7135f2c3bfd35db6a5ab074539676e390ffd00d171663535dae42bd5dc90bb",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\sympy__sympy__6698\\R.json": "ba771157a7a842e7a60ef431891cb5ab776572f478a075132314ef5992efff09",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\sympy__sympy__6698\\S.json": "852b8d7e5a39cbf5fafc7772a5c6492a71c71697104803b2ded652803a362460",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\sympy__sympy__6698\\D.json": "4293e548a748733468ecc42c735fe177c999a220067106cdd7993ba84884493e",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\sympy__sympy__9339\\R.json": "94aad6a22d82e20188682bb4caa41cb8989557b37f148d9c5e820c3442ef812b",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\sympy__sympy__9339\\S.json": "3dfa6875462fb9a464e02605d60f845060fa897de47c7cdf55945c5fda67926c",
+    "experiments\\frozen_20261017\\equal_calls_v1\\results\\sympy__sympy__9339\\D.json": "7ba53a9d5683512d1b27a320e686e706ea08f7cfb56d6b2e7a5232aca1758bfc",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__1317\\D\\attempts\\2df496a174b92bd486d99d273253f1b6102975adc212e9a9633086ec73be0fa7_2026-10-18T14-17-34_101545+00-00.json": "513124f6b22fa406bd89beb586346ad8edba38960c7d7628f86e95d502191682",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__1317\\D\\attempts\\3d57951f1f3e1ee8963111db51cfb99fa3e5966854bd5d3600527be293a3908c_2026-10-18T14-17-04_311161+00-00.json": "af89ec1b554f17e7c42503c663bc3e01d37386202e566082bcdf82a1f4376383",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__1317\\D\\attempts\\5a9112801e6958b8417d9a9868cc2ef8d2155e15bf04d81cdc80f47369458a99_2026-10-18T14-17-12_446224+00-00.json": "037fd40f0aecf23516c4d7c11b7f97bbb8f260699fe8e8d27152f666829af71a",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__1317\\D\\attempts\\8556019f99d93a43f653f1212dca3ff22c2e09a79146d53e549a569af30a1e4b_2026-10-18T14-17-27_535987+00-00.json": "6443cdf2457ecd5bba1671d169cb981f2cf6ed3b3a8eed940e65b8db628724a2",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__1317\\D\\attempts\\b2417e1e055304c0043559ce7aa3b8c204f93d49b9701c5faa96dd00bc84c7c7_2026-10-18T14-17-18_406396+00-00.json": "ba0fe0c48d9b297aa747e45c695a8093f9c7804f79a1c055d15d1b589037d7bd",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__1317\\D\\attempts\\ce5d734d6c0c47bd39540c2ed675c2f8031be787a529f6bfab641dca56ad5a09_2026-10-18T14-16-59_282131+00-00.json": "3a7124411f67f30cf41ee6a50ea0b559b763dcfd470c3af97bb87c3b522504af",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__1317\\R\\attempts\\0e861afe8d78d8d89134276d4acd654d0a8ecdaea9edd5c9a739738942fc8893_2026-10-18T14-17-38_948382+00-00.json": "553892a8129dec5ca82cbf1732491ca4f6d12815a987612a924f8889c8424068",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__1317\\R\\attempts\\6c2e784c4dd877a74932f51372addc8101a7058a07b622f81234686fb0ca8bdb_2026-10-18T14-17-43_880342+00-00.json": "6bc96fef3b1156b0162f4fa7d565b6ee815767f7e182e9d946b18b1b094d125e",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__1317\\R\\attempts\\77085de48a7f0b815cc3cfcb1576c46eae7950487cfc41e8cf8b3a7965c39420_2026-10-18T14-17-48_270473+00-00.json": "80449e0d60b2697101a8753517393aed9e999ddd476f8ebb22ffff8454d4c134",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__1317\\R\\attempts\\7e05047a4ba8ccf839d4d02ec652a1c1aa063ac04e3e1f29cfbcecf5cddc2631_2026-10-18T14-17-51_685342+00-00.json": "88d0cbc5e38f7fc75da7a90c77dfa6759436f3f11a58953e11d3f29fe3434fcb",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__1317\\S\\attempts\\27d7c9b848263cdfcba5e61409299ed9e281290d59d36f21aa241cf32934349b_2026-10-18T14-18-10_564246+00-00.json": "3283b577cb2ba080e4c8408902cfe0a813f5f282fd2317705faeef811fc7b24f",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__1317\\S\\attempts\\5c5d807fa4307fd03da8197e90bea8dc9d816a9e2d73d16ad3fe6ce8031807bf_2026-10-18T14-17-58_789222+00-00.json": "57b97845af5aabb4fef61ba6bfa5ff4d0d0c68a6d7e08d3be8407e9748c2b545",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__1317\\S\\attempts\\a65dc5de3924094c03d68509f02c7e74e9a8e91feac7dc84818f2a7f888f403c_2026-10-18T14-18-03_604946+00-00.json": "8f8ecce95a0c7472f9b450d628671ea5eaf8f06f110707523fd6d0a59944d508",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__1317\\S\\attempts\\f81a5f2a62219a5381d0e22c6693251084dad3bc74367406b28927797a5962fc_2026-10-18T14-18-15_709986+00-00.json": "b11ec6af7572d757ab10d1f287bea61939689d18ff6146c8873bc0f6d34487f4",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__3206\\D\\attempts\\51151c21226b8bd19991378fdfbc6f2d9c42d7c7ba0c64a85c91413c820ba8e0_2026-10-18T14-18-25_343759+00-00.json": "058e4569b58010a21a43393554525588c0458f57400bca9cb0b090e56c3651c6",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__3206\\D\\attempts\\fea28e0285921f8381fcb7eb15d2521122e3558c1c8484f69b27018bd1d250ed_2026-10-18T14-18-30_702714+00-00.json": "33e13f2466a4c3d8effbe7ac2cbcbbde9cbbe12614f6a791cbdbcdd1ed8f376d",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__3657\\D\\attempts\\341c7b033bd62a92a38b0274d33f5af4a48ed836cb4b85ef208b6ba64a443906_2026-10-18T14-18-45_110282+00-00.json": "72e6944c778255c72680959113bcfe15f5d07ed20a47e0587c5a96efeb668ab5",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__3657\\D\\attempts\\4ccd46c9b9372bb63419f513dee51d2de91172909bda740315640f50d5306b15_2026-10-18T14-18-39_818774+00-00.json": "48a60df786f34dc3ecef9fef12fd052b04d551578dbe91e642d4d2f7fed648c8",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__4278\\D\\attempts\\1693a280b213ff811f6ad02e810781327da95a5f5c1cb69109c5b00be340d10a_2026-10-18T14-18-53_318757+00-00.json": "5ce75c04875880cce47c7562f97086f1bfa493062a3643479c13606f1834a6fc",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__4278\\D\\attempts\\33e563d654c3b989757cb8297f023bbc2857c6ca2dabbb044fe4ea62f5def470_2026-10-18T14-18-58_253936+00-00.json": "eb20bff233b61a281dbe5ed9041a39819394ed04c52c3b00a72376eefd5de0f8",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__5069\\D\\attempts\\895832094bb673160ed390d13d8e35a0ccc7a80b34968720f2ee673b149bf5d6_2026-10-18T14-19-08_210964+00-00.json": "278872fb5b12879e22c5fcb0135819cc49987d37ffd5a3549b1e2d0380233401",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__5069\\D\\attempts\\e5a426f4cccca427f44d5116d802af4d4e2bca06a07e5b07f1c98ebd3ce1dec5_2026-10-18T14-19-15_074764+00-00.json": "4ebbab1051d48c955e1a05a24a3051c2512f92380e518df6ccbd568fb95d2c92",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__6202\\D\\attempts\\19a7a00e6524f5b8984dbc9ac11f0612720f6fef256a09357aaff17b4a94c9c1_2026-10-18T14-19-30_747328+00-00.json": "7248a0bab1957ac550052208ee25836b8598880517f31aca0b5072bd8f661735",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__6202\\D\\attempts\\4081c80835b0b0da28f8c8b32d4da18814c96e431a8186435b27c2bca1c51961_2026-10-18T14-19-37_751832+00-00.json": "31f9669c806640bd9c1a90b0af0ec43d48a92b67ac480123320c8c9032e107b6",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__6202\\D\\attempts\\5d057eef93acf1e29508ee1e5aedc60c2a74472bc20364487fe43a1716bf84f9_2026-10-18T14-19-24_051643+00-00.json": "4135a5ad0a68bcb090c43fd877c859c2cc77d34d5b8eb1998f40ffd49283d1e6",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__6202\\D\\attempts\\8c43004d2b1f77b745da7ca0c78ab55a756d3407d59279b14dbe4c9a52c8b268_2026-10-18T14-19-43_941576+00-00.json": "09bdf5c3d58374b44e1626b4fc4c5d2e2aa9f9c0fc58353ab4333ce4e91e304d",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__6202\\D\\attempts\\e5d546a3a1445e488ab524c6dd2de4b6588b1a4ef53399a28b45a73765df2859_2026-10-18T14-19-58_552408+00-00.json": "404b9082fbed2c31236b59ea945bd17eb6c67d6a076961755cb8f4a63e22389e",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__6202\\D\\attempts\\e9ff154d9fe1bd6348d1c8f6f5b7e4e277acb239f7b18c241ef86ebc30465fb2_2026-10-18T14-19-52_247188+00-00.json": "23aea3d9e0f4f4f7b41eb989f2a1108e63db07c7c48fbbf2cb59b2e79acdaffa",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__6202\\R\\attempts\\3dc6400a80d6f0b47cf4c9e5df8a7b92e66d0db8c4c61856c1a2d7e847d59a0f_2026-10-18T14-20-04_553230+00-00.json": "6feabf69bb4c995bae636d98ac67d8ea211f00b43b3a530cf8ff003b6b05faf7",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__6202\\R\\attempts\\7ca9aca6cca09bee3199fe6c9dba7e6e7c68cb0d0ab913d7ebaf66bdb6c24712_2026-10-18T14-20-12_303143+00-00.json": "8afd7ba7a6d4f989c06335698f3493e0ff35c96060d2a49940233ad234df43da",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__6202\\R\\attempts\\90a0cfbb8bac6afa18666cbfdb095b3e3202ca15c31205b3b16e946c4b9a7ee7_2026-10-18T14-20-17_952002+00-00.json": "77e1cc1fecf1fa14080427b257561ca0aa82351630f88651dddc096fdebc1363",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__6202\\R\\attempts\\a615003548155fc9bc65211ba20dda32c66a0c3d8d75282c79fe107c33ab2fc0_2026-10-18T14-20-25_079501+00-00.json": "3131f7d264b1ec2add1fd1c807066490c4cc0034a8ead619e348db0983e571cd",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__6202\\S\\attempts\\3657d31438ee087550ce61c87ab92e3397863abda70b20ba0f2507f5db9fc17d_2026-10-18T14-20-54_153970+00-00.json": "8677e472cb623d5b42be5872c64e8f72161318f08ff5e16970a9285fa8b7e022",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__6202\\S\\attempts\\37c727fea404b3cc3441b3daf06dcd454d9871227ffcd25f945b077441eb3e98_2026-10-18T14-20-32_832732+00-00.json": "f92f38aae8967049a85c18392a45271c588a4b6711b81f1948d5ead9fe8318a5",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__6202\\S\\attempts\\a5e1b660983e0c6d09c935a931ede24e82853302e8b81a82b0d573df81ec287f_2026-10-18T14-20-39_722118+00-00.json": "8d0b085be6ebccfd5f884791a63a37169392aa0815461e863c5b0d86a4f30184",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__6202\\S\\attempts\\c078d8e68242b4e321268f0012aae607f149fc7e0576fe36538e5a2eec050459_2026-10-18T14-20-47_292506+00-00.json": "3da1fc68fafd2bb7869b9e13634150891213a408def31c03e48add6994b314fa",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__7823\\D\\attempts\\021b556fe31a4bea506af4dc72f561cd74566ce8c84eccbdefc9619a2bae91b0_2026-10-18T14-21-23_564567+00-00.json": "6a37e201f8bf6fefd7d03911982bbbf242b5a66ab3e69a3a5d52a91967f6dd2f",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__7823\\D\\attempts\\0342471c7bf1924eb832285847e723f64b1ec3d0f14443821a298a9ab9d0df7d_2026-10-18T14-21-08_870345+00-00.json": "8347090ca8dc9b825027153c2905aba04b0239af63f31108aefd631425283e9b",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__7823\\D\\attempts\\372738fdb085395d2725171af593004f8acc38e596009fb0e4ffc29e53f037ca_2026-10-18T14-21-36_966270+00-00.json": "37548ef9611ee5fae60d16bf71d7610d9b02d7d8478909dbd734e1c59e80a34c",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__7823\\D\\attempts\\6074767a492ebf69dd2fb83c987339c5ee40842402cbcdc1136ae0d4e38af4a1_2026-10-18T14-21-16_947282+00-00.json": "a099bb8186953c841409065fb483e9b1689eb4fbd1e368f7648abe38b3626cc4",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__7823\\D\\attempts\\baa9165c241c8b3bd1ea60a5f60148eb43a6c2b1379b0616e193190b283b437d_2026-10-18T14-21-03_702614+00-00.json": "731d84ab8bfd921c6649e8448c244297532fc0f9dc9e4353b59235a4447ff9be",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__7823\\D\\attempts\\cd67e07cce9355d2f3fa0a8336fa3a227bc9485bea18ebfd13741cc1e9f0d3e5_2026-10-18T14-21-30_831369+00-00.json": "7b07dae079ce66c2b233db52378dfcefd9875129173f8dc868bf2deb90b0dc4f",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__7823\\R\\attempts\\042cb6931d074254c360b3d62317b186ce72e7f4ed33fe0b2f83943fdd65edde_2026-10-18T14-21-53_877292+00-00.json": "c1b193006bea5e01034530600d45df20c14936369fa84fcd8ad991928a5f19d3",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__7823\\R\\attempts\\21d150cb38f135fdabad31630c91bcdfad3d8f8486fc203c0312e5f27bbeebde_2026-10-18T14-21-42_511005+00-00.json": "24008ab7c1c001c457238d99b368f03e64f17c684a295767d2de94824d19a297",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__7823\\R\\attempts\\7bb34aa6d34067b2af38ea35363d0bd106c7b982fb2f110116394fe0ea4ef7f9_2026-10-18T14-21-59_274186+00-00.json": "b4438d0d2ef3e8632a10f90d66653ac1e58ee16dcef91d7387df72afea8e6ffd",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__7823\\R\\attempts\\ef0d5fc30a52f93f8a4af8296dd9c3627dbca3d5faf7fe45c77a422296916ec5_2026-10-18T14-21-48_033882+00-00.json": "ccabd0072d4b4d1890c4ecfaf786d35626f39e129b5e4904943c02552ba93b85",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__7823\\S\\attempts\\164676ebb52aa93f93a8ef35a9cf71347ed0b57ce512c5979de3a3b0733677e8_2026-10-18T14-22-29_011710+00-00.json": "71a8a774e037d1c46d32c58e9ea01957fbb669bfecbb99dec77c0b6ba9ed20c3",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__7823\\S\\attempts\\4e519e0df78ae7a5a590373092c7a91fc4a7db3b77464ba83a1dccfc0109144e_2026-10-18T14-22-07_152984+00-00.json": "e8f197bfd47fa305f1718916b23639d2e5ea537a9b572c59dbed00b24b6ef55c",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__7823\\S\\attempts\\b18ddc14c9eadca8221547ac1b0a8602683a29d84fe7ed8ce9a717a26c3aa4df_2026-10-18T14-22-21_838199+00-00.json": "d5cabca9ceac4cb95e091f9a3011a734d4388aa6a92a5b9bbeb0cb416fa83cff",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__7823\\S\\attempts\\da28201e23c36d69165f4d5513fc8eb21b41f6e6a55647e6e7d8390e56ff44ba_2026-10-18T14-22-12_499364+00-00.json": "9f5257447d7cc3b30b1db13650577d84c1eaccf64575b3931c96c8beadac80ef",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__8342\\D\\attempts\\2be7d4cf9c1788bb477ae0f4f255bc8cc427134ed49238a9a2beb8f756215001_2026-10-18T14-22-45_792959+00-00.json": "b7396fe85bdb905c883a8a236c3b6dc07b3067e7a5bbb3b8de67e92e45f6463b",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__8342\\D\\attempts\\720867a11fa4c5324574eeaf0ce5bf3a318f61d11ff71c2f0e77ff6d2b29bfcb_2026-10-18T14-22-40_288993+00-00.json": "106a2e6b393886425bf801e2d382e8be75ac8f20d20ebafcf346681aef70cfca",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__9166\\D\\attempts\\02c1c457d596833ca50c2c6af7a7ed9f8367f9622e37d3c2808cc317a15a7044_2026-10-18T14-22-55_465840+00-00.json": "5c363d65ef3dc23a8a6d44ab41e13a9b0ef2bdc271005ceab21b052a75a88ed7",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__9166\\D\\attempts\\1ecfb8a5b2e438a453db46c470e5cb4a528a8b799855cce98dbd577cba6a80f9_2026-10-18T14-23-19_419083+00-00.json": "f6da5d84988b519fe6c06145b5cf243eee86abd8cfd29ce9d735371d9018945a",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__9166\\D\\attempts\\2fea258b2b841a2b06f8dd5ddd42ecc210f4528bcd1d255939970c05f06eeae6_2026-10-18T14-23-10_267522+00-00.json": "52d5bcc8cb19abb11242af3a43d67294ac6d0846b90e0992f16fb2268b4f097a",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__9166\\D\\attempts\\7bf7ed98426aa00ce669d3742395e45f64cf754e17c97282d8822fd0105710eb_2026-10-18T14-23-27_578102+00-00.json": "188ddeb7b0b8ab960db484925f9633fe5f0b00b5d72976cf245890867978b499",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__9166\\D\\attempts\\d67054c94629f20e2729a6b5d2dd0e11a66635fa9e7c6741ca37ea16d13e3f7a_2026-10-18T14-23-35_122020+00-00.json": "6690ba9ef2699141ede95cff43a134e2a4720db99a0a58057c469a6c4d7528c0",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__9166\\D\\attempts\\f6cbd577d92d2331aee59991be4b8f436aeae6e42ecc086099c2ed0e1cdba41e_2026-10-18T14-23-02_185674+00-00.json": "50566b2e0f6260a458f54fa15410975d181231eb16aa8260417c734a4d058899",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__9166\\R\\attempts\\061b6d949186fd409d35d5756d68ccd85be1432531ee5fa736a43275800a2024_2026-10-18T14-23-41_247156+00-00.json": "cf3cb4eefc6bc1ce74349c7c879bdbb9e5392f0dd1f783587baa41f265a5c1c8",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__9166\\R\\attempts\\43d5f068bf27f502450e9500ccaf2342b21caa637331c2a46fc180d07367a33c_2026-10-18T14-23-52_454968+00-00.json": "a3bf4e53aee61cfed2d81e73bb811afd574aaf45da1f81d749b2985fe81c1612",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__9166\\R\\attempts\\94c8f199c7df5d8704bfcfae6e51b5e290b645400bf9ed8c8bf26481ffa46598_2026-10-18T14-23-47_431401+00-00.json": "254123007b2801e2d9a70dd9190af6a489556e8f7825dfb7c4343b1763b9ac42",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__9166\\R\\attempts\\9fba6ee99cbc711689bfeae1a396dbf10116bacdc181dfd7763037a9201ebc72_2026-10-18T14-23-59_461448+00-00.json": "1ae4acb5751c7cf9087e5b04054384ae9ad2f07d744a292dcff69e31d6cd4a43",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__9166\\S\\attempts\\033af494c5841fbd74aaa55ff34929431511f55ecbe6d67d206788cc3b470efb_2026-10-18T14-24-35_846748+00-00.json": "109463ecda5f3be38fb21d8c5c3e7d348659e8c3edfc76db81edb64c476bde99",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__9166\\S\\attempts\\07262045fd6ab85d145e8c90abaf70a84fae65e9aaea9069d1da4ed29a8d1633_2026-10-18T14-24-06_259758+00-00.json": "a01f39e4feb33cd27dd58ed49bbce4ee8d73f0a06f5ceb5a680eb1d72b9fd7be",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__9166\\S\\attempts\\94dae421d7a0b0990979639d17f435dbbb22e1dac468c821e65d4dddf901eb8b_2026-10-18T14-24-14_307171+00-00.json": "3b740b1cd0ebe425d7d5dfe84d1869dd9493c581139e25a2e06ebb108c2e0e0b",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__9166\\S\\attempts\\94dae421d7a0b0990979639d17f435dbbb22e1dac468c821e65d4dddf901eb8b_2026-10-18T14-24-23_577308+00-00.json": "3ff46450240cc2aadaee6126b9a52f1befecb30a87a3c0a15f0c0c44630a8477",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\dask__dask__9166\\S\\attempts\\b2e94ba2a2ab1604818df1be4793f4ecaca753469f1d8f69b0ea99b999fa8e7f_2026-10-18T14-24-30_391795+00-00.json": "c644bcb0c364eb8fd5f942566bf50945c8b6424292525c272817731dbaab02b7",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__1172\\D\\attempts\\10574da1bb3dfbee1eb8be0145c5bfeb55f81c30fe11445d06bce52950fb4773_2026-10-18T14-03-05_720961+00-00.json": "42170314f0b990f10e05c1a821fdf9ff83324988296f7be6b2aab623c1e916d4",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__1172\\D\\attempts\\2348c116a087ccc23950b0b96a473c014fbd5b2a92d94815aadc1215c7f2f577_2026-10-18T14-03-12_892816+00-00.json": "5203275cf86262c37faa7a034946d6f0aedfa5e208dfe409d667585b2d96c2f4",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__1172\\D\\attempts\\96ac66950621c99a8dc8e4ed91ab05a47c9ac63e53fe8f14df4e012d9ca39a11_2026-10-18T14-03-27_168070+00-00.json": "411427e539126e4809c903e10d8d54fb6abbe3273dd84b9a49583fd9e0bc1221",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__1172\\D\\attempts\\96ac66950621c99a8dc8e4ed91ab05a47c9ac63e53fe8f14df4e012d9ca39a11_2026-10-18T14-04-25_402013+00-00.json": "cfe6cb51aaf53a9a9eb4faee0b555334d84afec69bb855385c827d0ecda479a6",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__1172\\D\\attempts\\d0c0ba5485bcec69866de03dc29c3715038633e31e6ad57ecb801a67d9764fd4_2026-10-18T14-04-33_146281+00-00.json": "12b19caa745883dac9e163afe2fdc7c43b06997db7a70b2842f021550af8a086",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__1172\\D\\attempts\\d0c0ba5485bcec69866de03dc29c3715038633e31e6ad57ecb801a67d9764fd4_2026-10-18T14-06-03_382086+00-00.json": "0f5623c458a71779b7a20a2c106f2fc9f7a793962ca45910a8ad6ef15f315978",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__1172\\D\\attempts\\ea16b3e456280b63ee457ab1f5075b74f4275f20b7e0bb13035ce21bb507d14e_2026-10-18T14-03-18_726224+00-00.json": "61129d6b4bb6fee7e7d71ff49dae3fe4bb5a14c367902d282910cf6d06b85465",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__1172\\D\\attempts\\f479f8b7040c643ade7bf167cbfe71cd96524dd2062517915225195d09a01216_2026-10-18T14-02-59_579136+00-00.json": "1bf89752acb468187a9688806641d26eefa08e69a042cb6541a471d7e811591c",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__1172\\R\\attempts\\22db8f1ffc9ce051bdd8021774347d05e1d01b38f2fa62d4b198f9f7b286b2ed_2026-10-18T14-06-15_429992+00-00.json": "6a0902b0cf1e7c08c3c5eff569d5744569bbaef9e01def3f1fb00987620bad0e",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__1172\\R\\attempts\\3985fbdbb7b54f09af358e08de4d46ead01a078fd5095ec19ce5bb75232342da_2026-10-18T14-06-22_213414+00-00.json": "5b3cd199851468b2640f9d37b0135dcc4ae5a8f52f486f0cbd52031b41ee544c",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__1172\\R\\attempts\\99d7fd45e8e9a610448e42392c22a00f7b7dbde481ee10064fed25248681d80f_2026-10-18T14-06-09_353176+00-00.json": "32bd9a575834d44868238d2af0cae016f7fc36f6781cf0e4fec9e9317ab4840f",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__1172\\R\\attempts\\e3af51152cc30b64e023e1e6439fccdd1ce6f5e584ec6c031727ffef0b5d42e0_2026-10-18T14-06-28_300499+00-00.json": "bcc0b639faffcab862f7a3283b51f9378ff5cfc73b70f4ba0d28d1533a37fa4d",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__1172\\S\\attempts\\1971f1a23c16fc3d6bc2ec2416a6e7106f7d05286e8180a031fbc7be1bc3013b_2026-10-18T14-06-55_874899+00-00.json": "53f626d4299713627f52758847f2b464c14f41401fb80255ddd319bbe410a205",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__1172\\S\\attempts\\663442dda4fecf7663fa12b3496d7fe88b9fa96ba2c285c1b94c06c63e671e70_2026-10-18T14-06-35_988291+00-00.json": "487dcba5cc3aa1db4decc28bd2ecea2669ecfb9fd543e091ace5b439a32b2ea0",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__1172\\S\\attempts\\a975658823085f0f03218112dafa89d13960c926cd71f2daa7b9540839af4430_2026-10-18T14-06-42_211663+00-00.json": "9b874c1666a3e00941b81b112fd8f74e137ec1a99f6d269a86b3ecd8906c8204",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__1172\\S\\attempts\\e92c09ba5d316f776cae054b718ceb4d8e4ffc5cc6b119609d48c2f762af32e3_2026-10-18T14-06-49_395163+00-00.json": "95da501c566d9b3ee55a00cc787bcf0067b1d693dc13bd179033bf008934306a",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__1250\\D\\attempts\\1e9605a3b50207dd9144bdeb613be3f73c2f74456e26121ebbce419927037e78_2026-10-18T14-07-04_532128+00-00.json": "53e5c81ff3ff62b1ceac32dedb4c075de1353f9ed50f2d371529b0fa2d7a0587",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__1250\\D\\attempts\\51091687e2ac16c0bc9543acb7a9dea9480bac8d804b54837ea3e0ef09dc3e1c_2026-10-18T14-07-00_634922+00-00.json": "ef1550a55a73a9a8f60cfa1fc4419e2398d27bfa11060d0ba1b2bb4c864c8314",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__1369\\D\\attempts\\29e75a2340f0e47dfd953add9e6dda92394c80b4e7614b5a397e7d85f66f25d6_2026-10-18T14-07-29_442933+00-00.json": "88cf3e8685a4a7b571456b26a2cbb10bf04b08e1d00ff87ee65221cd8bc593fc",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__1369\\D\\attempts\\2fe1790dd844c36bb5a6eab09089525c3050021d0f5d20916289d29755f2c9d8_2026-10-18T14-07-16_418978+00-00.json": "2b9665158c65b333deea8f01abfa0ee972fa3ca4ad7883746218963a1add54da",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__1369\\D\\attempts\\76644262b62bf9213c5472a92f90b43beeb0a53f9d2a3511a9c8b785ff2135eb_2026-10-18T14-07-43_079149+00-00.json": "484ee5653711b6f253b08fe47dfb820b2d5d0e6d13a271280ba6da411b36c4f1",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__1369\\D\\attempts\\9512933883334dad6d853e0b49affebb76448818732c998b75a263fea7bfb798_2026-10-18T14-07-36_531303+00-00.json": "59845b3b6f7066e7f4a04b05b05c3dba3012eb53be8ae8302d19070debafe28e",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__1369\\D\\attempts\\cd29cde31a13e88e8e4580d2a36e16cb294d2cb28a79f8b0a170a182db921cc3_2026-10-18T14-07-22_856474+00-00.json": "43af9cde830dc962b6e0d50cab02089c59e0535ce6e4d503851c342e2ba7f18f",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__1369\\D\\attempts\\dd20910fa4b3de5e34c9666bdabee946e1352fe63a40bdc1b9522abb2f4c55a3_2026-10-18T14-07-10_792664+00-00.json": "172e22996e4834d318e1839b19270a76647f403d0f0e80586501a3c51df4a8e4",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__1369\\R\\attempts\\0a0e170ab17ac9fb5a071bfdbe53ca275ae87e7fee04c93085a629de85236a15_2026-10-18T14-07-53_906284+00-00.json": "8eac4f6e3888d73dcf6daab6dbf3d194811a254840324d59de92f0cedec12a14",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__1369\\R\\attempts\\392ad3457721abff7e1c93d2f97675286d60df766b45583fab7d0b9e7fb664f5_2026-10-18T14-08-03_902860+00-00.json": "8cdacf4e63ff534c8ffb3c1ef20592912eb4d31e830283bcd0cc8924a8dcbd41",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__1369\\R\\attempts\\99db3ae363c7026861682b364d0ca5a8731fcf2d2247157efe807b36d0e0a50e_2026-10-18T14-07-47_944226+00-00.json": "42f8aee4909c0ab880aeac68241e12da4ea357b581cca787ef031c91f2931cbe",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__1369\\R\\attempts\\a13cf5f7f6331348d7ad6c0008538e142b3b9deaa8c86e1c701218ce53450c99_2026-10-18T14-07-58_643401+00-00.json": "15c7eea9390b2ab17bd95e92ab1712db0462114b7b72d516eff95026104b8269",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__1369\\S\\attempts\\376bc1983c7c63a69b76b9c762024fd21664d559528cb31c5a3805dcbf962b89_2026-10-18T14-08-21_814290+00-00.json": "99192e46295b0d7d6ff5c8fdd4b54318a9951b9a9c4cf7caf7fb13ad4356648b",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__1369\\S\\attempts\\3a6ab7e5634c2d68a11c44a0f51b95276c5559e05a2e52fcf905652db67ad0c0_2026-10-18T14-08-10_102089+00-00.json": "47b1b4b6d6da0b8ab13fa7b14e30dba5a54c1bdceffff5c04b0f90926b030208",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__1369\\S\\attempts\\6b88321d9a59a3c08cccf1277c7d45b76ed212ea61a84d978bf5f912205c3ae9_2026-10-18T14-08-27_479173+00-00.json": "3602a5b13173e2f0f3ebc5fe12511e5659da514a685198051ef85fe5f72cf273",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__1369\\S\\attempts\\78e3fbb8eca5ab7847b757a04016a37b2346592bc99dc0f7cdded9906e67bcc5_2026-10-18T14-08-14_850926+00-00.json": "46fd4c91422fc2d3a4f3b75b92e0b7d13b0dbc8b5f453ea80489dbeeee643b6e",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__1530\\D\\attempts\\319a5a2ac99abeba5ea437912f7bf8fda1cd04cc5677febcd452545ef0f9d2a3_2026-10-18T14-08-38_995750+00-00.json": "1a1e3812e43ad8b3252d9439bf9a2d2e6e2faed46c64191dfc9585d6b7622cb7",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__1530\\D\\attempts\\85fb1643db1d87ce65b3e308c5665efe5e3025fee0983b4b07c7f2d1f391eaee_2026-10-18T14-08-34_093897+00-00.json": "06c41d1307f301a85ac04ad3fac5af58d263e0dc1826f55f52243c56efc35d26",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__3174\\D\\attempts\\3bcc409048a31c29aed09130c1ce80833115d3bc20e6cd866f491698bc61eec1_2026-10-18T14-08-44_177416+00-00.json": "3e907e4f41e3febdda91d1b530e8acf616de0adb2aca7a40091ae76b64415be3",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__3174\\D\\attempts\\3bcc409048a31c29aed09130c1ce80833115d3bc20e6cd866f491698bc61eec1_2026-10-18T14-09-56_774350+00-00.json": "a0b0567edf834ce75b8ed1923d56b157df5eb3e928c9761ea301bfcc562877f3",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__3174\\D\\attempts\\3bcc409048a31c29aed09130c1ce80833115d3bc20e6cd866f491698bc61eec1_2026-10-18T14-14-33_861895+00-00.json": "dfb2a8eca310674365cf9f4dab5e9a3636b406e8a61e7a7caebebb0022ecdf30",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__3174\\D\\attempts\\3bcc409048a31c29aed09130c1ce80833115d3bc20e6cd866f491698bc61eec1_2026-10-18T14-14-40_760361+00-00.json": "a98a2a94939f7d3c6308df36b5266e54bce8a74d1b00cc0e983a5f1ed1483018",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__3174\\D\\attempts\\3bcc409048a31c29aed09130c1ce80833115d3bc20e6cd866f491698bc61eec1_2026-10-18T14-14-48_555416+00-00.json": "599a02cafd2912dc8fcb0f6d98449c1e78fe093f118124e67c15911cb8e6f47d",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__365\\D\\attempts\\6c0fec8d66cabe31f117218b5b858f001b6df8b0342d207f6cad1dc08e74fb17_2026-10-18T14-14-55_787268+00-00.json": "905ff1554abdb95215776d45f694282193465a0f0478e12500fe345b8c65ba91",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__365\\D\\attempts\\c26a63bd8d54f8772fdbf2fca339c7d77b9e732c7743a70041ccf587995f136f_2026-10-18T14-15-00_515772+00-00.json": "edad1abe5b313d2819eaf90a7d410c7b79ecfae7e7ac42c704dc7b1f56bcb29c",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__3713\\D\\attempts\\99420ad78f7ff3c2804f290fa52c17ce5f405f06a890d3675965fdc0b3a7a213_2026-10-18T14-15-10_109408+00-00.json": "f64b07ba55c02bdcec36927b13292d3fa34081e55ab32a50da9ce45aecb13277",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__3713\\D\\attempts\\a1efb035993dcdcf460764f35ea76d14efa2439260a6264eac4d75be57bddf8a_2026-10-18T14-15-17_217168+00-00.json": "939a06d814ffb96fe7dd5fd5541ca5f24ec5d70074e164e2d71b179b37e1c697",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__866\\D\\attempts\\57b775299ee88228debd5e3e340750db615aeb084295610f9b71beb1b382ef45_2026-10-18T14-15-26_496348+00-00.json": "d23379e99c0930ba957940512faf93a422ecc5fd8fd81d1ca8bf13b7c6b3a032",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__866\\D\\attempts\\5bba70c29aad1177766ea26fd2aa9ea0db804ce8eb2c6f7f790a938e87f67039_2026-10-18T14-15-41_374976+00-00.json": "f68db9d5b924ace1b16d59b7eb003c0836805e4883548f0f2d33f66c8a69dd82",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__866\\D\\attempts\\bee67ebf1bb671ada54e86916e465b1e813ed0c16846e436d6d895a0fbcc9605_2026-10-18T14-15-32_950879+00-00.json": "9db0faf67e482d5be84392e33516c5501413f5cec00d3742e592410307eb2f3a",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__866\\D\\attempts\\ccff5830ccc3b5c737f9e954d78e820359daa94d3b9a9bc46cde42ed5c1d5190_2026-10-18T14-15-55_523069+00-00.json": "ddb77ad34ee580066f31b0ec3839a7fa5693efa5b1bccb2e381aa78b3d0eb7b0",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__866\\D\\attempts\\cef62e972f5176cbbe2701bbdec97fa31cfac1a69af2856c665deefbd13999c8_2026-10-18T14-16-01_483992+00-00.json": "6c9181ffd1da71f5464ec1ec81f9254ece70b930df5acc205be73bb064bdd9e8",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__866\\D\\attempts\\e472ef953d3d66176148dc8c4b8d5e69abfd360fb2912027687dcd1c7e2ec20f_2026-10-18T14-15-47_375558+00-00.json": "6c8f537cc578b3b71d9bade022b8117a9ce6169d0974f8a568202510affc6341",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__866\\R\\attempts\\2142a77cc3cfed6ddcd061b9f33aa2685eec1c3f93ad655a36d1fb501ac08d71_2026-10-18T14-16-20_343122+00-00.json": "7b179f75dbb8c6bfa05c3c496cc40dbcb86e3a2b249812599cf855ca8e42c014",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__866\\R\\attempts\\614d6505d92876fb8c9f243813e96e447d579621c94cdda4b319b766cb803f91_2026-10-18T14-16-07_034149+00-00.json": "92be1f9b2cafd4ed77657aad9435537feb081672becf2cb347cbc08a9f5c2178",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__866\\R\\attempts\\b2b63c7326fa8eb81e8a23ca8d7d513d9ea70833f0a7dfaf4ccb9398470bae8f_2026-10-18T14-16-26_093296+00-00.json": "11d8960fe52d819f1775c560376fbc15776707748609fc42b4626367c4ac6a63",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__866\\R\\attempts\\ca7ec4d98d016b27a553cc47a919ad31bad5d499dbab2c5f57924a870aa4be3b_2026-10-18T14-16-13_324368+00-00.json": "dddcafa21ba1eed4b8d99f7afcac93483f148af6683ae209f7cbceff0da70010",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__866\\S\\attempts\\1f7bcc825446a2049a5650a9ba7c247a83135061a47e3a35d3616f95903a9d05_2026-10-18T14-16-44_770740+00-00.json": "4ee5f60d1c867ddc8622ffbbd1add82c35ed5287a96b5cbbed1a7a219527581b",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__866\\S\\attempts\\5aeeb17da8da210a8a99130abc0bc6eec2addb6b4b1396e4f7dd9240edb17a78_2026-10-18T14-16-33_694628+00-00.json": "655126e45f69b68eb6422f5d3029927d54e87d2a40ebac554096437ae1ae36c5",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__866\\S\\attempts\\8583eb8e6e712ffbdeb793acc5ec0ece391e06fe614d93ee8d7c2d8ea3096177_2026-10-18T14-16-50_844380+00-00.json": "02bbd59aec644da73a5cb984986def4b9c51edde60322c19135c21df624af06d",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ManimCommunity__manim__866\\S\\attempts\\a9099644093f76b5f03d45bba9439d6c0e52af0eaaadfbbde5e91bcb596e76b5_2026-10-18T14-16-38_595031+00-00.json": "bf2e5e1f2a64164eaa4a809c758deabba41b9dc168d5fcace072b5b01121a30f",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\napari__napari__2999\\D\\attempts\\29e97cb5b0c1c23b9a172a8253b1dbb93c15fe03a7ba2e8140b77e089ffe6d86_2026-10-18T14-25-18_637141+00-00.json": "41e30400c59c22c0ad72f98013a640cbf11db4f9e5f0596c38fc33016e6d91d6",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\napari__napari__2999\\D\\attempts\\2cb0965c67fa69ff0c0cd935c02f16adfe656ba18708dccd27bf0ff87819c163_2026-10-18T14-24-43_814011+00-00.json": "0a2983847792254ca88fe1707de1d10855578cef3d1e28ce26cae223b4306f80",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\napari__napari__2999\\D\\attempts\\3c5e3eb03440737827fc86d21a695deb977b63d7f9c271f7ec4ab81d16c66249_2026-10-18T14-25-03_433058+00-00.json": "7b5b1e7451e439a434b4d83d476df8d685f231f178c1cf83626000296254b89c",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\napari__napari__2999\\D\\attempts\\3d5862cc60208897a588e32394a5db4e7bdada1b7a05c5226951f66c7bbc150b_2026-10-18T14-24-49_688589+00-00.json": "56e93b86c3648adfbc24ee4b4c2952b7ed73d4c965e886f2fe00bc8d57ae7d26",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\napari__napari__2999\\D\\attempts\\84047d590b5e8547a87842965c30b082d916ebf4f4636f5864202d299396ee5a_2026-10-18T14-25-11_249062+00-00.json": "80d96b8e544419ca12dfa0906e76dd61191f763073ca8bbcd775a3b1d34b8168",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\napari__napari__2999\\D\\attempts\\beebd05860ca8c8fb3a14fb6b728d0bb06fb4903c560ef983d1fcbf993f49dd5_2026-10-18T14-24-57_001762+00-00.json": "be9da5383d711b12eb0b41154be853b1a3c9428e58c37389d910d9ee103147c5",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\napari__napari__2999\\R\\attempts\\17f8ef2b6d15031fcfe6c9122bac6efa7a8113deffef35def3f3c875bd4cf295_2026-10-18T14-25-35_500138+00-00.json": "e615784556ae2b648d9119ba235de9f38a4c55e2838b204dbb94c958d54bd6f8",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\napari__napari__2999\\R\\attempts\\4fc576dd8334a550546d99f71a9e304b421f946041dce08d17cb6f06ca68dc24_2026-10-18T14-25-30_526643+00-00.json": "c59ab668e1a6bc52f745ca8be59b39cf8e70a8ffcf5559b19eb6d969ce023645",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\napari__napari__2999\\R\\attempts\\924d02167b8d8c794169b3d526d5fd627c485f6d0c5ef0e153c0514b9727f7bd_2026-10-18T14-25-39_923930+00-00.json": "0fd25eaec93851e9e8ebb5638a1c7d58379ac2637f30e213dca0d16f02cd38b9",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\napari__napari__2999\\R\\attempts\\a394f8ae90c7666d4b1519e9772d122d71e16e7151b390fdb8cf3ae243b6e681_2026-10-18T14-25-24_459249+00-00.json": "1a7ac7838787e191d67f560e9884314df821e20cbda56551d3e05a873186b158",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\napari__napari__2999\\S\\attempts\\439b3197983ad0547752382cabf86d5f4192ed81dccde00ec2bd1a2265a7a42c_2026-10-18T14-26-04_830256+00-00.json": "6db714bdd21b7748a91b08ad300be4169f02c6db9e01a4c3b075c9537fc42716",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\napari__napari__2999\\S\\attempts\\9ea03dcb2ad2074922645b9e38b9ea264af74d36612de8bbcdc25db705d50341_2026-10-18T14-25-51_784558+00-00.json": "b8bcdc991d341212db39db303331244698f6232868bd0fb17d6590866b31918b",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\napari__napari__2999\\S\\attempts\\e30d7420a45b7e56dc6eb05186b8bb02e1dba733d63020d15136416bb156f46e_2026-10-18T14-25-46_094042+00-00.json": "7bee7198c76c5b083fdfab1c183fec260ea2c363f2f5a787ecd2ca3dfc042948",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\napari__napari__2999\\S\\attempts\\f7094c23b46ae3891ccff1268204f2b448089c26ebd81140a61d97c473d0a505_2026-10-18T14-25-59_031743+00-00.json": "a74578d933dcccc8c4e870681e16a9e3b459c6c191dec28ca5694bf31b9db876",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\napari__napari__7568\\D\\attempts\\11dfcb03190ade50dccdb59ce0056fe37ac21f2454719b8758c960db0a1a50bd_2026-10-18T14-26-52_656766+00-00.json": "9d3bebb0cb483488f75b49d81d4d81657d3699370ba97f4ad4eded11e050faca",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\napari__napari__7568\\D\\attempts\\5fdbb3a6c1d20faed5fab8320479d41f00dbdf5db82e9d018bcd7b42a3623b67_2026-10-18T14-26-46_087985+00-00.json": "1b37771687dd73d9302b4256ee76d6182c7c996c53544831c51cf10c75044860",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\napari__napari__7568\\D\\attempts\\7c6d43568ef09caff9282e191e121e77451a93a4dc41da1dac790a4fefafd1ac_2026-10-18T14-26-30_014305+00-00.json": "798a4acd9bfbb6f448229313166d606e0d120da8c644978a270887aa01818b49",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\napari__napari__7568\\D\\attempts\\80768442593d5a0af8f66ee513ecf7226efb08462c28f043c8d2f9eb187796eb_2026-10-18T14-26-21_901950+00-00.json": "f262d93ef60814d28c13df9021f2bbafc9906bfb05cf28a58d40a06e30871e8b",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\napari__napari__7568\\D\\attempts\\9b33261052e8df3f5fde8e5dc9f3408c9c895c658db6a42089fc91b69a787b17_2026-10-18T14-26-37_388214+00-00.json": "576fd12b5c8fb5d64bcc6da93b42de43df2eda73affb79c26d4f94029b28471c",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\napari__napari__7568\\D\\attempts\\a8e142c93fa63854ae8af3047e6e5f83c3fb5f906d9a9c3d132bab7b94982ec3_2026-10-18T14-26-15_459469+00-00.json": "10ea6332f2cf2d10a5e41e4aba5c052d743002dcbf7ba4ed901ca1b9d029580d",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\napari__napari__7568\\R\\attempts\\066ce1791f6dece8dd6a31b09cef5906b6342e333630ce8371e4a492e715a8d5_2026-10-18T14-27-14_632989+00-00.json": "ab49019dac6aaa0557ca5ac3ed30b9b27cd81a99e30bc0811f9b38db765f351c",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\napari__napari__7568\\R\\attempts\\550e3f81d822d21cd3f5f94ad69227e519309adb4b1caa16ef2a90b8f6c6d2f2_2026-10-18T14-27-20_779378+00-00.json": "7f271b6f9d1f2ad75a9cdc791ebeda8580d5bedc006f8b3829dac7e6bb719842",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\napari__napari__7568\\R\\attempts\\80bf080310ffc61d6301f6039adea49c2ab0fe0c999e75b438f36083a970775a_2026-10-18T14-27-01_082138+00-00.json": "a31fb33d68ffd2718228e8ba2c44ad3edbf6d2ca4d38c80889296c48bf5681a5",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\napari__napari__7568\\R\\attempts\\937f596c2561ed78e44f8c1fe2fff6507f1b6119d444a87ae249058e757e2784_2026-10-18T14-27-07_005144+00-00.json": "fe8a6ced1dafaa9419faf6ed9470a67a379d390c9b78b2c3bf4d4723b420b442",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\napari__napari__7568\\S\\attempts\\1310a5b1af4f1d8fce4bd96df87e889a23f7e27d1a38fa06f3d2ec04afdcfc8b_2026-10-18T14-27-36_747953+00-00.json": "dbd56c3c2b512a8809797f55fff222e85989afa650762f53c9c50a165c0ffd6f",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\napari__napari__7568\\S\\attempts\\248d6c8612411c38a91b06460f4b4050893ebc8822feb85a389ed8c09fdd584f_2026-10-18T14-27-29_491036+00-00.json": "3b5af5f7f953539bf6b622b19712b9741ea29ff16c8dd3d8596bf7c195977c99",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\napari__napari__7568\\S\\attempts\\5812291b2872f70b38bcf020d3648c683b75a2d7f9a86f668a4b8492a9e11091_2026-10-18T14-27-46_125384+00-00.json": "d38354492c6148360eb3813ac6f3713cf435ed36fd3539c4429bea131efbd3c8",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\napari__napari__7568\\S\\attempts\\e146f804b3a8248a0f0b896f17089cd9248460295a873d856ebc698977ea2ae2_2026-10-18T14-27-53_771323+00-00.json": "3c090f50efca8f7e876055d7a3c1318ce6e106f7fc4ec49d1bb730173b18f330",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\napari__napari__7675\\D\\attempts\\b9dbf4207dc56f49dca47d06f42913b4b8088705685046022bbfb67a955a5173_2026-10-18T14-28-05_009973+00-00.json": "4b2eecf041559eda9359ffc4739a6e0161685d63aee17e52178683727da9c7de",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\napari__napari__7675\\D\\attempts\\d50589f649d1f0de4dd737f495dde80b6d36925dde36529c961ebca552dd41c9_2026-10-18T14-28-10_272595+00-00.json": "07f08d334f5d60be40dca0e5ef8c76a399bc684ec5348525b353e5dea9df94cb",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\napari__napari__789\\D\\attempts\\2a863901342b6f0e6dcd6ddf890425b8aed75b466306f465ecb7d6118ce0c66c_2026-10-18T14-28-26_352140+00-00.json": "5964eaa0e55741712e640d848dae0de968b08dabec87d35756f87384267a298d",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\napari__napari__789\\D\\attempts\\6485f5275871c433a489517cdde51af1c0ff5c3872433bbfb38117318f9ee42d_2026-10-18T14-28-36_041407+00-00.json": "ead2abc58fed72c475f7274aef118f1e6e1694b1a3afbb74b6ca04c8b24f95d4",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\napari__napari__789\\D\\attempts\\9515514be3501b5ea98bf9be93b3cf6f62ecf15e621dbc3caf86eba8df209559_2026-10-18T14-28-51_533416+00-00.json": "b4bf051089e15a78ce51a1120d5f9c1953e585c4779df7954867e07a510aec84",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\napari__napari__789\\D\\attempts\\a4b9b1a8735240b5391364be0d16a80e25fa66824b89ec70a62734381fd806ff_2026-10-18T14-28-57_033921+00-00.json": "a8202da85f1bd126726c9906be53921ff422b5f3de6c4b84e85178de56417398",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\napari__napari__789\\D\\attempts\\cf5d802fea9539a85ecb6a62e4a273a894aa9575bb682f80bb7571367832e46a_2026-10-18T14-28-19_936498+00-00.json": "876c593bee7d43512775ff57f5a569f32e8a303859bd5aa95dc9b8cdddcf6fc7",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\napari__napari__789\\D\\attempts\\e7685d9f4f549242e3a9be5ff7f155e38a27a2f6499979f4c075a6fe843d457d_2026-10-18T14-28-41_814162+00-00.json": "cf77aa80aa6eb58b6ff537835e93fc09eead5781e49c593d9499d5fd7b91fb96",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\napari__napari__789\\R\\attempts\\3e5128c2d8aa74a1708f03c17a2d02405bde0efa7405864381dc942f4ed83ca5_2026-10-18T14-29-02_891739+00-00.json": "88d7f1d227c3f6cb1d98ee02eb189f37983fa6afa115adb9bc425a146c17cf15",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\napari__napari__789\\R\\attempts\\5a3509943062dad6f702139c7bdd6de1b947d7c6b63e3024b39f4d8b72b4c763_2026-10-18T14-29-08_491374+00-00.json": "d9405981d3cdb788761a4803c8b52a34779a900e7bf33206301313437f6a3a24",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\napari__napari__789\\R\\attempts\\5c7cb212f8ab3ad0bec5622fbba56b11492d4ab9bd25170fbd84c3b224b9d36e_2026-10-18T14-29-19_900885+00-00.json": "7a578c3471ead18fe2c0969c13cd412492328516c3964d3d761c01aab2ec0c41",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\napari__napari__789\\R\\attempts\\ae8fabcdb9d9ae91e704c2bff11cffbf9707f1a096ab453f339657d01218f46b_2026-10-18T14-29-14_447200+00-00.json": "b1a0716cd63ead6cbc8c7551b784cf179be0700b02698963fa051ef622318ec7",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\napari__napari__789\\S\\attempts\\4f436c8735644869e9499de9c090a703e1f09cebfadaed67ac99fa1614c2b58b_2026-10-18T14-29-29_461571+00-00.json": "713c42e54709475526be8c47adc0f1920901efdda02f444a6a27048e4a3de7cf",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\napari__napari__789\\S\\attempts\\7b73f633fcb9b4e3f3c8780dc2418c6792a217153f8da00105c8c6015a589179_2026-10-18T14-29-51_685279+00-00.json": "3edf80e774684411cbb2e96d6b4d5c15d50e5bf346eeafaa3c8d0400386ef7f0",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\napari__napari__789\\S\\attempts\\b90e222bed3ba33bd959eb9f7be9919a9c44789596ef206bb088f3f5685a2e2c_2026-10-18T14-29-44_619548+00-00.json": "bb1aac92a9658fd521c45affbb4cc839f4f61d4650db23f301aebaf61a1daacc",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\napari__napari__789\\S\\attempts\\b9c4c43cc2e10509e4f791769a3db3619cb5f2db32dfbf90e48b6b942f8b7dac_2026-10-18T14-29-35_958663+00-00.json": "d7276df6dc8b2864783ae475b21a5a0e2f9044322e92cae635c12ce7b815a276",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__19155\\D\\attempts\\5a1cc7244a58caf2ddbb55511dd0fc2f7551a04461258928229a7e0facdddcea_2026-10-18T14-30-20_901656+00-00.json": "ce9205225e95d357d22dd54608689636b05c6349b212df5d580070484864fc02",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__19155\\D\\attempts\\5db8a2b7387c29247bb5073fbeff461aac0b1f2db2760964e8ae81233e852991_2026-10-18T14-30-02_227445+00-00.json": "d5737d0a4490db4a5d662c4ef658defb8220460010434eb1aaeac6d1cb16dd22",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__19155\\D\\attempts\\79d5ef9386d82c4e398e4d923fb05eee9c8ed4f2f87d60a93a941998b370732f_2026-10-18T14-30-16_003198+00-00.json": "62535cb1e46c17bba0555cf72a1a6ac33651be34fa6c2f7565169e9c45f73b72",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__19155\\D\\attempts\\8ecb722c0da7d325c701396b126a162feefa88b59a7aafc0bb25e954329ffd8d_2026-10-18T14-30-30_268118+00-00.json": "65e4bee4879fd123e2acfcad04c2db2a428c56740a55bf6e2b0e497d4c0b20ec",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__19155\\D\\attempts\\b18cb461db1b287299903ad07085f2e3cf5444242cc191fb6c9c8789d65beb89_2026-10-18T14-30-08_007568+00-00.json": "9e7882130cbdf2dea49f024bbd284fca87c6c3bfa54f6827ae6ff99ef97bfcef",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__19155\\D\\attempts\\fda014b8ef2a67377a9bb940bf6999af3aed81db175b4e1e907129d923e214d6_2026-10-18T14-30-35_743899+00-00.json": "8e8fda02578e78436be9ad57ae6df867551d01bbb572747c750cfc93ee2804cd",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__19155\\R\\attempts\\454745d7e72fbb2229941768392e96ca89e656976a161c4f2d1ce36628703dde_2026-10-18T14-30-46_496892+00-00.json": "15757283563c4afa8b6bdeb1c26a475be453fd7720a98182bf133fcb1ab66010",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__19155\\R\\attempts\\4c2dc8bc18fce7a623eb56da30e0793342451dbd64da3fc9a0737c1634a67982_2026-10-18T14-30-58_124683+00-00.json": "8c8f5b08bf3786a95eb36b28cec96377624314cdf148f2f87b023b73cc7cb95d",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__19155\\R\\attempts\\7bcafa979524986ab46857486155ced94b11bf7033402eb285a8456aca0dd6ac_2026-10-18T14-30-51_962527+00-00.json": "b01721d0483be6a215e47e6d9ff8a0e57af706278a91f8257f48a1706421aef2",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__19155\\R\\attempts\\99db11cbc6c1f35dc1709377fd29c8c320d2c4ab373f11fc83dd18085bd751a1_2026-10-18T14-30-40_734846+00-00.json": "d4053a76f3b4a37e6d57bc63f4c41e17d9db06b5749ade3f01dfe5907f88eb0d",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__19155\\S\\attempts\\078f4a7c8ed30f578d1b3328fa272697c2ee7a33c359cf0e2f7cc3a1c089f3f8_2026-10-18T14-31-12_528203+00-00.json": "67bd5eb795e631c97ee7c09dfcf2017666babcc5c56b6ad55aa4a83e0724490f",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__19155\\S\\attempts\\61b4da50493511973bd1ab7460e759a9ba165cad6e29efad6672e7910615a0ce_2026-10-18T14-31-06_671866+00-00.json": "c43a7ce50fb3c62bb187d6f6f698f814f20c2384ef97fc13c2da748a421e7680",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__19155\\S\\attempts\\72638466345c8c208079347fc4a587925dbcc76e34701afbdd0366156e39e878_2026-10-18T14-31-20_310202+00-00.json": "49dae3770ea7901821c292de7016bcac7008d2af1a6fefc446f2a461bd88f73b",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__19155\\S\\attempts\\bebeabe3c51631f552e72da70ac9d604bece5295b01ac8713a40568bd23d9469_2026-10-18T14-31-26_443785+00-00.json": "2734fc7238140ea27f01792ac2e35d7acdea7ab7f9e68dd454e2e7a8f7bec783",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__25144\\D\\attempts\\03983dc1bebd835f958af36703162a8b97c95c3ca7e93226dc087945009e1a0b_2026-10-18T14-31-40_421436+00-00.json": "a4916e1f637c35c4de53e2fbfbd74d7cd6b851de0adf7c657656c43ebf6a4ac7",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__25144\\D\\attempts\\378e747ea60204d0092ed326b8b379f16888aadb1a114760118a7eaa64514108_2026-10-18T14-31-35_737142+00-00.json": "fc637a0c29a8bdc47cdb8ad83f7830e33802c60697d0413c3a06c8b24c5aa8c1",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__25144\\D\\attempts\\8aaebc5cba86711f405918c1c5f12a5311f432a1bb93825f738342157435042c_2026-10-18T14-32-01_918885+00-00.json": "71182a417a91559973c9a31219417590d989223ab224e503f5be08d09a9a4f88",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__25144\\D\\attempts\\bfe810d8a17e2bc864d59c424898ef0125ed921d5b2255d634219a6592473ac1_2026-10-18T14-32-07_660135+00-00.json": "51d507ee3321f26a9494d26c7f9418feae2f0ae3a357d1c67456a86bbadbd7c2",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__25144\\D\\attempts\\bfe810d8a17e2bc864d59c424898ef0125ed921d5b2255d634219a6592473ac1_2026-10-18T14-32-17_305981+00-00.json": "f4d8af5346121de1b13a5060977082abfa1423926fce94305c909ae382e54172",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__25144\\D\\attempts\\bfe810d8a17e2bc864d59c424898ef0125ed921d5b2255d634219a6592473ac1_2026-10-18T14-32-26_783120+00-00.json": "fd8aacdb8da663ad771720dcddbf5c5cf6698d5d0ca301a606c43c2458c3d088",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__25144\\D\\attempts\\f2e3e44ee0e55b71258fac9629435943e6ac7a3838385b3430ecdc6332e09ed6_2026-10-18T14-31-53_839684+00-00.json": "caba696e26d8f433f7a52b65a052461d4753f2875d0ec09ce843232a88098388",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__25144\\D\\attempts\\f580c8c40a2a692ed70469df35284af4454bbf72f96341a58893ee2a8a9ff1a2_2026-10-18T14-31-48_215584+00-00.json": "fed970f5b5469d15bce9c08ada4273cdccb64d7b48d84f6d9c2d6887da92e92d",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__3269\\D\\attempts\\105ca72f94c1783c2e10294f4873ab3e282486634cab1e34eb40866a5ec289b8_2026-10-18T14-32-36_445958+00-00.json": "d2a7d8781f330b905646055760eb63aa765c21e46afb5281035a827b6d64eaae",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__3269\\D\\attempts\\4fc2ba7f46deff886a9dd78d9ffec6b3ea87099dde02c06ebd47407b0cacc218_2026-10-18T14-32-55_646651+00-00.json": "acd2408a046aa4e33cb18401c5a19f588ab611185bbd1abf113cf3ceca88e039",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__3269\\D\\attempts\\9cbffa22101e44ce8f55e1fbacd1c01f9a3ac6ecbc258c5f30b82d93256f3398_2026-10-18T14-32-50_833867+00-00.json": "8881cd13c0a160f8029c9d8a28c2d59bdb9c3bb4c601bd8749a0e30df5f10620",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__3269\\D\\attempts\\c52e9093397fc3b18f84549ac7401f00fe90d15335bfda65ef93a4fc6b24c95c_2026-10-18T14-32-42_039685+00-00.json": "46019f38b1617573a34d21e6b4777c1f5c6a28ddadb7d2086ef8054ff03dbfb1",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__3269\\R\\attempts\\44a4e82489688fc71f21d50df574d17074a8042530659b53b90644b996a6bd8e_2026-10-18T14-33-01_270959+00-00.json": "80c95d95f0082807be490a22af4ce5f8242857a8c311d1a34cec389da5422be9",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__3269\\R\\attempts\\7769283308cfac9e00f5b19343279298f268a7b734b6f01d3b8e20e253a4ecb1_2026-10-18T14-33-05_841684+00-00.json": "5fb8822ce8a8a361c1700a3e9ccf62f44830769659dd6710a04e32da013e40f5",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__3269\\S\\attempts\\2160d1f3eec81d1de50b91e72ee186a8d5dff431c32c62db4b363936a902a5f9_2026-10-18T14-33-18_537597+00-00.json": "b0756513d354994250287c38df5e64d7ba577d7d98394952760509a3bc2bb422",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__3269\\S\\attempts\\2160d1f3eec81d1de50b91e72ee186a8d5dff431c32c62db4b363936a902a5f9_2026-10-18T14-33-27_402100+00-00.json": "d76de7a1f9a39a8b10fdf9cc49b6ecb659bf8bffea08b552afbfc34659073565",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__3269\\S\\attempts\\a13ac347c39ef143b49808191d94687b52f01112967d546427b4c21e9a891836_2026-10-18T14-33-13_912072+00-00.json": "cd8970dfb2d956809a93465f6f338a270d1a4e393fdd9550e97830e73eb71348",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__49011\\D\\attempts\\09d3e4124afe1b22ed2db81b2bd5bc9aef3c5992b81ab5d16b6ecc02579d8ac0_2026-10-18T14-33-56_756584+00-00.json": "ca30f4b38bdd6f89c9089a859d273c296183ef1d36fd2f68d4185f0c6b3504e2",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__49011\\D\\attempts\\15d17508223c0d10dd1a066cecf7de4afd524f53a584a7bb1edbdd0e226a17f6_2026-10-18T14-34-10_549420+00-00.json": "972dd13709ff6f6a74566eec955b351df52d767ab50c0bc26736be1c0f30029e",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__49011\\D\\attempts\\36f5b8d7553eb8eaae4079fef1352ae3b48c6774518552a12f461f05edfeb275_2026-10-18T14-33-52_155880+00-00.json": "34ae4acb3045152a5280c027e2e124db5bbd32acd45d9347cfe9d0f494578776",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__49011\\D\\attempts\\4fef056057ec93a53dd29d4c00570166520ce36a66d7497b3715cb6c4256183f_2026-10-18T14-33-43_155021+00-00.json": "f34f16c8bb176805a65b06b0ce174ac5a9ec22bbea4ee359064fa5bea7613743",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__49011\\D\\attempts\\c7c4a48660f9915ecc07722e450be6460c8eb0b10a19fcfeff5bdd5a3d807752_2026-10-18T14-33-37_511080+00-00.json": "88d41befcc4723822ba50cb457899dafaaea7ea0aece583194ff26f3f8375c68",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__49011\\D\\attempts\\d55139e8d6b3596e8b1b9c013e488f307048491be21a92f95525361229e05495_2026-10-18T14-34-04_270887+00-00.json": "55b13e7d739f033e1b47454b1064eba7f7d439c0c27813bc6e05367b492a032c",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__49011\\R\\attempts\\29e44ca3c53fa267604526a942d1e4ef5bb825bdd0dfd3f2915fccad9c49e458_2026-10-18T14-34-30_777083+00-00.json": "22e9b3ba232cee3a5321880b41f004aab2b08d41162a22e96b1bcc2690747822",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__49011\\R\\attempts\\5482ac319f9ba1c1ac9ac983e1a54f615e60892f2ccee8608d177c7de2c8325d_2026-10-18T14-34-15_775913+00-00.json": "da0e99bc94bbdfb0396b5c668b5416ccad2921600ab3f1e203963d53fee55ddd",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__49011\\R\\attempts\\74a476d03672e31659c590c82ce4613ec8fea350c0b36a08a430b365dc92ea93_2026-10-18T14-34-25_201282+00-00.json": "f5362346ce0974eaefedfdaaa59ca7da40e80f06314944e2dd4d79f04bbf56f3",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__49011\\R\\attempts\\d65d7fcb4a90d38aeab37aa98b3fd7bd734044ee023d49c312fe98ef7de97d99_2026-10-18T14-34-20_326727+00-00.json": "dc5bc4340e44eb112f51145d36d85a5e7cd9e623c35af478fb2dc1a5970bbd5c",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__49011\\S\\attempts\\1d96c0ce02bd545402ad1e8cc5d45e24e83fa62a375d2f2e9cabb2ab51a1e046_2026-10-18T14-34-58_845085+00-00.json": "341b180ba68a010017f3368fe75308bb7588efb2f40a0d57fadb0a5fb51eaed5",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__49011\\S\\attempts\\444ae17aee2ac06a08019f6bd7d95bbb54d9085ba6c026b40c96050679bf5eca_2026-10-18T14-34-38_546717+00-00.json": "4ceb53121d1ff461784cfb5c862af76e9b18640c793d1e165cde7159e242157b",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__49011\\S\\attempts\\660a70b1c06746b5d3ebc8b6fd34f70e654cb4157378bd4f61f7bce9292897c7_2026-10-18T14-34-44_293636+00-00.json": "444276bb29828be754462833682e0dac3f93f5fa0ea270240c6a64c1536c93ed",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__49011\\S\\attempts\\d6827f0306097d863aba69871485601fdfe96a711f5d53a5ad63cd0d684652a7_2026-10-18T14-34-52_953913+00-00.json": "98c372e336241e51653e019510718d242ef4315747f43017fddeae069571025a",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__50266\\D\\attempts\\1ad2af98995cae74294c5e75d3ae47e2d2e6f62c62e8b785eb306bf909deac4b_2026-10-18T14-35-27_936231+00-00.json": "05aa28db023f1471fa764993341d7c69c16d5c214af3ac1051b564458e4eefaf",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__50266\\D\\attempts\\41982520b1c1e56d0ce17096afa566c5a3084e09d6f5358445a7846f5760be86_2026-10-18T14-35-08_794217+00-00.json": "7a00ebb44e04d790f2e8571d71d0a319db6b06a5463eb8b31f10bec317f97b5b",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__50266\\D\\attempts\\726e677bac9174cdbd89d3cdaa7fc2cd3096accf205ddbe8f0c7803bba52916e_2026-10-18T14-35-22_624843+00-00.json": "9679b2dbbf4a11ab9621546965488620062482a7b0e0abacc691dc9d3f2ce3de",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__50266\\D\\attempts\\bea9a93b07b44bfbb39a47d1ed054feec5d41c99241835f9319a36467bdd54ea_2026-10-18T14-35-15_069584+00-00.json": "232d17402d5b6f3dfcbf6369d7e5429207f38951892244b17ed6055b1f3f5de0",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__50266\\R\\attempts\\565c50e49ca563bfe268b323098efc6aca0dca05819f1e8dcf3cb986c7bdb972_2026-10-18T14-35-39_399106+00-00.json": "a54e4389e9993773e0819114416e571e630c283e384ebfd1743ee7facb77bb23",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__50266\\R\\attempts\\c13f3b51a9211c06bddb113ce74901b83c9c45e7004e8b25be1db882784fe21d_2026-10-18T14-35-33_433640+00-00.json": "c6f0e8bda5d2718c421713b8e2f145e7dfc5710e7599d042c39c08800993624b",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__50266\\S\\attempts\\29b243b2fdac8da8b28b29bf15c0035cb50e4675ea9a62aaf5182f7f2a0f4cb3_2026-10-18T14-35-47_395765+00-00.json": "abf87b66247bcf7fc1695b06bc3c08fdc55d6f6cd4d45e5d199f614d7d5197dc",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__50266\\S\\attempts\\3134cad0a16f13b3ecc8f9e33fdca11447d124e3c85249908b5582a760cbfe84_2026-10-18T14-35-52_973754+00-00.json": "fdc55358be60b04cb15d5c50de8b60d038c9220d94976a36dddb71c37a63a575",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__58727\\D\\attempts\\1a3bdca46970b86142585d786e57b1a5018a06b9185457650d494ccb7e81e1f8_2026-10-18T14-36-03_067663+00-00.json": "3c63de8c9a96248cf1c2c15d59aee3ba5c808ce5c61cda51bce2a8b0e3b9d2c4",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__58727\\D\\attempts\\7078828dc1299e1db1c3bd2f5f1598c8592ed5416a3b5f7a36ff3aaff080cbff_2026-10-18T14-36-17_928361+00-00.json": "319d61fccef912be72db8344548dd4898cb019141301b7a7394f43e6817c5d0a",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__58727\\D\\attempts\\a4c324cfafb4ca7eca1f9b617eaeab3dea3836951956bb7ce38f8d6e01df1a1e_2026-10-18T14-36-23_671349+00-00.json": "6da25e77e08dfba65f2fd69ba185e3e354bb630b1290a80b6134212a68f167cb",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__58727\\D\\attempts\\e479117ad2956aae2013bd95e91014c51b316735e6218b4e329b6140e00fa5a3_2026-10-18T14-36-08_484646+00-00.json": "0f4a25ad2e3cdcf882020924df8601d3dc1fd45653b416c0cc2ba4646d40b0da",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__58727\\R\\attempts\\76b059ccd8024ce11314243008a2790bfa9fdb25dedea525f6b4b73e6963d21e_2026-10-18T14-36-28_849999+00-00.json": "074a104356b3f45f0c9a8001eb77851d15bed7df0a43eee04d1eaa7416c85fb6",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__58727\\R\\attempts\\f8b6aeaf8637f117934f6a8c6c0646c4e0661abe28ae85850088e2be55fbc45c_2026-10-18T14-36-34_487897+00-00.json": "fbe91d594dd0786041c1203816f2609a67540738dfc8f89d77b307660b7f59bb",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__58727\\S\\attempts\\20c69ac2f0fcaac94a993df2ad4d180b35b7fbd7ca4a39f12c7eab6d8b585dad_2026-10-18T14-36-42_350906+00-00.json": "d052e5e9bc8c3bdac575fd3e77c2fcc406f07e3e869821db9afdc1e4c9fd4484",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__58727\\S\\attempts\\6bed99ca9e29c3f5f8016b97858da8c50c800b135c9581a9f616d0b7ba26e6e3_2026-10-18T14-36-47_353650+00-00.json": "ec81da834fc9c49b007d7555ec77a9465fea2666573f167456b440cc5f6373ff",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__59729\\D\\attempts\\7355db6581515bcd10b6a1d614a219701eb87f105f7cc4a4d1fd61413d7d0f97_2026-10-18T14-36-58_727111+00-00.json": "6d9441aaa1641369156c4285be4f071f8e36a557ffd2eee1e91a7be137672df6",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__59729\\D\\attempts\\7355db6581515bcd10b6a1d614a219701eb87f105f7cc4a4d1fd61413d7d0f97_2026-10-18T14-37-09_290071+00-00.json": "52a3b8f865b549d692fcda95b163e21304e345fcb6530e072085c082bd0c45f0",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__59729\\D\\attempts\\7355db6581515bcd10b6a1d614a219701eb87f105f7cc4a4d1fd61413d7d0f97_2026-10-18T14-37-21_020516+00-00.json": "378823540d8e27c133102fdab453e344412e328a726903923f357bb01e05e6d2",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__60421\\D\\attempts\\0759bc8160f7b389f208c0f5e8c7750caaffd8c06a00a77594cd8ce528b61f58_2026-10-18T14-37-32_950519+00-00.json": "aa074ca4ecd1f9fe54e8c1cbdf535d1ef0f92ef4e7bde79e88371a9a95b2acea",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__60421\\D\\attempts\\0759bc8160f7b389f208c0f5e8c7750caaffd8c06a00a77594cd8ce528b61f58_2026-10-18T14-37-43_625679+00-00.json": "b24d52a2dfbb532eb5a402fe9a086db24c962ecc1f4b4a1406b7b5d7434825a1",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__60421\\D\\attempts\\0759bc8160f7b389f208c0f5e8c7750caaffd8c06a00a77594cd8ce528b61f58_2026-10-18T14-37-55_614293+00-00.json": "104ad6845e4f40e229deab6d699f52988677a77c946c294f9babc02285a355de",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__8894\\D\\attempts\\166ff7c9c06359a58a404b6b14e6ba5099fd192de027a474fd9a289cf61ba754_2026-10-18T14-38-16_279175+00-00.json": "b874d6f3711ab31b492c1d2ae8e39ff7ffcd573b121e31bb6adc2830b1b5885b",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__8894\\D\\attempts\\1b1144180d4fbe7ca9028b19ea88354d3225f5dc90877f6bc11a014ceb7201d3_2026-10-18T14-38-33_608308+00-00.json": "c34dfa31c222d9a2e055bcdd2cb59b7140cfb6eda2ebb7630cae3ab3bce35fc0",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__8894\\D\\attempts\\262e998b3e1a6b94c8afba0a0dacf7a02ae5ef9030c08d8340dbeeb8f8e23427_2026-10-18T14-38-04_346488+00-00.json": "40e3942c73193fd3d58b9f11ab3f48db0a428937d65265c213b39c0fae2d666d",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__8894\\D\\attempts\\385eaaf72644cac9712fed49f57c6f57bb229d4e1cc2a57873625ec6155e5183_2026-10-18T14-38-20_542644+00-00.json": "4c0990b6f4324aa23077c3fdf1f5403946d053d60dca15b2e4306aedb595d571",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__8894\\D\\attempts\\757a9ed3dd7958c1d669c1f21a6a9d9ac3b2f11b4e3b5a5c090b41aad86ba5ae_2026-10-18T14-38-27_843296+00-00.json": "6e2260550d3dc29d2f803e86dc3c1b2aed9133558fc87738d1816f87dbbee2d5",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__8894\\D\\attempts\\a47e135846450038cc84b3f1ffb91469837dc93c02a758ae34de07d4594adc24_2026-10-18T14-38-08_898978+00-00.json": "915c5b142d12b8152d595e3e29d92491451742e42dcacebb2b795ffb9ff3a1cd",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__8894\\R\\attempts\\01c57c7c0526d318b8f1b75ee2ca35e18012ebbb673071cef1d03cd390b28f4d_2026-10-18T14-38-47_582832+00-00.json": "668f8e88f79d906abc34de64cf5ba5f60b9fb7fc8db6c2e1311225eea76af919",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__8894\\R\\attempts\\38dd2b68526c8151512204a7c34417c1810b1d00476174668eeae93573add8a3_2026-10-18T14-38-43_118051+00-00.json": "dff1350c67db17861c2cadd3609b7f5e30206dd6c2a0b5fecb455df19a921d05",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__8894\\R\\attempts\\4ae008ab10bb24de9b9fef1c185787cd653e8647e947f12b29470d36eec8a72a_2026-10-18T14-38-51_872751+00-00.json": "4ed59c15967702085673136e7c060924b34454b18e1f3a741c6c42954acae0f5",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__8894\\R\\attempts\\5bea3b7980135924ff1c09f0db68296fa3a6832e0b339ccd40133dc2b481ce8f_2026-10-18T14-38-38_169298+00-00.json": "9f1a397721295c21e422fd49574c973f87bf4404afc6902b307513e8487ddbe2",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__8894\\S\\attempts\\21bc37f7bc73c0d2775df5fab8c6d0859d30addf53479e91234798c3bcc8e4f2_2026-10-18T14-38-58_428038+00-00.json": "c4374dc1de294c669e505c889fcec6c41622d249c7eaff7ab3f6add615db1934",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__8894\\S\\attempts\\35d0ad4718ac21d00917374f7be62a9dc33053365298f5d1b7b688734b228663_2026-10-18T14-39-02_528231+00-00.json": "722390c3ff616efc7329c082597e420e5e10c481fbe347dba74b754b4ee7a62c",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__8894\\S\\attempts\\c4c8e09102a994a102dc1bc655419d0845e998394c20f642d0b78b7dca9b8e64_2026-10-18T14-39-14_781873+00-00.json": "11632f0d39f8170a52cdcc4f7713a93186ab7ac0d3e1f22f4d55a2431c34f0fb",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\ray-project__ray__8894\\S\\attempts\\eb91e4e23124ed3ae04f8b4feb5c0ced7f4a7d655eedb113443a4703364b31d3_2026-10-18T14-39-09_651403+00-00.json": "396e57a8a1864e137d72f199adcf87698eb020e13184eda71d2558f63e233a52",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__10243\\D\\attempts\\2516c634161a0c1d5d6ce0bc8fd6754a07d5f8a369883a30efed14472cdc8e2d_2026-10-18T14-39-47_088224+00-00.json": "297afc86b456db3cbbcaa4f936ceeb22049e9ca660a92cb69f00fa382112db64",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__10243\\D\\attempts\\2c2521fc069a884a7ea5a1ae479c8f9e72455fd6e0a4b09915c57f0d5811fb3c_2026-10-18T14-39-24_380710+00-00.json": "f518c26b9b061cebba7d3c8170f809e8c6ff7119ec8e322387fef375535e7417",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__10243\\D\\attempts\\3ee02d9394f626e3a89ea9342d573552b24f1e02aa1e135fab446ac017518bc1_2026-10-18T14-39-55_431243+00-00.json": "f9d33a5f37c784dc5d589c137dde361abf5dca04263e2aca45b09883de1081ab",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__10243\\D\\attempts\\4cb57243d664daf132baabdd53461fd9c83d94b4605e698f18ae3b6de1013885_2026-10-18T14-39-39_020933+00-00.json": "236ee548b97b83576fcbe50f247fdd5799c1d63efdb2ce9759e1ebbf0347714d",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__10243\\D\\attempts\\b6fa7b8539dcbb428bc0e1152f670f2ec924aa2289f1824b092a8d976e7ce4b7_2026-10-18T14-40-02_137722+00-00.json": "4a04d97c0a274c0ed2201c37b03285b37d78b679bf8f00f88a37fa93dfa9937e",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__10243\\D\\attempts\\ed058dd8d90a4d0425b17d127d7d6026f5946d65ca094d16f1ec6d2173eb6cf4_2026-10-18T14-39-31_238494+00-00.json": "1469a84dc5e0926d390b9b223d4b56a9686c32b82f4b1a1ce09b57ef61e9d8c5",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__10243\\R\\attempts\\19969b33d55974327696179a01faadcbc696fa814f175b87e9b9bbabae2711ae_2026-10-18T14-40-19_372451+00-00.json": "06348f2b3eaddc7f4ae5e1effc497634371dcef32ebed19560f2efe48182abdb",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__10243\\R\\attempts\\9b0f2cfee839bdf31f38dc2affb7a21f5f785a46860c32ada14bc2b8f21826f2_2026-10-18T14-40-08_024462+00-00.json": "a1c5d5c86380d0bc16fe9f85abb2f42ca45d29b6b2800ddab9887627979f8e7b",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__10243\\R\\attempts\\c6053a77f3eec8a2640350470c47b806fe9d8e5baadcae407bd5ada1b76734cb_2026-10-18T14-40-25_350017+00-00.json": "0deffa30407ad6c4ec103f44c9f0341d452ad3a6312a87acd9f26db7bbacff39",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__10243\\R\\attempts\\f30c2b069a640c7a6cfc839835164de5623fad23db3376429107845df31780c8_2026-10-18T14-40-13_755246+00-00.json": "8ac25cb1c53bd9f47dbb104aee4f8b1db2217de69aacc094005fc4d59fc5d4a7",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__10243\\S\\attempts\\593193b8c86b67957450a4091de7922d28f03d4dc11f5265af22c981064af872_2026-10-18T14-40-39_240335+00-00.json": "050dfe309900ba95662d98f245ecd19183612d7c707f7daecb9c925be45cb8d2",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__10243\\S\\attempts\\7f201a058088ff015bde15025fd722f8d2f19e89399c08e6dfcf0a99e9b20675_2026-10-18T14-40-32_947690+00-00.json": "dd5f81276a8c11c6d3ea750ca77a3aba91d15f1aef53f62fe8cea6fb69242602",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__10243\\S\\attempts\\8b6ee9f10c9cb06c230465ff9cfb7ed4f80136883a3c93ba51e6256cd7624a54_2026-10-18T14-40-47_079380+00-00.json": "dcd3f9e6d0a43c9cb0abbd98eb6422a23ace5045f75818867b6506fea32d8ff0",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__10243\\S\\attempts\\96f80e7ff26c169ddf9849d2eea11eed27594575f51947bc80d5524c344d5c32_2026-10-18T14-40-52_166816+00-00.json": "3d0ad5041692a113670985f74646aecf68ff5d9b2b7788fde8845208abed789f",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__10456\\D\\attempts\\0fb14a2cc572c8df8ec45b6f7bbe87a64d1c1695e1a7a6fc8c7919364294c7b7_2026-10-18T14-41-11_276653+00-00.json": "e0d18acab4fc70993401d227939e955f3ce90b92cca5df1ebe15a99d9f62e48d",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__10456\\D\\attempts\\65ff8c9eb525e7cd6e171d5d158c58cc56e23b5789337d1b533ef72cdc87ba92_2026-10-18T14-41-44_485185+00-00.json": "f102d9c2447d6070bfe21feac594c0402c00ada11af28a6d39a6801811cc2b36",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__10456\\D\\attempts\\68d920408d8be6db45e59dd2cc3ee1eff252ca305201540075333b74e2e9ae05_2026-10-18T14-41-20_586951+00-00.json": "cc79e2f0fdcf3f9e1f5ed42f0c1839fee4ab4028afeddc22f00dca4ee9ba8af9",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__10456\\D\\attempts\\7eebff1c40cb56e25b26e55ad824c3a6b1fb67b8f8563d17ffa058ce78aff116_2026-10-18T14-41-03_864906+00-00.json": "8784c503e0ed78b1f174c12c7f5964613ac84daa84fc6b92dcd707b5b2227122",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__10456\\D\\attempts\\8c6a4c4c60d76b0525d96a1dfe43f964e35d071579e4bb5eacb506f29b1eb71a_2026-10-18T14-41-27_493973+00-00.json": "e2be263524f649125647ab0d55b89a7f7d39eee24681333d64b02d2f61462c2e",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__10456\\D\\attempts\\f45936b651b90b356726e066328b08ad611ee8a942716c6e8a396586f242fdb6_2026-10-18T14-41-37_283664+00-00.json": "add6c0a87d52d8325b2da75e8ec285aade16f36ced2a6729850f61114e001224",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__10456\\R\\attempts\\00fc6cc0d6b0240bbabea5428c04e74e579e6d9a5aaf58268318d76667e452bb_2026-10-18T14-42-17_698871+00-00.json": "9b69304d48d7346fbaa6b76d2b2e497c4533513a9cd3e35c54f9c6edec00a3e4",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__10456\\R\\attempts\\3469984580e9c2de33f13731d75644eb81173bd8d947fb30553f9e2e1e244692_2026-10-18T14-42-08_682625+00-00.json": "07bc0ba01b2c604d2aefa0622b72049160f3c94fff7329880367d953e56e8180",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__10456\\R\\attempts\\94a6381ca140ce814be93f4b8011458a34ff2bb263dd8a59a60dfe1e2b43fc58_2026-10-18T14-41-51_929464+00-00.json": "14cc99947aec90ca10d789d2f8e065403b1d89699a426a1321666811c6cd69bc",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__10456\\R\\attempts\\977d728ed4860d5bd7e21797ceaad9bbb10370cdace0378e68cc93195e914b16_2026-10-18T14-42-01_287455+00-00.json": "09a6b627338c1444e2501c3f3fa5950e5cab1e9ecba05209972d9eba840734af",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__10456\\S\\attempts\\2200a0ba82c50bdbe8e44456229cdb099c71766ba0a12684d2c63d96e3336bc7_2026-10-18T14-42-52_857687+00-00.json": "8b2d4883fa74ddeba6cbdd77bfc8eff1de3ad2aa53529231592246c347dfcf9f",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__10456\\S\\attempts\\5d3b307b18c4beea3370662f7d22382f3d466e4d229f62aecd3cfe23d63b1d76_2026-10-18T14-42-26_890251+00-00.json": "a495afd24a82708fcebba5676f58b8fe0ae0bcadedba882a137939f8e99ca044",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__10456\\S\\attempts\\7ad78a60d082a57207a7cac94cb88f111b66cbb908a7531fe5bb320ad7f469df_2026-10-18T14-42-35_552637+00-00.json": "269292f9f23cad3dbf1598f2942acf986f9cc9f8cd6e73dea62220bae283d08a",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__10456\\S\\attempts\\a0577ef78ef3707ceeb4c6da55873e47db98da99a6f18eeab2f59bcd77a000ce_2026-10-18T14-42-45_564887+00-00.json": "722532f251db4d51136204ad30107934d82965a63ab565c53eb55932d20a7768",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__12602\\D\\attempts\\0746daccbca3ef31f4d06f2deef34ae8d6d32ae20a491fe7b27a2e2ffc856668_2026-10-18T14-43-40_755786+00-00.json": "278a61cdbbb8d916899384a388abf3fa3f0f0ffec103f3e5df888c04bf56bc01",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__12602\\D\\attempts\\6f638df756a366633440db99c8419c389e74f12c8ae30ac702d3aa67b00accf7_2026-10-18T14-43-19_469504+00-00.json": "1ed3f54da06e73635586217cf28293cfcea41ae34335eb3392780bfc944bf027",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__12602\\D\\attempts\\8080e1ad8f462d2ce7f83796ab684a4171708bad863a595dc50aea0fb6ed8b4c_2026-10-18T14-43-03_475897+00-00.json": "807f8b936eb9a105c767bdae091ae3103959188980d793afb3c30d817ca06280",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__12602\\D\\attempts\\bfd17f5479b5d6f20f5f383364e1252a1809d7431f7558b33a0e76cde3f2896c_2026-10-18T14-43-10_648459+00-00.json": "9b4eff8ecd8b68e6199c3566d98a01c18f78d59cd57abb322b87484b0a1bf15c",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__12602\\D\\attempts\\e198b5df18788a167f5860ff306c509bbc7c4b02ab0be77e75701aa36f0ea772_2026-10-18T14-43-26_818564+00-00.json": "74f48c324c45c41c1c44a309dc48fd998e9fe5f280d1149a6072500e8134a605",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__12602\\D\\attempts\\f80f1ec46a7270dfb033f5d0824adb1ebd546eca57ac4128c5d905cf0d43b313_2026-10-18T14-43-34_611792+00-00.json": "64f9e5ad41eee82b9d1f7e58f0cc745574ef767ee2e8ba066fcf2c7b80d31439",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__12602\\R\\attempts\\0cd5d24a01befe773730153f049f3778d1b6ddc0e3298c5ad815ec4937a59933_2026-10-18T14-43-46_767300+00-00.json": "728bf3c7538d739ed54440ceabb83af7ad76c507d51c76e1cb649ca0f31f979b",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__12602\\R\\attempts\\7929bbecb4253e33748436d6f1fbe39cdeca677f54646facaf2f6a74102b6b20_2026-10-18T14-43-53_802875+00-00.json": "4d96f0aac28c76c2e45dd04f5cb817e8dc377c720134e0613d2b2533026dcae1",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__12602\\R\\attempts\\d5e6a02006854a3ab60836dcf2d975fe5c504bc9d69ef1c29f1f238f1652facb_2026-10-18T14-43-59_933864+00-00.json": "e970e95f156a24ce4780103afde48a36e145052d6071a262258ad7e73492e05c",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__12602\\R\\attempts\\ffb181e434347eb8998cdf31e07100dc2bfd1e63115c6aa95090c31eeb6435ab_2026-10-18T14-44-08_038372+00-00.json": "20ef578dcc68e87c7a70d9ee7d873b5202a7a157c23fa12901e428d7caaa121d",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__12602\\S\\attempts\\0687d55d6bfd60c511f68e2edbdc9a923442eedbe66eb67176d13d1437d5c86e_2026-10-18T14-44-16_183940+00-00.json": "edc63a3c51f98ef89dad52f1f1a143e8bb206b85c2f43eb435195752483f16a6",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__12602\\S\\attempts\\1a6ae8730b84bd563a6e68d40b5e80ead5f9363841303a95bf078ada250dfa24_2026-10-18T14-44-30_184747+00-00.json": "cdeb40fe9e110334225244941874d3b725bb088f7e635aea6a12fecf3bd6240f",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__12602\\S\\attempts\\32decf2e0656a38d06ccd8bad4097482b9fc76c11338095cfec79a3508460ad0_2026-10-18T14-44-36_406038+00-00.json": "922f01cdadbd338fbe5d0fcb9f22e70c12b68277bf5289a7f32e7adc88a0fcfe",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__12602\\S\\attempts\\d4c7fc81607d0e16b7cb169530eef135d1c859608771686af571815857ebabb5_2026-10-18T14-44-22_061491+00-00.json": "f2c460ab23a5630f93d5d10ed5b6c70e932ce1f6f397c7f38705d609a41d943b",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__14033\\D\\attempts\\016d81f6fea604d138d6aeda1c9322e78e8780a6f9bcff555f8a496128adb7cc_2026-10-18T14-44-54_645799+00-00.json": "cc54fbc863f75e3408562a7f61b3c31bd6f4f108b60b46b5dffd51095bec57d1",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__14033\\D\\attempts\\435fcaf21181f6098a7ea71460f7c59b3650488e4110aa4c7f419d96026e6e99_2026-10-18T14-45-03_415624+00-00.json": "60e790e854bbf0e18f5e8c71729c9eb3d777aead0f62b33ea8c9ce729ad87dc5",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__14033\\D\\attempts\\9f59d669a3b71a3f6c70e4693002145d4db5d325853817ac7953dccb2ae953cc_2026-10-18T14-45-12_035950+00-00.json": "f4129188c9f7d8f8307b8407c8f077841ef16592ce8eec4899f50090594e16e1",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__14033\\D\\attempts\\ffba6a4e9debc2db82a75fb2c002020a091b53ac6ef7be89030fd8b995b52c7a_2026-10-18T14-44-46_917301+00-00.json": "13bb8fe1030f3b845a42484e74d243c728760376b9413de231a3110a001895cc",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__14033\\R\\attempts\\4723f01dec4d740c11c7c521902f31f1402987426ad9c38bab385d5e2c6b05ae_2026-10-18T14-45-25_638821+00-00.json": "7490cc0c586a9e31d65d842fa21bf16ac4ef6f1feb14a0211d9b4fd34164b11d",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__14033\\R\\attempts\\5748bc459286c3363b17719dec1ac31bfdfc834d53c7a523c256f4734bd52da1_2026-10-18T14-45-18_772358+00-00.json": "4829b2377a39822f5f12df8473ce482debc03aa8a8847227c5448282e820e971",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__14033\\S\\attempts\\7e8f762476ff2e236d93d62967fa0142bc62167e76d06d3df80e43094136f21b_2026-10-18T14-45-33_707580+00-00.json": "052c2e9a00906a28699a858ec4592d0f5c2e14fdf60f11cb3c1d261334c4a303",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__14033\\S\\attempts\\eade89e8b5facd48b4950eee86a5fb1706bab172cb4799a92966d6e26efab3b0_2026-10-18T14-45-40_897326+00-00.json": "e47bb93c2adc71bf9804d6da1d3eddf16dec8b71ddda416e558e8ce7e266bc5f",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__15877\\D\\attempts\\521e434ff747d3d6563288c86f2747d87dccbf755692ba00941cc2a2a5ba3ab1_2026-10-18T14-45-50_278106+00-00.json": "c92d0568ec085a0711b558d05f4cd146837d12960f17abbb0a3a1ec922c7264d",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__15877\\D\\attempts\\521e434ff747d3d6563288c86f2747d87dccbf755692ba00941cc2a2a5ba3ab1_2026-10-18T14-45-59_825950+00-00.json": "abb5fbd559902c1e03cd37774145e97488982e25001d10e7b08a517f325f8d17",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__15877\\D\\attempts\\521e434ff747d3d6563288c86f2747d87dccbf755692ba00941cc2a2a5ba3ab1_2026-10-18T14-46-08_648879+00-00.json": "a0a2170babb25a830494cd5444d709c60976202653e276f9dcf058f3cc97c227",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__2806\\D\\attempts\\3fdbc4bed24363d8a2bbe884b6086ee8bf784101ceb4f1b8a6e505b4ef336e92_2026-10-18T14-46-16_381199+00-00.json": "69d7dec61b0883e7ee318f4abaf7249324396062b9a6c95d3b6fd43d11e5bb66",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__2806\\D\\attempts\\577199857a72910e82a798380a269bd531d1423e4e40be6f50e3942acd1b83b9_2026-10-18T14-46-21_468117+00-00.json": "d67742dd2154d562ef0294543fa46f6df0e277c5ec5853a3b7ed7988706a70d8",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__5090\\D\\attempts\\826bad354e393412f8c7e2802194b015052d0e6f309f66e3fcd3968846d89c54_2026-10-18T14-46-50_680170+00-00.json": "2df7f1693087de5c056f041c8b5c9f4b6f52476700b1307b316c97360e360297",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__5090\\D\\attempts\\85156c6b1d6a565edc2939513b4db95e8be46be0cb71f9585c1f0b44a7f85d11_2026-10-18T14-46-36_259322+00-00.json": "b5eb52e80cf24321d6bc0cebf75027874c962f04897ce5d234675a2a2dd03d22",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__5090\\D\\attempts\\b7a4a9281a9fcedd7c1dfc86e92951503c67424df06f0a68fe4f47cbad9acc00_2026-10-18T14-47-03_799094+00-00.json": "245b14691aac036e0d1953bf9098f56af12437473b099a93a88a506f52e1bb4f",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__5090\\D\\attempts\\c1916f76fbe9a8d50d780b47a14433595a3a5f22bc8fbcafd538f1cf5878a6b0_2026-10-18T14-46-58_833308+00-00.json": "fa81c39d4f79fc12b55a4e68e6807b348ea7ea9ed71bb8cb3a7895d8800f0f6b",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__5090\\D\\attempts\\c71d554321a9d2067d067555c7a99bcbf9084b56e3b77b2251353e8ee379ea08_2026-10-18T14-46-31_256951+00-00.json": "c83172153d2ff8ebfd7851fb94153ccfa3f772e7c099b04b772d087dae90235b",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__5090\\D\\attempts\\d88b5ed17d3e5af95174e6dfe101edff010afe79821a96f7e0076a6305fa8e9b_2026-10-18T14-46-44_591164+00-00.json": "9931d90e858d1f997778b8b9acd4767c0457c13b888bcc271c2ebf80b9444ded",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__5090\\R\\attempts\\5a781e5af8d641d36e29cf16b3d399ab367ab3ede406dfdb0d8bd41d2e47c721_2026-10-18T14-47-15_232327+00-00.json": "430cca8f46fbc6bf4bfeabe9ce12f218a9fb28bb4ff252d7e54a2ea8d9c7df4f",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__5090\\R\\attempts\\9165cbf6f89c7327227e4b8473576bffe626cdb49d6f31155620a61e487e2a93_2026-10-18T14-47-27_175603+00-00.json": "f48e04d228398c36f71678daf1eb186338810e1dcdd4f21feb132ef9a602c8a8",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__5090\\R\\attempts\\b9a34045fa6d4f4dfbe1b8963bdeb56c6fa893ff2483d4ac6ac4dae8d3fdaa52_2026-10-18T14-47-21_562664+00-00.json": "301913b1f9c29af16e2e01df1e063b7dace70294131162e970c6af540d854cde",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__5090\\R\\attempts\\f2d70bd1a0937818ba91f9726fe5664df625749d1688e7b5b5b5eb36978fba26_2026-10-18T14-47-10_052164+00-00.json": "669b5ad477f8762b804db5990382aefb4a7af4b7f28d701382dde04ec03ed39a",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__5090\\S\\attempts\\17baeb1352ef36d1c361f9d5d7c5ee303f1ca35eac6ab60a5e896e6e70474689_2026-10-18T14-47-34_444107+00-00.json": "f6d1e5940d7b6d04df3579197c3a1f843a4dcb87e170449899f5aad8fc8c22e7",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__5090\\S\\attempts\\5eb41a4fe7dbbe1a94c513c9b4aa95e19542a5543a4c70ee7d6e942f4ecd28b1_2026-10-18T14-47-49_221939+00-00.json": "86134d32eebfc1ced1d6ca1be46158555ee050432ad21dc5c63287aaef2e6e0e",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__5090\\S\\attempts\\a3089dffaaa2110a7f61f8522fa883c90902678f0d9abf7baf6fc96fa0dc0eb8_2026-10-18T14-47-55_224802+00-00.json": "ce8ca29b87db068cc043b4b4e7e510e926f256237a378c8979ed34e90ccaa626",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__5090\\S\\attempts\\b8a45d1259f21e19394c4dd588cebcc0a7760a1725ea38f4de887e109b739e3a_2026-10-18T14-47-41_119570+00-00.json": "bac3e2a8cc2852e883ee8104473d27ceafe5006624890b45d9f27e93a01210e0",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__6698\\D\\attempts\\7be7c51929c150f34bc5b334266ea7ab72de4158d4169a3387bcc8886d2ae543_2026-10-18T14-48-04_377803+00-00.json": "b4895c0efe40bce820478a8e97f54ca5eddc54162d079cb4ab625b706151a9f1",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__6698\\D\\attempts\\9c447ce62a1fcbbf965a76fe9a3cb77eb4df327859106677dc534243e3a10982_2026-10-18T14-48-10_050307+00-00.json": "e3d8470ba09bd4224b1d6d0778e24bfd51603cb97c044805fa398628f3e14605",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__9339\\D\\attempts\\35631cd44099a0c5431173f369b3cd89bd3c09ea01bf77346e5d669eaa45fe9f_2026-10-18T14-48-39_257429+00-00.json": "2f74f9a9407364a3ff5794c16a2bad8fce0a984dd00629b4867b9f208a4efd24",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__9339\\D\\attempts\\59adbc9d5005331ccd7872a0ffa61ac29cc2e715d067dcc23eb6138e6ef84f0d_2026-10-18T14-48-26_204929+00-00.json": "8920024b1e6fd4be90f39e7c76460e7977e2cf0b9a2e3edbe683bd392d72ea6a",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__9339\\D\\attempts\\9a29059b86935e8a542b4aff3d9893177842a4b3d2f92144e3877e3f08158837_2026-10-18T14-48-34_244031+00-00.json": "d07059c85dbfbb739d72daca803a9dfc213074c9281c2d44b7e9b56e51d2a907",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__9339\\D\\attempts\\f3ccb92d15263edde1d642438a445e9d6e0cfa4b1d046a81cfd2f491d696165b_2026-10-18T14-48-12_488898+00-00.json": "e8216b61797f79e8e1199b74b78142567af745054872c7ca59315fe9ae1e6464",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__9339\\D\\attempts\\f3ccb92d15263edde1d642438a445e9d6e0cfa4b1d046a81cfd2f491d696165b_2026-10-18T14-48-21_116502+00-00.json": "1ec0480acde9b4e50eb9a5c0775fb0b290aa57734acabf7b68ce7985ad124f7d",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__9339\\R\\attempts\\455828190da83ed73490a014ac3c58a8afae4c2fd0b535cd3e38bc4092826bcb_2026-10-18T14-48-45_370348+00-00.json": "62414bb96ddf0c5a8e3aed025a6fe5cb295ddf8dad025d5309b3dc6e13e81045",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__9339\\R\\attempts\\ec0163ec210ce6b935ae13f16d53bf37d718d1a5dc208539a362fab6eee4cf87_2026-10-18T14-48-50_268333+00-00.json": "35758d85db58ab187673867dbed07a9e78d21f991e8513fd6a6bb159728e5aee",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__9339\\S\\attempts\\617409e45cb38d92cfec9baab6e1a50410a1127387502a293da44d23b50bb746_2026-10-18T14-49-03_164783+00-00.json": "bef1364db2597f35b6c23134c9e16e07dcc0f5663f8510c9d592742342e15824",
+    "experiments\\frozen_20261017\\equal_calls_v1\\requests\\sympy__sympy__9339\\S\\attempts\\8f5a71f5dc55d0a99456e461a99c4d5b7ef2199e4521e93e30d78ab3f9266a6f_2026-10-18T14-48-57_286042+00-00.json": "3959123aa00d4f8434f4b41b803f0377b5b7346d28cc0957a1b6d6d9bc525698",
+    "output\\演示PPT_13页叙述优化版.pptx": "39b09b87cc1980d59fa99d668afd2cf6284ecdfa8521018bff1c83f2cdb2e9ee"
+  }
+}

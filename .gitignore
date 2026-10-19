@@ -1,0 +1,31 @@
+# Local credentials and environments
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+.idea/
+.vscode/
+
+# Python/build artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.coverage
+htmlcov/
+
+# External data and paid-run caches (distributed separately)
+data/
+experiments/
+.smoke-data/
+
+# Local development/audit records
+*.log
+.superpowers/
+docs/maintenance/
+docs/OUTPUT_CLEANUP_RECEIPT.json
+Thumbs.db
+.DS_Store

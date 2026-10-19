@@ -1,0 +1,14 @@
+[
+  {"repo": "sympy/sympy", "issue": 28470},
+  {"repo": "sympy/sympy", "issue": 12910},
+  {"repo": "napari/napari", "issue": 931},
+  {"repo": "napari/napari", "issue": 9195},
+  {"repo": "dask/dask", "issue": 1296},
+  {"repo": "dask/dask", "issue": 11884},
+  {"repo": "ManimCommunity/manim", "issue": 4983},
+  {"repo": "ManimCommunity/manim", "issue": 3009},
+  {"repo": "ray-project/ray", "issue": 38061},
+  {"repo": "ray-project/ray", "issue": 11509},
+  {"repo": "ray-project/ray", "issue": 57729},
+  {"repo": "ray-project/ray", "issue": 50256}
+]

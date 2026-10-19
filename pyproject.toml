@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gfi-evidence-navigator"
+version = "0.1.0"
+description = "Evidence-grounded Good First Issue understanding and recommendation for scientific software"
+readme = "README.md"
+requires-python = ">=3.11"
+dynamic = ["dependencies"]
+keywords = ["good-first-issue", "scientific-software", "langgraph", "retrieval"]
+
+[project.scripts]
+gfi-portal = "gfi_prototype.cli:main"
+
+[tool.setuptools]
+py-modules = ["collect_gfi"]
+include-package-data = false
+
+[tool.setuptools.packages.find]
+include = ["gfi_prototype", "gfi_prototype.*"]
+exclude = ["tests*", "data*", "experiments*", "docs*", "web*"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.in"]}
+
+[tool.setuptools.data-files]
+"share/gfi-prototype/web" = ["web/index.html", "web/app.css", "web/app.js"]

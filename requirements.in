@@ -1,0 +1,8 @@
+# Direct runtime dependencies; requirements.txt pins the full closure.
+httpx
+langchain-core
+langchain-deepseek
+langgraph
+langsmith
+pydantic
+typing-extensions
