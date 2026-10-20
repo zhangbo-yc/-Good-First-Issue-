@@ -23,6 +23,7 @@ experiments/
 .smoke-data/
 
 # Local development/audit records
+.codex-build/
 *.log
 .superpowers/
 docs/maintenance/
